@@ -14,6 +14,13 @@
    text-align: justify;
    margin-top: 15vh;
 }
+.textoApoie h1{
+   margin-left: 2%;
+}
+.textoApoie p{
+   margin-left: 2%;
+   margin-right: 2%;
+}
 .figura {
 
    margin-top: 5%;
