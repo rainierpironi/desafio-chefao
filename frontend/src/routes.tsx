@@ -1,5 +1,6 @@
 import {  BrowserRouter as Router,  Routes,  Route,} from "react-router-dom";
 import Apoie from "./components/Apoie/Apoie";
+import Home from "./pages/Home";
 
 
 const MyRoutes: React.FC = () => {
@@ -7,8 +8,7 @@ const MyRoutes: React.FC = () => {
     
     <Router>
       <Routes>
-        <Route path="/" element={<Apoie/>} />
-
+        <Route path="/" element={<Home/>} />
       </Routes>
     </Router>
   );
