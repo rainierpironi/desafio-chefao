@@ -32,8 +32,7 @@ const Posts = db.define(
     }
   },
   {
-    tableName: "destinos",
-    paranoid: true
+    tableName: "destinos"
   }
 );
 
