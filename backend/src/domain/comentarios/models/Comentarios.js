@@ -1,8 +1,8 @@
 const db = require("../../../infrastructure/database"),
   { DataTypes } = require("sequelize");
 
-const Destinos = db.define(
-  "destinos",
+const Comentarios = db.define(
+  "comentarios",
   {
     id: {
       allowNull: false,
@@ -10,15 +10,15 @@ const Destinos = db.define(
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    nome_regiao: {
+    nome: {
       allowNull: false,
       type: DataTypes.STRING(256)
     },
-    nome_estado: {
+    email: {
       allowNull: false,
       type: DataTypes.STRING(256)
     },
-    nome_cidade: {
+    mensagem: {
       allowNull: false,
       type: DataTypes.STRING(256)
     },
@@ -29,11 +29,21 @@ const Destinos = db.define(
     updatedAt: {
       allowNull: false,
       type: DataTypes.DATE
+    },
+    destinos_id: {
+      allowNull: false,
+      type: DataTypes.INTEGER,
+      foreignKey: true,
+      field: "id",
+      references: {
+        model: "destinos",
+        key: "id"
+      }
     }
   },
   {
-    tableName: "destinos"
+    tableName: "comentarios"
   }
 );
 
-module.exports = Destinos;
+module.exports = Comentarios;

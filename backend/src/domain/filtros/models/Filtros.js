@@ -1,8 +1,8 @@
 const db = require("../../../infrastructure/database"),
   { DataTypes } = require("sequelize");
 
-const Destinos = db.define(
-  "destinos",
+const Filtros = db.define(
+  "filtros",
   {
     id: {
       allowNull: false,
@@ -10,17 +10,9 @@ const Destinos = db.define(
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    nome_regiao: {
+    palavras_chave: {
       allowNull: false,
-      type: DataTypes.STRING(256)
-    },
-    nome_estado: {
-      allowNull: false,
-      type: DataTypes.STRING(256)
-    },
-    nome_cidade: {
-      allowNull: false,
-      type: DataTypes.STRING(256)
+      type: DataTypes.STRING(400)
     },
     createdAt: {
       allowNull: false,
@@ -32,8 +24,8 @@ const Destinos = db.define(
     }
   },
   {
-    tableName: "destinos"
+    tableName: "filtros"
   }
 );
 
-module.exports = Destinos;
+module.exports = Filtros;
