@@ -1,7 +1,7 @@
 const db = require("../../../infrastructure/database"),
   { DataTypes } = require("sequelize");
 
-const Posts = db.define(
+const Filtros = db.define(
   "filtros",
   {
     id: {

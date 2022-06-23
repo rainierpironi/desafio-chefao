@@ -1,8 +1,8 @@
 const db = require("../../../infrastructure/database"),
   { DataTypes } = require("sequelize");
 
-const Posts = db.define(
-  "filtros",
+const Destino_filtros = db.define(
+  "destino_filtros",
   {
     destinos_id: {
       allowNull: false,
@@ -34,8 +34,8 @@ const Posts = db.define(
     }
   },
   {
-    tableName: "filtros"
+    tableName: "destino_filtros"
   }
 );
 
-module.exports = Filtros;
+module.exports = Destino_filtros;
