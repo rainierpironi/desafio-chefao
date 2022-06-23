@@ -1,5 +1,5 @@
 const Filtros = require("./Filtros"),
-  Destinos_filtros = require("../../destinos_filtros/models/Destino_filtros");
+  Destinos_filtros = require("../../destinos_filtros/models");
 
 Filtros.hasMany(Destinos_filtros, {
   foreignKey: "id"
