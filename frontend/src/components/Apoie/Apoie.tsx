@@ -16,10 +16,10 @@ function Apoie() {
                     </p>
                 </div>
 
-                <Figure style={{marginTop: 80}}>
+                <Figure className='figura' >
                     <Figure.Image
-                        width={650}
-                        height={180}
+                        // width={650}
+                        // height={180}
                         alt="171x180"
                         src={Imagem}
                     />
