@@ -8,7 +8,6 @@ const MyRoutes: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Apoie/>} />
-
       </Routes>
     </Router>
   );
