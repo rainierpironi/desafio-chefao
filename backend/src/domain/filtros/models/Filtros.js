@@ -14,6 +14,10 @@ const Filtros = db.define(
       allowNull: false,
       type: DataTypes.STRING(400)
     },
+    deletedAt: {
+      allowNull: false,
+      type: DataTypes.DATE
+    },
     createdAt: {
       allowNull: false,
       type: DataTypes.DATE
@@ -24,7 +28,8 @@ const Filtros = db.define(
     }
   },
   {
-    tableName: "filtros"
+    tableName: "filtros",
+    paranoid: true
   }
 );
 

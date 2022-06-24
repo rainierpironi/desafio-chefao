@@ -22,6 +22,10 @@ const Destinos = db.define(
       allowNull: false,
       type: DataTypes.STRING(256)
     },
+    deletedAt: {
+      allowNull: false,
+      type: DataTypes.DATE
+    },
     createdAt: {
       allowNull: false,
       type: DataTypes.DATE
@@ -32,7 +36,8 @@ const Destinos = db.define(
     }
   },
   {
-    tableName: "destinos"
+    tableName: "destinos",
+    paranoid: true
   }
 );
 
