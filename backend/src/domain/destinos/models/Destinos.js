@@ -23,7 +23,7 @@ const Destinos = db.define(
       type: DataTypes.STRING(256)
     },
     deletedAt: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.DATE
     },
     createdAt: {
