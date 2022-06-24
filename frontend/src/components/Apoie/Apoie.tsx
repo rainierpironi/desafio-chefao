@@ -3,8 +3,6 @@ import { Card, Container, Figure } from 'react-bootstrap'
 import Imagem from "../../assets/Images/apoie.jpg"
 import "./Apoie.css"
 
-
-
 function Apoie() {
     return (
         <Fragment>
