@@ -32,6 +32,16 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+      admin_id: {
+        type: Sequelize.DataTypes.INTEGER,
+        references: {
+          model: {
+            tableName: "admin"
+          },
+          key: "id"
+        },
+        allowNull: false
       }
     });
   },
