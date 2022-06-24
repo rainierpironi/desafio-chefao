@@ -2,6 +2,7 @@ import {  BrowserRouter as Router,  Routes,  Route,} from "react-router-dom";
 import Apoie from "./components/Apoie/Apoie";
 import Home from "./pages/Home";
 import Conecte from "./components/Conecte/Conecte";
+import Dicas from "./components/Dicas/Dicas";
 
 
 const MyRoutes: React.FC = () => {
@@ -10,7 +11,7 @@ const MyRoutes: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/conecte" element={<Conecte/>} />
+        <Route path="/dicas" element={<Dicas/>} />
       </Routes>
     </Router>
   );
