@@ -4,6 +4,7 @@ import Sobre from '../../components/Sobre';
 import Destino from '../../components/Destino';
 import Dicas from '../../components/Dicas/Dicas';
 import Conecte from '../../components/Conecte/Conecte';
+import Contato from '../../components/Contato';
 
 const Home: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
         <Dicas/>
         <Conecte/>
         <Apoie />
+        <Contato/>
     </Container>
   );
 }
