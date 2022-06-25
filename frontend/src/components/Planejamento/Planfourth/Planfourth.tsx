@@ -6,8 +6,8 @@ function Planfourth() {
   return (
     <Fragment>
 <div className='containerFourth'>
-                <div className='milhasPlan'>Hospedagens</div>
-                <div className='scrollMilhas'>
+                <div className='hospedagemPlan'>Hospedagens</div>
+                <div className='scrollHospedagem'>
                     <Accordion >
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="0">
