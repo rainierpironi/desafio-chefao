@@ -32,9 +32,7 @@ const Comentarios = db.define(
     },
     destinos_id: {
       allowNull: false,
-      type: DataTypes.INTEGER,
-      foreignKey: true,
-      field: "id",
+      type: DataTypes.INTEGER,      
       references: {
         model: "destinos",
         key: "id"
