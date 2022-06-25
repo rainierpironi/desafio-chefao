@@ -4,7 +4,7 @@
   "description": "Desafio Chefão - Grupo 6",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "nodemon src/server.js"
   },
   "keywords": [],
@@ -26,12 +26,15 @@
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
     "@faker-js/faker": "^7.3.0",
     "@types/jest": "^28.1.3",
     "@types/supertest": "^2.0.12",
+    "babel": "^6.23.0",
     "babel-jest": "^28.1.1",
     "jest": "^28.1.1",
     "sequelize-cli": "^6.4.1",
-    "supertest": "^6.2.3"
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.5"
   }
 }
