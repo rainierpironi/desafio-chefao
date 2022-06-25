@@ -4,7 +4,7 @@ const ContatoController = {
     async criaContato(req, res) {
         try {
 
-            const { nome, email, assunto, mensagem } = req.body;
+            const { nome, email, assunto, mensagem, admin_id} = req.body;
 
             if (!nome || !email || !assunto || !mensagem)
                 return res.status(400).json({
@@ -15,6 +15,7 @@ const ContatoController = {
                 email,
                 assunto,
                 mensagem,
+                admin_id
             });
 
             res.json(novoContato);

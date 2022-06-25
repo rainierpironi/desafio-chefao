@@ -1,11 +1,11 @@
-// const Admin = require("./Admin"),
-//   Contato = require("../../contato/models");
+const Admin = require("./Admin"),
+  Contato = require("../../contato/models");
 
-// Admin.hasMany(Contato, {
-//   foreignKey: "id"
-// });
+Admin.hasMany(Contato, {
+  foreignKey: "id"
+});
 
-// module.exports = {
-//   Admin,
-//   Contato
-// };
+module.exports = {
+  Admin,
+  Contato
+};
