@@ -35,7 +35,7 @@ const Contato = db.define(
       type: DataTypes.DATE
     },
     admin_id: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.INTEGER,
       foreignKey: true,
       field: "id",

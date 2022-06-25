@@ -2,8 +2,8 @@ const express = require("express"),
   app = express(),
   cors = require("cors"),
   db = require("./infrastructure/database");
- 
- const routes = require('../src/routes') 
+
+const routes = require('../src/routes')
 
 
 

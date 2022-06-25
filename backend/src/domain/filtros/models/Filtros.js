@@ -15,7 +15,7 @@ const Filtros = db.define(
       type: DataTypes.STRING(400)
     },
     deletedAt: {
-      allowNull: false,
+      allowNull: true,
       type: DataTypes.DATE
     },
     createdAt: {
