@@ -23,7 +23,7 @@ function Conecte() {
             <div className='regiaoNorte'>
               <img src={Norte} alt="Mapa da Regiao Norte" />
               <p id='alinhamentoMulheres'>Mulheres do</p>
-              <p> Norte</p>
+              <p id='alinhamentoMulheres'> Norte</p>
             </div>
           </div>
           <div className='regiaoNordeste'>
@@ -31,7 +31,7 @@ function Conecte() {
               <img src={Nordeste} alt="Mapa da Regiao Nordeste" />
               <div className='alinhamentoTextoNordeste'>
               <p id='alinhamentoMulheres'>Mulheres do</p>
-              <p>Nordeste</p>
+              <p id='alinhamentoMulheres'>Nordeste</p>
               </div>
             </div>
           </div>
@@ -39,14 +39,14 @@ function Conecte() {
           <div className='regiaoCentro'>
             <img src={CentroOeste} alt="Mapa da Regiao Centro Oeste" />
             <p id='alinhamentoMulheres'>Mulheres do</p>
-              <p>Centro-Oeste</p>
+              <p id='alinhamentoMulheres'>Centro-Oeste</p>
           </div>
           </div>
           <div className='regiaoSudeste'>
           <div>
             <img src={Sudeste} alt="Mapa Sudeste" />
             <p id='alinhamentoMulheres'>Mulheres do</p>
-              <p>Sudeste</p>
+              <p id='alinhamentoMulheres'>Sudeste</p>
           </div>
           </div>
           <div>
@@ -54,7 +54,7 @@ function Conecte() {
             <img src={Sul} alt="Mapa Sul" />
             <div className='alinhamentoSul'>
             <p id='alinhamentoMulheres'>Mulheres do</p>
-              <p>Sul</p>
+              <p id='alinhamentoMulheres'>Sul</p>
               </div>
           </div>
           </div>
