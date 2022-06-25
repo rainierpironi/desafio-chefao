@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Conecte from "./components/Conecte/Conecte";
 import Dicas from "./components/Dicas/Dicas";
 import Plansecond from "./components/Planejamento/Plansecond/Plansecond";
+import Planthird from "./components/Planejamento/Planthird/Planthird";
 
 
 const MyRoutes: React.FC = () => {
@@ -12,7 +13,7 @@ const MyRoutes: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/plan" element={<Plansecond/>} />
+        <Route path="/plan" element={<Planthird/>} />
       </Routes>
     </Router>
   );
