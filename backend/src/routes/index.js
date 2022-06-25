@@ -5,6 +5,8 @@ const DestinosController = require('../domain/destinos/controllers/destinosContr
 const routes = express.Router()
 
 routes.post('/destino', DestinosController.create)
+routes.get('/destino', DestinosController.listarDestinos)
+routes.get('/destino/:id', DestinosController.listarDestinosId)
 
 
 module.exports = routes
