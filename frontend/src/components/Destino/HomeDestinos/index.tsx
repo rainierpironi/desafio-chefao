@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import ImagemExemplo from '../../assets/Images/exemplo-destino.png';
+import ImagemExemplo from '../../../assets/Images/exemplo-destino.png';
 import './styles.css'
 
-const Destino: React.FC = () => {
+const Destinos: React.FC = () => {
   return (
         <Fragment>
             <div className="container-destinos">
@@ -13,11 +13,11 @@ const Destino: React.FC = () => {
                 </div>
 
                 <div className='conteudo-destinos d-flex'>
-                    <Link to={'#'} className='link-destino'>
+                    <Link to='/destinos/norte' className='link-destino'>
                         <img className='imagem-destino' src={ImagemExemplo} alt="" />
                         Norte
                     </Link>
-                    <Link to={'#'} className='link-destino'>
+                    <Link to='/destinos/nordeste' className='link-destino'>
                         <img className='imagem-destino' src={ImagemExemplo} alt="" />
                         Nordeste
                     </Link>
@@ -39,4 +39,4 @@ const Destino: React.FC = () => {
   );
 }
 
-export default Destino;
+export default Destinos;

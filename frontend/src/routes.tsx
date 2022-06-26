@@ -6,6 +6,7 @@ import Dicas from "./components/Dicas/Dicas";
 import Plansecond from "./components/Planejamento/Plansecond/Plansecond";
 import Planthird from "./components/Planejamento/Planthird/Planthird";
 import Planfourth from "./components/Planejamento/Planfourth/Planfourth";
+import Destinos from "./pages/Destinos";
 
 
 const MyRoutes: React.FC = () => {
@@ -15,6 +16,7 @@ const MyRoutes: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/plan" element={<Planfourth/>} />
+        <Route path="/destinos/nordeste" element={<Destinos/>} />
       </Routes>
     </Router>
   );

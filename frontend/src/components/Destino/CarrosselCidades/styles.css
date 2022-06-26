@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.botao-prev button, .botao-next button {
+    background-color: transparent;
+    border: none;
+    font-size: 70px;
+    color: #C4C4C4;
+}
+
+.container {
+    width: 80vw;
+    justify-content: center;
+}
+
+.container .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 86%;
+}
+
+.container .carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    display: flex;
+}
+
+.link-cidade {
+    display: flex;
+    flex-direction: column;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+
+.link-cidade:hover {
+    color: #FFF;
+}
+
+.imagem-cidade {
+    width: 450px;
+    height: 250px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        margin-bottom: 2%;
+    }
+    
+    .container .carousel {
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    .carousel {
+        width: 70vw !important;
+    }
+
+    .imagem-cidade {
+        width: 250px;
+        height: 150px;
+    }
+
+    .link-cidade {
+        border-radius: 20px;
+    }
+ }
