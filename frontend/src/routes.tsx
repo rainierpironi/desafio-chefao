@@ -21,6 +21,7 @@ import Uteisfourth from "./components/Uteis/Uteisfourth/Uteisfourth";
 import Uteissecond from "./components/Uteis/Uteissecond/Uteissecond";
 import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
+import Cidades from "./pages/Cidades";
 
 
 const MyRoutes: React.FC = () => {
@@ -34,7 +35,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/cultura" element={<Paginacult/>} />
         <Route path="/seguranca" element={<PaginaSecurity/>} />
         <Route path="/uteis" element={<Uteis/>} />
-
+        <Route path="/cidades" element={<Cidades/>} />
       </Routes>
     </Router>
   );
