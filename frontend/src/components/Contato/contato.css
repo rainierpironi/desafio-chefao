@@ -1,0 +1,44 @@
+.main{
+    margin: 0;
+    margin-bottom: 30px;
+    display:flex;  
+    flex-wrap: wrap;
+    height: 684px;
+}
+
+.contato{
+    width:65vh;
+    margin:5% ;
+}
+
+.contato h1{
+    font-size:48px;
+    margin-bottom:15%;
+}
+
+.contato p {
+    font-size:20px;
+    
+}
+
+.contato-form{
+    font-size: 20px;
+    width: 100vh;
+    height:80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
+.nome-email{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.form-btn{
+    display: flex;
+    justify-content: flex-end;
+}
