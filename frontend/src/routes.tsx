@@ -12,6 +12,10 @@ import Planfirst from "./components/Planejamento/Planfirst/Planfirst";
 import Culturaissecond from "./components/Culturais/Culturaissecond/Culturaissecond";
 import Culturaisthird from "./components/Culturais/Culturaisthird/Culturaisthird";
 import PlanejamentoDesktop from "./pages/PlanejamentoDesktop";
+import Paginacult from "./pages/CulturaisDesktop";
+import SecurityFirst from "./components/Seguranca/Segurancafirst";
+import SecuritySecond from "./components/Seguranca/Segurancasecond";
+import PaginaSecurity from "./pages/SegurancaDesktop";
 
 
 const MyRoutes: React.FC = () => {
@@ -22,7 +26,9 @@ const MyRoutes: React.FC = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/destinos/nordeste" element={<Destinos/>} />
         <Route path="/planejamento" element={<PlanejamentoDesktop/>} />
-        <Route path="/cult" element={<Culturaisthird/>} />
+        <Route path="/cultura" element={<Paginacult/>} />
+        <Route path="/seguranca" element={<PaginaSecurity/>} />
+
       </Routes>
     </Router>
   );

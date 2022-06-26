@@ -6,10 +6,10 @@ function Culturaisthird() {
     return (
         <Fragment>
             <div className='containerThird'>
-                <div className='milhasPlan'>Milhas Aéreas</div>
+                <div className='milhasThird'>Milhas Aéreas</div>
                 <div className='scrollMilhas'>
                     <Accordion >
-                        <div className='adjustPlan'>
+                        <div className='adjustThird'>
                             <Accordion.Item eventKey="0">
                                 <div className='sombra'>
                                     <Accordion.Header>Norte</Accordion.Header>
@@ -25,7 +25,7 @@ function Culturaisthird() {
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-                        <div className='adjustPlan'>
+                        <div className='adjustThird'>
                             <Accordion.Item eventKey="1">
                                 <div className='sombra'>
                                     <Accordion.Header>Nordeste</Accordion.Header>
@@ -41,7 +41,7 @@ function Culturaisthird() {
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-                        <div className='adjustPlan'>
+                        <div className='adjustThird'>
                             <Accordion.Item eventKey="2">
                                 <div className='sombra'>
                                     <Accordion.Header>Centro-Oeste</Accordion.Header>
@@ -57,7 +57,7 @@ function Culturaisthird() {
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-                        <div className='adjustPlan'>
+                        <div className='adjustThird'>
                             <Accordion.Item eventKey="3">
                                 <div className='sombra'>
                                     <Accordion.Header>Sudeste</Accordion.Header>
@@ -73,7 +73,7 @@ function Culturaisthird() {
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-                        <div className='adjustPlan'>
+                        <div className='adjustThird'>
                             <Accordion.Item eventKey="4">
                                 <div className='sombra'>
                                     <Accordion.Header>Sul</Accordion.Header>

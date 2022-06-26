@@ -7,23 +7,23 @@
     
 }
 
-.borderPlan{
+.borderSecond{
     border: 1px solid white;
     padding: 2%;
     background-color: white;
 }
-.aereasPlan{
+.aereasSecond{
     font-size: 48px;
     margin-left: 5%;
     margin-top: 4%;
 }
-.scrollPaln{
+.scrollSecond{
     margin-top: 2%;
     width: 90vw;
     margin-left: 5%;
         
 }
-.adjustPlan{
+.adjustSecond{
     padding: 0.1%;
 }
 .sombra{

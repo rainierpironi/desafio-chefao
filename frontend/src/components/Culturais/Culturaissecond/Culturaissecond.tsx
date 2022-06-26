@@ -8,12 +8,12 @@ function Culturaissecond() {
 
         <div className='containerSecond'>
 
-            <div className='borderPlan'></div>
-            <div className='aereasPlan'>Expressões</div>
-            <div className='scrollPaln'>
+            <div className='borderSecond'></div>
+            <div className='aereasSecond'>Expressões</div>
+            <div className='scrollSecond'>
 
                 <Accordion >
-                    <div className='adjustPlan'>
+                    <div className='adjustSecond'>
                         
                             <Accordion.Item eventKey="0">
                         
@@ -33,7 +33,7 @@ function Culturaissecond() {
             </div>
 
 
-            <div className='adjustPlan'>
+            <div className='adjustSecond'>
                 <Accordion.Item eventKey="1">
                     <div className='sombra'>
                         <Accordion.Header>Nordeste</Accordion.Header>

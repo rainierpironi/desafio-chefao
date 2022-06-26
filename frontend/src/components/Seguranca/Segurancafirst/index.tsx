@@ -1,21 +1,21 @@
 import React, { Fragment } from 'react'
-import { Container, Figure } from 'react-bootstrap'
-import "../Planfirst/Planfirst.css"
-import Imagem from "../../../assets/Images/planejamento.jpg"
+import { Figure } from 'react-bootstrap'
+import Imagem from "../../../assets/Images/seguranca.jpg"
+import "../Segurancafirst/styles.css"
 
-function Planfirst() {
+function SecurityFirst() {
   return (
     <Fragment>
-      
-<div className='containerPlan'>
-                <div className='textoPlan'>
-                    <p>Organizando e entendendo o que preciso para por o pé na estrada...</p>
+
+<div className='containerSecurityFirst'>
+                <div className='textoSecurityFirst'>
+                    <p>Identificando fatores de risco para evitá-los...</p>
                     <br />
                     <h1>Dicas</h1>
-                    <h6>Planejamento</h6>
+                    <h6>Seguranca</h6>
                 </div>
 
-                <Figure className='figuraPlan' >
+                <Figure className='figuraSecurityFirst' >
                     <Figure.Image
                         // width={650}
                         // height={180}
@@ -31,7 +31,7 @@ function Planfirst() {
 
 
     </Fragment>
-  )
+     )
 }
 
-export default Planfirst
+export default SecurityFirst

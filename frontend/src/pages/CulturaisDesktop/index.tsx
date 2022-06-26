@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Culturaisfirst from '../../components/Culturais/Culturaisfirst/Culturaisfirst'
+import Culturaissecond from '../../components/Culturais/Culturaissecond/Culturaissecond'
+import Culturaisthird from '../../components/Culturais/Culturaisthird/Culturaisthird'
 
 function Paginacult() {
   return (
-    <div>Paginacult</div>
+    <Fragment>
+        <Culturaisfirst/>
+        <Culturaissecond/>
+        <Culturaisthird/>
+    </Fragment>
   )
 }
 
