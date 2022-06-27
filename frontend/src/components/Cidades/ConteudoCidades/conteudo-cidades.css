@@ -1,0 +1,16 @@
+
+
+.conteudo-principal{
+    height: 80rem;
+    text-align: justify;
+    margin: 5%;
+}
+
+.conteudo-principal h1{
+    margin-bottom:5%;
+    font-size:48px;
+}
+
+.conteudo-principal p{
+    font-size: 20px;
+}
