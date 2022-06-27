@@ -6,7 +6,6 @@ import Dicas from "./components/Dicas/Dicas";
 import Plansecond from "./components/Planejamento/Plansecond/Plansecond";
 import Planthird from "./components/Planejamento/Planthird/Planthird";
 import Planfourth from "./components/Planejamento/Planfourth/Planfourth";
-import Destinos from "./pages/Destinos";
 import Culturaisfirst from "./components/Culturais/Culturaisfirst/Culturaisfirst";
 import Planfirst from "./components/Planejamento/Planfirst/Planfirst";
 import Culturaissecond from "./components/Culturais/Culturaissecond/Culturaissecond";
@@ -22,6 +21,10 @@ import Uteissecond from "./components/Uteis/Uteissecond/Uteissecond";
 import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
 import Cidades from "./pages/Cidades";
+import DestinoNordeste from "./pages/DestinoNordeste";
+import DestinoCentroOeste from "./pages/DestinoCentroOeste";
+import DestinoNorte from "./pages/DestinoNorte";
+import DestinoSul from "./pages/DestinoSul";
 
 
 const MyRoutes: React.FC = () => {
@@ -30,13 +33,16 @@ const MyRoutes: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/destinos/nordeste" element={<Destinos/>} />
+        <Route path="/destinos/nordeste" element={<DestinoNordeste/>} />
+        <Route path="/destinos/centrooeste" element={<DestinoCentroOeste/>} />
+        <Route path="/destinos/norte" element={<DestinoNorte/>} />
+        <Route path="/destinos/sul" element={<DestinoSul/>} />
+        <Route path="/destinos/sudeste" element={<DestinoNordeste/>} />
         <Route path="/planejamento" element={<PlanejamentoDesktop/>} />
         <Route path="/cultura" element={<Paginacult/>} />
         <Route path="/seguranca" element={<PaginaSecurity/>} />
         <Route path="/uteis" element={<Uteis/>} />
         <Route path="/cidades" element={<Cidades/>} />
-      
       </Routes>
     </Router>
   );
