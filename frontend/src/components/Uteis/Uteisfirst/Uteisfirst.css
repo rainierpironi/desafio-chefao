@@ -1,0 +1,50 @@
+.containerUteisFirst{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: #C8C8C8;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'DM Sans', sans-serif;
+       
+ }
+ .textoUteisFirst {
+    width: 100vh;
+    text-align: justify;
+    margin-top: 35vh;
+ }
+ .textoUteisFirst h1{
+    margin-left: 2%;
+    margin-bottom: 0%;
+    
+ }
+ .textoUteisFirst p{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+    font-style: italic;
+    font-size: 30px;
+ }
+ .textoUteisFirst h6{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+    font-size: 30px;
+ }
+ .figuraUteisFirst {
+   
+    margin-bottom: 0%;
+    margin-top: 7%;
+    width: 40vw;
+    
+ }
+ @media only screen and (max-width: 1247px) {
+
+    .textoUteisFirst  {
+    
+        margin-top: 10vh;
+    
+    }
+}    

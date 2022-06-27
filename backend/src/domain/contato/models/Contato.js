@@ -33,6 +33,16 @@ const Contato = db.define(
     updatedAt: {
       allowNull: false,
       type: DataTypes.DATE
+    },
+    admin_id: {
+      allowNull: true,
+      type: DataTypes.INTEGER,
+      foreignKey: true,
+      field: "id",
+      references: {
+        model: "admin",
+        key: "id"
+      }
     }
   },
   {

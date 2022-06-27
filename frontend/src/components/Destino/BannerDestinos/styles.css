@@ -1,0 +1,23 @@
+.banner-destinos {
+    background-image: url('../../../assets/Images/exemplo-banner-destinos.png');
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frase-destinos {
+    padding-left: 5%;
+    font-family: 'DM Sans', sans-serif;
+    color: #495057;
+}
+
+.frase-destinos h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.frase-destinos h2 {
+    font-weight: 700;
+    font-size: 36px;
+}

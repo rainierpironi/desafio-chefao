@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 .vscode
 node_modules
 
+=======
+node_modules
+.vscode
+>>>>>>> 8fb398d3354217c7fe18107fc12b6dd30265fa1d

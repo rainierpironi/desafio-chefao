@@ -1,0 +1,43 @@
+.main-cidades{
+    
+    margin: 5%;
+    display:flex;  
+    flex-wrap: wrap;
+    justify-content:space-between;
+    height: 34rem;
+    width:90%;
+}
+
+.main-cidades div h3 {
+    font-size: 24px;
+}
+
+.main-cidades div h5 {
+    font-size: 20px;
+}
+
+.main-cidades div p {
+    font-size: 20px;
+    text-align:justify;
+}
+
+.comentario-cidades {
+    width:100vh;
+}
+
+.comentario-cidades div{
+    margin-bottom: 5vh;
+}
+
+.comentario-cidades h3{
+    margin-bottom: 10vh;
+}
+
+.form-comentario-cidades{
+    width:80vh;
+    font-size:20px;
+}
+
+.form-comentario-cidades h3{
+    margin-top: 4.7em;
+}

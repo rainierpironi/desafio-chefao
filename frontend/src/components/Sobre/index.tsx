@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
-import "./styles.css"
+import { Fragment } from 'react'
+import './styles.css'
 
-function Sobre() {
+const Sobre: React.FC = () => {
     return (
         <Fragment>
             <div className="container-sobre">
@@ -19,10 +19,9 @@ function Sobre() {
                     </div>
                 </div>
             </div>
-
         </Fragment>
     )
 }
 
-export default Sobre
+export default Sobre;
 

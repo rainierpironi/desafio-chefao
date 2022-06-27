@@ -1,0 +1,12 @@
+.banner-cidades {
+    background-image: url('../../../assets/Images/exemplo-banner-destinos.png');
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nome-cidades h1{
+    margin-left: 6%;
+    font-size: 48px;
+}
