@@ -21,15 +21,15 @@ const Destinos: React.FC = () => {
                         <img className='imagem-destino' src={ImagemExemplo} alt="" />
                         Nordeste
                     </Link>
-                    <Link to={'#'} className='link-destino'>
+                    <Link to='/destinos/centro-oeste' className='link-destino'>
                         <img className='imagem-destino' src={ImagemExemplo} alt="" />
                         Centro-Oeste
                     </Link>
-                    <Link to={'#'} className='link-destino'>
+                    <Link to='/destinos/sudeste' className='link-destino'>
                         <img className='imagem-destino' src={ImagemExemplo} alt="" />
                         Sudeste
                     </Link>
-                    <Link to={'#'} className='link-destino'>
+                    <Link to='/destinos/sul' className='link-destino'>
                         <img className='imagem-destino' src={ImagemExemplo} alt="" />
                         Sul
                     </Link>

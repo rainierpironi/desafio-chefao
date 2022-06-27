@@ -7,6 +7,7 @@ const Header: React.FC = () => {
 
 
   return (
+    <div className="header">
     <Navbar className="p-2" expand="md" fixed="top" collapseOnSelect bg="transparent" variant="dark">
       <img src={icon} alt="icone" />
             <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
@@ -32,6 +33,7 @@ const Header: React.FC = () => {
   </Dropdown.Menu>
 </Dropdown>
         </Navbar>
+        </div>
   //   <Styled.header>
   //   <div className="logo-area">
   //     <img src={icon} alt="omma" />
