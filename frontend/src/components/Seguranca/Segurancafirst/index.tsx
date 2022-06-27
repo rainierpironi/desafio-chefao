@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Figure } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Imagem from "../../../assets/Images/seguranca.jpg"
 import "../Segurancafirst/styles.css"
 
@@ -16,12 +17,9 @@ function SecurityFirst() {
                 </div>
 
                 <Figure className='figuraSecurityFirst' >
-                    <Figure.Image
-                        // width={650}
-                        // height={180}
-                        alt="171x180"
-                        src={Imagem}
-                    />
+                    <Link to="/seguranca">
+                    <Figure.Image  alt="Imagem Seguranca" src={Imagem} />
+                    </Link>
                     
                 </Figure>
                 

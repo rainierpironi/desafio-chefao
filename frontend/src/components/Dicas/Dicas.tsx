@@ -14,37 +14,42 @@ function Dicas() {
             <div className='containerDicas'>
 
                 <div className='containerTextoDicas'>
+
                     <div>
                         Dicas
                     </div>
                 </div>
                 <div className='culturaisSeguranca'>
                     <div className='segurancaCulturais'>
-                        <img id='imagemCultura' src={Culturais} alt=" Imagem Cultura" />
+                        <Link to={"/culturais"}>
+                            <img id='imagemCultura' src={Culturais} alt=" Imagem Cultura" />
+                        </Link>
                     </div>
 
                     <div >
-                        <img id='imagemSeguranca' src={Seguranca} alt="Imagem Seguranca" />
+                        <Link to="seguranca">
+                            <img id='imagemSeguranca' src={Seguranca} alt="Imagem Seguranca" />
+                        </Link>
                     </div>
 
                 </div>
 
                 <div className='culturaisContato'>
-                         <div className='seguracaCulturais'>
-                        <img id='imagemContato' src={Contatos} alt="Imagem Contato" />
+                    <div className='seguracaCulturais'>
+                        <Link to="./uteis">
+                            <img id='imagemContato' src={Contatos} alt="Imagem Contato" />
+                        </Link>
                     </div>
 
                     <div>
-                        <Link to="../../planejamento" >
-                        <img id='imagemPlanejamento' src={Planejamento} alt=" Imagem Cultura" />
+                        <Link to="/planejamento">
+                            <img id='imagemPlanejamento' src={Planejamento} alt=" Imagem Cultura" />
                         </Link>
-
                     </div>
-
                 </div>
 
             </div>
-            
+
         </Fragment>
     )
 }

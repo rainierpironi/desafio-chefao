@@ -22,6 +22,7 @@ import Uteissecond from "./components/Uteis/Uteissecond/Uteissecond";
 import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
 import Cidades from "./pages/Cidades";
+import Paginaculturais from "./pages/CulturaisDesktop";
 
 
 const MyRoutes: React.FC = () => {
@@ -32,7 +33,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/destinos/nordeste" element={<Destinos/>} />
         <Route path="/planejamento" element={<PlanejamentoDesktop/>} />
-        <Route path="/cultura" element={<Paginacult/>} />
+        <Route path="/culturais" element={<Paginaculturais/>} />
         <Route path="/seguranca" element={<PaginaSecurity/>} />
         <Route path="/uteis" element={<Uteis/>} />
         <Route path="/cidades" element={<Cidades/>} />
