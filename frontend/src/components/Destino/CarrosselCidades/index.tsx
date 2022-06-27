@@ -1,4 +1,4 @@
-import React, { Fragment, useRef } from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import ImagemExemplo from '../../../assets/Images/exemplo-carrossel.png';
 import './styles.css';

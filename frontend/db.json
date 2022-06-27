@@ -1,0 +1,28 @@
+{
+  "destinos": [
+    {
+    "id": 1,
+    "nome_regiao": "Nordeste",
+    "nome_estado": "Paraíba",
+    "nome_cidade": "Campina Grande"
+    },
+    {
+    "id": 2,
+    "nome_regiao": "Nordeste",
+    "nome_estado": "Paraíba",
+    "nome_cidade": "João Pessoa"
+    },
+    {
+    "id": 3,
+    "nome_regiao": "Sudeste",
+    "nome_estado": "São Paulo",
+    "nome_cidade": "São Paulo"
+    },
+    {
+    "id": 4,
+    "nome_regiao": "Sul",
+    "nome_estado": "Rio Grande do Sul",
+    "nome_cidade": "Gramado"
+    }
+  ]
+}
