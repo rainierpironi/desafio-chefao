@@ -5,13 +5,11 @@ export const header = styled.header`
   left: 0;
   width: 100%;
   position: fixed;
-  background: transparent;
-  backdrop-filter: blur(1px);
-  padding: 24px;
+    padding: 24px;
   font-size: 1rem;
   font-weight: bold;
   display:flex;
-  flex-direction: row;
+  justify-content: space-between;
 
 `
 
