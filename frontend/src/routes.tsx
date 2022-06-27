@@ -36,6 +36,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/seguranca" element={<PaginaSecurity/>} />
         <Route path="/uteis" element={<Uteis/>} />
         <Route path="/cidades" element={<Cidades/>} />
+      
       </Routes>
     </Router>
   );
