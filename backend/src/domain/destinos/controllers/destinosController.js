@@ -23,7 +23,7 @@ const DestinosController = {
         try {
            
             const listar = await Destinos.findAll();
-            res.status(201).json(listar);
+            res.status(200).json(listar);
         } catch (error) {
             res.json('Falha ao listar destinos');
             console.error(error)
