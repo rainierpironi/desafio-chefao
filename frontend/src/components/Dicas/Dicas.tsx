@@ -4,6 +4,8 @@ import Culturais from "../../assets/Images/cultura.jpg"
 import Seguranca from "../../assets/Images/seguranca.jpg"
 import Contatos from "../../assets/Images/contatos.jpg"
 import Planejamento from "../../assets/Images/planejamento.jpg"
+import Culturaisfirst from '../Culturais/Culturaisfirst/Culturaisfirst'
+import { Link } from 'react-router-dom'
 
 
 function Dicas() {
@@ -33,13 +35,16 @@ function Dicas() {
                     </div>
 
                     <div>
+                        <Link to="../../planejamento" >
                         <img id='imagemPlanejamento' src={Planejamento} alt=" Imagem Cultura" />
+                        </Link>
+
                     </div>
 
                 </div>
 
             </div>
-
+            
         </Fragment>
     )
 }
