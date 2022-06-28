@@ -14,7 +14,9 @@ routes.delete('/comentario/:id', ComentarioController.deletaComentario)
 
 routes.post('/destino', DestinosController.create)
 routes.get('/destino', DestinosController.listarDestinos)
-routes.get('/destino/:id', DestinosController.listarDestinosId)
+routes.get('/destino/regiao/:nome_regiao', DestinosController.listarDestinosRegiao)
+routes.get('/destino/estado/:nome_estado', DestinosController.listarDestinosEstado)
+routes.get('/destino/cidade/:nome_cidade', DestinosController.listarDestinosCidade)
 routes.put('/destino/:id', DestinosController.atualizarDestino)
 routes.delete('/destino/:id', DestinosController.deletarDestino)
 
