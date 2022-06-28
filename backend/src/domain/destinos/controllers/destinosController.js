@@ -30,16 +30,111 @@ const DestinosController = {
         }
     },
 
-    async listarDestinosId(req, res) {
-        try {
-          const { id } = req.params;
-          const destino = await Destinos.findByPk(id);
+    // async listarDestinosId(req, res) {
+    //     try {
+    //       const { id } = req.params;
+    //       const destino = await Destinos.findByPk(id);
     
-          return res.status(200).json(destino);
+    //       return res.status(200).json(destino);
+    //     } catch (error) {
+    //       return res.status(500).json('Falha ao buscar destino');
+    //     }
+    //   },
+
+
+    async listarDestinosRegiao(req, res) {
+        try {
+            const {
+                nome_regiao
+            } = req.params;
+
+            const existeRegiao = await Destinos.findOne({
+                where: {
+                    nome_regiao
+                }
+            });
+
+            if (!existeRegiao) {
+                return res.status(400).json('Região não encontrada');
+            };
+
+            const regiaoDestinos = await Destinos.findAll(
+                {
+                    where: {
+                        nome_regiao : existeRegiao.nome_regiao
+                       
+                    }
+                });
+
+            res.status(200).json(regiaoDestinos);
         } catch (error) {
-          return res.status(500).json('Falha ao buscar destino');
-        }
-      },
+            res.status(404).json('Verfique os dados e tente novamente');
+            console.error(error);
+        };
+    },
+
+    async listarDestinosEstado(req, res) {
+        try {
+            const {
+                nome_estado
+            } = req.params;
+
+            const existeEstado = await Destinos.findOne({
+                where: {
+                    nome_estado
+                }
+            });
+
+            if (!existeEstado) {
+                return res.status(400).json('Destino não encontrado');
+            };
+
+            const estadoDestinos = await Destinos.findAll(
+                {
+                    where: {
+                        nome_estado : existeEstado.nome_estado
+                       
+                    }
+                });
+
+            res.status(200).json(estadoDestinos);
+        } catch (error) {
+            res.status(404).json('Verfique os dados e tente novamente');
+            console.error(error);
+        };
+    },
+
+    async listarDestinosCidade(req, res) {
+        try {
+            const {
+                nome_cidade
+            } = req.params; 
+           
+            const existeCidade = await Destinos.findOne({
+                where: {
+                    nome_cidade
+                }
+            });
+
+            if (!existeCidade) {
+                return res.status(400).json('Destino não encontrado');
+            };
+
+            const cidadeDestinos = await Destinos.findAll(
+                {
+                    where: {
+                        nome_cidade : existeCidade.nome_cidade
+                       
+                    }
+                });
+
+            res.status(200).json(cidadeDestinos);
+        } catch (error) {
+            res.status(404).json('Verfique os dados e tente novamente');
+            console.error(error);
+        };
+    },
+
       async atualizarDestino(req, res) {
         try {
             
