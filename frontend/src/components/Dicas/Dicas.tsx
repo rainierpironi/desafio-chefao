@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 function Dicas() {
     return (
         <Fragment>
-            <div className='containerDicas'>
+            <div className='containerDicas' id='dicas'>
 
                 <div className='containerTextoDicas'>
                     <div>

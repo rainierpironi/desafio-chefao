@@ -5,13 +5,18 @@ import ImagemNordeste from '../../../assets/Images/nordeste.svg';
 import ImagemCentroOeste from '../../../assets/Images/centro-oeste.svg';
 import ImagemSudeste from '../../../assets/Images/sudeste.svg';
 import ImagemSul from '../../../assets/Images/sul.svg';
+import Seta from '../../../assets/Images/chevron-down.svg';
 import './styles.css'
 
 const Destinos: React.FC = () => {
-  return (
+    return (
         <Fragment>
-            <div className="container-destinos">
-                <div className='blur'></div>
+            <div className="container-destinos" id='destinos'>
+                <div className='blur'>
+                    <a href="#destinos" className='seta-direcao'>
+                        <img src={Seta} alt="seta" />
+                    </a>
+                </div>
                 <div className='titulo-destinos'>
                     <h2>Destinos</h2>
                     <h3>Guia de destinos do Brasil</h3>
@@ -34,10 +39,14 @@ const Destinos: React.FC = () => {
                         <img className='imagem-destino' src={ImagemSul} alt="" />
                     </Link>
                 </div>
-                <div className='blur-2'></div>
+                <div className='blur-2'>
+                    <a href="#dicas" className='seta-direcao'>
+                        <img src={Seta} alt="seta" />
+                    </a>
+                </div>
             </div>
         </Fragment>
-  );
+    );
 }
 
 export default Destinos;
