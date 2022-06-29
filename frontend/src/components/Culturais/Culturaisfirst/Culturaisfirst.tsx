@@ -20,7 +20,7 @@ function Culturaisfirst() {
                         // width={650}
                         // height={180}
                         alt="171x180"
-                        src={Imagem}
+                        // src={Imagem}
                     />
                     
                 </Figure>

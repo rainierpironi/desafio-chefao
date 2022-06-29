@@ -20,7 +20,7 @@ function Uteisfirst() {
                         // width={650}
                         // height={180}
                         alt="171x180"
-                        src={Imagem}
+                       
                     />
                     
                 </Figure>

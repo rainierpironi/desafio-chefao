@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react'
 import "./Dicas.css"
-import Culturais from "../../assets/Images/cultura.jpg"
-import Seguranca from "../../assets/Images/seguranca.jpg"
-import Contatos from "../../assets/Images/contatos.jpg"
-import Planejamento from "../../assets/Images/planejamento.jpg"
-import Culturaisfirst from '../Culturais/Culturaisfirst/Culturaisfirst'
+import Culturais from "../../assets/Images/dicasculturais.png"
+import Seguranca from "../../assets/Images/dicasseguranca.png"
+import Contatos from "../../assets/Images/dicascontatos.png"
+import Planejamento from "../../assets/Images/dicasplaneja.png"
 import { Link } from 'react-router-dom'
 
 
@@ -14,39 +13,48 @@ function Dicas() {
             <div className='containerDicas'>
 
                 <div className='containerTextoDicas'>
-
                     <div>
-                        Dicas
+                        <h1>Dicas</h1>
                     </div>
-                </div>
-                <div className='culturaisSeguranca'>
-                    <div className='segurancaCulturais'>
-                        <Link to={"/culturais"}>
-                            <img id='imagemCultura' src={Culturais} alt=" Imagem Cultura" />
-                        </Link>
-                    </div>
-
-                    <div >
-                        <Link to="seguranca">
-                            <img id='imagemSeguranca' src={Seguranca} alt="Imagem Seguranca" />
-                        </Link>
-                    </div>
-
-                </div>
-
-                <div className='culturaisContato'>
-                    <div className='seguracaCulturais'>
-                        <Link to="./uteis">
-                            <img id='imagemContato' src={Contatos} alt="Imagem Contato" />
-                        </Link>
-                    </div>
-
                     <div>
-                        <Link to="/planejamento">
-                            <img id='imagemPlanejamento' src={Planejamento} alt=" Imagem Cultura" />
-                        </Link>
+                        <h2>Para cada região do Brasil</h2>
                     </div>
                 </div>
+
+                <div className='containerModuloUm'>
+                    <div className='conteudoModuloUm'>
+                        <div className='culturais'>
+                            <Link to="./culturais">
+                            <img  src={Culturais} alt="Imagem Dicas Culturais" />
+                            
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to="./seguranca">
+                            <img src={Seguranca} alt="Imagem Dicas Seguranca" />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className='containerModuloUm'>
+                    <div className='conteudoModuloUm'>
+                        <div>
+                            <Link to="./uteis">
+                            <img src={Contatos} alt="Imagem Dicas Contatos" />
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to="./planejamento">
+                            <img src={Planejamento} alt="Imagem Dicas Planejamento" />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
 
             </div>
 

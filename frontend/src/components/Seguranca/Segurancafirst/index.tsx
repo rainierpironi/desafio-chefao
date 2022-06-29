@@ -18,7 +18,7 @@ function SecurityFirst() {
 
                 <Figure className='figuraSecurityFirst' >
                     <Link to="/seguranca">
-                    <Figure.Image  alt="Imagem Seguranca" src={Imagem} />
+                    <Figure.Image  alt="Imagem Seguranca" src='' />
                     </Link>
                     
                 </Figure>
