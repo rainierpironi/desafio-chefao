@@ -19,6 +19,7 @@
 }
 .containerConecte{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     background-color: #2a2b2c;
