@@ -65,16 +65,6 @@
    }
 
    .link-destino {
-      display: flex;
-      flex-direction: column;
-      width: 500px;
-      background-color: #C4C4C4;
-      font-family: 'DM Sans', sans-serif;
-      text-decoration: none;
-      color: #FFF;
-      font-weight: 700;
-      font-size: 38px;
-      text-align: center;
       margin-right: 4%;
       margin-bottom: 5%;
       padding-bottom: 5;
@@ -82,24 +72,14 @@
    }
 
    .imagem-destino {
-      width: 500px;
-      height: 550px;
+      width: 400px;
+      height: 450px;
    }
 }
 
 @media screen and (max-width: 480px) {
 
    .link-destino {
-      display: flex;
-      flex-direction: column;
-      width: 300px;
-      background-color: #C4C4C4;
-      font-family: 'DM Sans', sans-serif;
-      text-decoration: none;
-      color: #FFF;
-      font-weight: 700;
-      font-size: 38px;
-      text-align: center;
       margin-right: 4%;
       margin-bottom: 5%;
       padding-bottom: 5;

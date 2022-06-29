@@ -35,6 +35,11 @@ export const ConteudoSobre = styled.div`
     @media screen and (max-width: 900px) {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 60%;
+    }
+
+    @media screen and (max-width: 480px) {
+        padding-bottom: 90%;
     }
 `
 
