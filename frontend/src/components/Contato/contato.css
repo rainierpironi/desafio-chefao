@@ -4,6 +4,7 @@
     display:flex;  
     flex-wrap: wrap;
     height: 684px;
+    background-color: #2a2b2c;
 }
 
 .contato{
@@ -14,11 +15,12 @@
 .contato h1{
     font-size:48px;
     margin-bottom:15%;
+    color: #FFFFFF;
 }
 
 .contato p {
     font-size:20px;
-    
+    color: #FFFFFF;    
 }
 
 .contato-form{

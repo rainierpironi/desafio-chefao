@@ -1,16 +1,3 @@
-.blur {
-    background-color: #2a2b2c;
-    background: linear-gradient(0deg, rgba(42,43,44,1) 60%, rgba(246,246,247,1) 100%);
-    width: 100%;
-    height:  4vw;
- }
- .blur-2 {
-    background-color: #1b1b1b;
-    background: linear-gradient(0deg, rgba(246,246,247,1) 60%, rgba(42,43,44,1) 100%);
-    width: 100%;
-    height: 100px;
-    
- }
 .containerGeralConecte{
     width: 100vw;
     max-width: 100%;
@@ -37,4 +24,5 @@
     display: flex;
     justify-content: center;
     background-color: #2a2b2c;
+    padding-bottom: 5%;
 }

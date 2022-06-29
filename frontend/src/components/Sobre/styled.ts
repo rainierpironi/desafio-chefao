@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const ContainerSobre = styled.div`
-    background: linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%), url('../../assets/Images/exemplo-destino.png');
+    background-color: #f6f6f7;
     margin: 0 auto;
-    margin-top: 10%;
+    padding-top: 10%;
 `
 
 export const Titulos = styled.div`
@@ -44,7 +44,7 @@ export const ConteudoSobre = styled.div`
 `
 
 export const ContaineirVideo = styled.div`
-    margin-left: -5%;
+    
 `
 export const VideoSobre = styled.iframe`
     border-radius: 30px;
@@ -62,7 +62,7 @@ export const VideoSobre = styled.iframe`
 `
 
 export const ContainerTextoSobre = styled.div`
-    width: 750px;
+    width: 700px;
     height: 400px;
     padding-left: 4%;
 
