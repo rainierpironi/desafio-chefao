@@ -1,73 +1,39 @@
+.blur {
+    background-color: #2a2b2c;
+    background: linear-gradient(0deg, rgba(42,43,44,1) 60%, rgba(246,246,247,1) 100%);
+    width: 100%;
+    height:  4vw;
+ }
+ .blur-2 {
+    background-color: #1b1b1b;
+    background: linear-gradient(0deg, rgba(246,246,247,1) 60%, rgba(42,43,44,1) 100%);
+    width: 100%;
+    height: 100px;
+    
+ }
 .containerGeralConecte{
     width: 100vw;
     max-width: 100%;
-    height: 100vh;
-    background-color: #DCE9E2;
+    height: 51vh;
+    background-color: #2a2b2c;
 }
 .containerConecte{
     display: flex;
     justify-content: center;
     width: 100%;
+    background-color: #2a2b2c;
     }
 
 .textoConecte{
-    margin-top: 5%;
+    margin-top: 4%;
     text-align: start;
     max-width: 70% ;
+    color: white;
+    
     
 }
-
-.containerRegioes{
+.containerimg{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 5%;
-    background-color: #DCE9E2;
+    background-color: #2a2b2c;
 }
-.regiaoNorte{
-    text-align: center;
-    color: #C4C4C4;
-    font-size: 24px;
-}
-.regiaoNordeste{
-    
-    text-align: center;
-    color: #C4C4C4;
-    font-size: 24px;
-}
-.regiaoCentro {
-    text-align: center;
-    color: #C4C4C4;
-    font-size: 24px;
-
-}
-.regiaoSudeste{
-    text-align: center;
-    color: #C4C4C4;
-    font-size: 24px;
-}
-.regiaoSul {
-    text-align: center;
-    color: #C4C4C4;
-    font-size: 24px;
-
-}
-.alinhamentoTextoNordeste {
-    margin-top: 50%;
-}
-.alinhamentoSul{
-    margin-top: 40%;
-}
-#alinhamentoMulheres {
-    margin-bottom: 0px;
-}
-
-@media only screen and (max-width: 480px) {
-
-    #alinhamentoMulheres  {
-    
-      font-size: 0%;
-    
-    }
-}    
