@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 import {Link} from "react-router-dom"
 export const header = styled.header`
-  top: 0;
-  left: 0;
   width: 100%;
-  position: fixed;
     padding: 24px;
   font-size: 1rem;
   font-weight: bold;
   display:flex;
   justify-content: space-between;
-
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 `
 
 export const ul = styled.ul`
