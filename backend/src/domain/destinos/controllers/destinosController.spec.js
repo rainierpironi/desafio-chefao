@@ -65,15 +65,7 @@ describe('No controller, ao executar função', () => {
         })
     })
 
-    describe('listar Destino por Id', () => {
-
-        test('em caso de sucesso, deve retornar 200', async () => {
-            const response = await supertest(app)
-                .get('/destino/1')
-
-            expect(response.status).toBe(200);
-        })
-    })
+    
 
 
 })
