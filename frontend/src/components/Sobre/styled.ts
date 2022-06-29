@@ -1,20 +1,33 @@
 import styled from 'styled-components';
 
 export const ContainerSobre = styled.div`
-    background-color: #FFE3E3;
-    padding: 3% 3% 5% 3%;
+    background: linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%), url('../../assets/Images/exemplo-destino.png');
     margin: 0 auto;
+    margin-top: 10%;
 `
 
-export const TituloSobre = styled.h1`
-    margin-top: 270px;
-    font-family: 'DM Sans', sans-serif;
+export const Titulos = styled.div`
+    padding: 0;
+`
+
+export const TituloSobre = styled.h2`
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #495057;
-    padding-bottom: 2%;
-    padding-left: 5%;
+    color: #1A1A1B;
+    padding-left: 7%;
 `
+
+export const SubtituloSobre = styled.h3`
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #1A1A1B;
+    padding-bottom: 4%;
+    padding-left: 7%;
+`
+
 export const ConteudoSobre = styled.div`
     display: flex;
     justify-content: center;
@@ -26,10 +39,11 @@ export const ConteudoSobre = styled.div`
 `
 
 export const ContaineirVideo = styled.div`
-    margin-right: 4%;
+    margin-left: -5%;
 `
 export const VideoSobre = styled.iframe`
-    border-radius: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     @media screen and (max-width: 900px) {
         margin-top: 2%;
@@ -41,13 +55,11 @@ export const VideoSobre = styled.iframe`
         height: 295px;
     }
 `
- 
+
 export const ContainerTextoSobre = styled.div`
-    background-color: #C8C8C8;
-    width: 640px;
-    height: 450px;
-    border-radius: 10px;
-    padding: 2%;
+    width: 750px;
+    height: 400px;
+    padding-left: 4%;
 
     @media screen and (max-width: 900px) {
         width: 445px;
@@ -65,7 +77,7 @@ export const ContainerTextoSobre = styled.div`
 `
 
 export const TextoSobre = styled.p`
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto Serif', serif;
     font-size: 20px;
 
     @media screen and (max-width: 900px) {

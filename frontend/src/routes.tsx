@@ -21,11 +21,12 @@ import Uteissecond from "./components/Uteis/Uteissecond/Uteissecond";
 import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
 import Cidades from "./pages/Cidades";
+import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
 import DestinoCentroOeste from "./pages/DestinoCentroOeste";
 import DestinoNorte from "./pages/DestinoNorte";
 import DestinoSul from "./pages/DestinoSul";
-import Paginaculturais from "./pages/CulturaisDesktop";
+
 
 
 const MyRoutes: React.FC = () => {
