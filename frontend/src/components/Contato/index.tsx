@@ -14,10 +14,10 @@ interface Contato {
 }
 
 const validationSchema = yup.object({
-    name: yup.string().required("Valor é requerido"),
+    nome: yup.string().required("Valor é requerido"),
     email: yup.string().email("Email inválido").required(),
     assunto: yup.string().required("Valor é requerido"),
-    mensagem: yup.string().min(100, "Quantidade mínima inválida").required()
+    mensagem: yup.string().min(50, "Quantidade mínima inválida").max(500, "Quantidade máxima ultrapassada").required()
 })
 
 const Contato: React.FC = () => {
@@ -37,6 +37,7 @@ const Contato: React.FC = () => {
           });
 
     return (
+
         <div className='main'>
             <div className='contato'>
                 <h1>Contato</h1>
@@ -47,7 +48,7 @@ const Contato: React.FC = () => {
                 <form onSubmit={formik.handleSubmit}>
                     <div className='nome-email'>
                         <Form.Group className="mb-3" controlId="nome">
-                            <Form.Label>Nome</Form.Label>
+                            <Form.Label className='titulo-input'>Nome</Form.Label>
                             <Form.Control type="text" 
                             placeholder="Digite aqui o seu nome..." 
                             style={{ height: '50px', width:'45vh' }}
@@ -56,7 +57,7 @@ const Contato: React.FC = () => {
                         </Form.Group>
                         {formik.errors.nome && <span>{formik.errors.nome}</span>}
                         <Form.Group className="mb-3" controlId="email">
-                            <Form.Label>E-mail</Form.Label>
+                            <Form.Label className='titulo-input'>E-mail</Form.Label>
                             <Form.Control type="email" 
                             placeholder="Digite aqui o seu e-mail..." 
                             style={{ height: '50px', width:'45vh' }}
@@ -67,7 +68,7 @@ const Contato: React.FC = () => {
                     </div>
                     <div>
                         <Form.Group className="mb-3" controlId="assunto">
-                            <Form.Label>Assunto</Form.Label>
+                            <Form.Label className='titulo-input'>Assunto</Form.Label>
                             <Form.Control type="text"  
                             placeholder="Digite aqui o assunto da mensagem..."
                             style={{ height: '50px' }}
@@ -79,7 +80,7 @@ const Contato: React.FC = () => {
                     <div>
 
                         <Form.Group className="mb-3 " controlId="mensagem">
-                            <Form.Label>Mensagem</Form.Label>
+                            <Form.Label className='titulo-input'>Mensagem</Form.Label>
                             <Form.Control as="textarea" rows={10} 
                             placeholder="Digite aqui sua mensagem..."
                             defaultValue={formik.values.mensagem}

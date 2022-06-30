@@ -31,12 +31,18 @@
     margin-top: 5%;
 }
 
-
-
 .nome-email{
     display:flex;
     justify-content: space-between;
     
+}
+
+span {
+    color: #a7a7a7;
+}
+
+.titulo-input {
+    color: #FFFFFF;
 }
 
 .form-btn{
