@@ -1,40 +1,40 @@
-.main{
+.main {
     margin: 0;
-    margin-bottom: 30px;
-    display:flex;  
+    display: flex;
+    flex-wrap: wrap;
     height: 684px;
     background-color: #2a2b2c;
+    padding-bottom: 15%;
 }
 
-.contato{
-    width:65vh;
-    margin:5% ;
+.contato {
+    width: 65vh;
+    margin: 5%;
 }
 
-.contato h1{
-    font-size:48px;
-    margin-bottom:15%;
+.contato h1 {
+    font-size: 48px;
+    margin-bottom: 15%;
     color: #FFFFFF;
 }
 
 .contato p {
-    font-size:20px;
-    color: #FFFFFF;    
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
-.contato-form{
+.contato-form {
     font-size: 20px;
-    width: 100vh;
-    height:80%;
+    width: 95vh;
+    height: 80%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
 }
 
-.nome-email{
-    display:flex;
+.nome-email {
+    display: flex;
     justify-content: space-between;
-    
 }
 
 span {
@@ -45,7 +45,40 @@ span {
     color: #FFFFFF;
 }
 
-.form-btn{
+.form-btn {
     display: flex;
     justify-content: flex-end;
+}
+
+.notificacao {
+    padding: 5px;
+    border-radius: 10px !important;
+    justify-content: end;
+    background-color: #FFFFFF !important;
+}
+
+.conteudo-toast {
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.toast-header {
+    display: flex;
+    justify-content: end;
+    border: none !important;
+}
+
+.btn-close {
+    border: 2px solid #495057 !important;
+    border-radius: 20px !important;
+}
+
+.mensagem-notificacao {
+    display: flex;
+    padding: 0 0 20px 50px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #495057;
 }
