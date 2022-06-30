@@ -93,3 +93,18 @@ export const TextoSobre = styled.p`
         font-size: 18px;
     }
 `
+
+export const Gradiente = styled.div`
+   background-color: #2a2b2c;
+   background: linear-gradient(0deg, #2a2b2c 35%, #f6f6f7 103%);
+   width: 100%;
+   height: 80px;
+`
+
+export const Seta = styled.a`
+   display: flex;
+   justify-content: center;
+   padding-top: -10px;
+`
+
+export const ImagemChevron = styled.img``

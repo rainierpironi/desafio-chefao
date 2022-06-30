@@ -5,6 +5,7 @@ import Seguranca from "../../assets/Images/dicasseguranca.png"
 import Contatos from "../../assets/Images/dicascontatos.png"
 import Planejamento from "../../assets/Images/dicasplaneja.png"
 import { Link } from 'react-router-dom'
+import Seta from "../../assets/Images/chevron-down.svg"
 
 
 function Dicas() {
@@ -25,13 +26,13 @@ function Dicas() {
                     <div className='conteudoModuloUm'>
                         <div className='culturais'>
                             <Link to="./culturais">
-                            <img  src={Culturais} alt="Imagem Dicas Culturais" />
-                            
+                                <img src={Culturais} alt="Imagem Dicas Culturais" />
+
                             </Link>
                         </div>
                         <div>
                             <Link to="./seguranca">
-                            <img src={Seguranca} alt="Imagem Dicas Seguranca" />
+                                <img src={Seguranca} alt="Imagem Dicas Seguranca" />
                             </Link>
                         </div>
                     </div>
@@ -40,12 +41,12 @@ function Dicas() {
                     <div className='conteudoModuloUm'>
                         <div>
                             <Link to="./uteis">
-                            <img src={Contatos} alt="Imagem Dicas Contatos" />
+                                <img src={Contatos} alt="Imagem Dicas Contatos" />
                             </Link>
                         </div>
                         <div>
                             <Link to="./planejamento">
-                            <img src={Planejamento} alt="Imagem Dicas Planejamento" />
+                                <img src={Planejamento} alt="Imagem Dicas Planejamento" />
                             </Link>
                         </div>
                     </div>
@@ -56,6 +57,12 @@ function Dicas() {
 
 
 
+            </div>
+
+            <div className='gradiente'>
+                <a href="#conecte-se" className='seta'>
+                    <img src={Seta} alt="seta" />
+                </a>
             </div>
 
         </Fragment>

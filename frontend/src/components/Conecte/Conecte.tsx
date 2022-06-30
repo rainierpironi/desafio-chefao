@@ -12,11 +12,6 @@ function Conecte() {
     <Fragment>
 
       <div className='containerGeralConecte' id='conecte-se'>
-        <div className='blur'>
-          <a href="#conecte-se" className='seta-direcao'>
-            <img src={Seta} alt="seta" />
-          </a>
-        </div>
         <div className='containerConecte'>
           <div className="textoConecte">
             <h1>Conecte-se</h1>
@@ -47,8 +42,8 @@ function Conecte() {
 
       <div className='containerblur'>
         <div>
-          <div className=' blur-2'>
-            <a href="#apoie" className='seta-direcao'>
+          <div className='gradiente2'>
+            <a href="#apoie" className='seta'>
               <img src={Seta} alt="seta" />
             </a>
           </div>

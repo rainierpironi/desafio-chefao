@@ -4,6 +4,28 @@
     height: 51vh;
     background-color: #2a2b2c;
 }
+
+.gradiente {
+    background-color: #2a2b2c;
+    background: linear-gradient(0deg, #2a2b2c 35%, #f6f6f7 103%);
+    width: 100%;
+    height: 80px;
+ }
+ 
+.seta {
+    display: flex;
+    justify-content: center;
+    padding-top: -10px;
+}
+
+.gradiente2 {
+    background-color: #1b1b1b;
+    background: linear-gradient(0deg, #f6f6f7 35%, #2a2b2c 103%);
+    width: 100%;
+    height: 100px;
+ }
+ 
+
 .containerConecte{
     display: flex;
     flex-wrap: wrap;

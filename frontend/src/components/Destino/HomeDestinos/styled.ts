@@ -1,17 +1,5 @@
 import styled from 'styled-components';
-
-export const Gradiente = styled.div`
-   background-color: #2a2b2c;
-   background: linear-gradient(0deg, #2a2b2c 35%, #f6f6f7 103%);
-   width: 100%;
-   height: 80px;
-`
-
-export const Seta = styled.a`
-   display: flex;
-   justify-content: center;
-   padding-top: -10px;
-`
+import { Link } from 'react-router-dom';
 
 export const ContainerDestinos = styled.div`
    background-color: #2a2b2c;
@@ -19,13 +7,15 @@ export const ContainerDestinos = styled.div`
    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
 `
 
+export const ContainerTitulos = styled.div``
+
 export const TituloDestinos = styled.h2`
    font-family: 'Roboto', sans-serif;
    font-weight: 700;
    font-size: 48px;
    color: #FFF;
    padding-left: 5%;
-   margin-top: 50px;
+   padding-top: 30px;
    padding-left: 7%;
 `
 
@@ -41,7 +31,7 @@ export const SubtituloDestinos = styled.h3`
 
 export const ConteudoDestinos = styled.div`
    justify-content: center;
-   margin: 2% 0 10% 0;
+   margin: 2% 0 8% 7%;
 
    @media screen and (max-width: 900px) {
       flex-direction: column;
@@ -49,22 +39,14 @@ export const ConteudoDestinos = styled.div`
    }
 `
 
-export const LinkDestino = styled.link`
-   margin-right: 3%;
-   -moz-transition: all 0.3s;
-   -webkit-transition: all 0.3s;
-   transition: all 0.3s;
+export const LinkDestino = styled(Link)`
 
-   :hover {
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-   }
+   margin-right: 3%;
 
    @media screen and (max-width: 900px) {
       margin-right: 4%;
       margin-bottom: 5%;
-      padding-bottom: 5;
+      padding-bottom: 5%;
       border-radius: 70px;
    }
 
@@ -77,6 +59,16 @@ export const LinkDestino = styled.link`
 `
 
 export const ImagemDestino = styled.img`
+
+   -moz-transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+   transition: all 0.3s;
+
+   :hover {
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+   }
 
    @media screen and (max-width: 900px) {
       width: 400px;
@@ -95,3 +87,11 @@ export const Gradiente2 = styled.div`
    width: 100%;
    height: 100px;
 `
+
+export const Seta = styled.a`
+   display: flex;
+   justify-content: center;
+   padding-top: -10px;
+`
+
+export const ImagemChevron = styled.img``
