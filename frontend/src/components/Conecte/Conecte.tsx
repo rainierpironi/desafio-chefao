@@ -23,19 +23,19 @@ function Conecte() {
       <div ></div>
       <div className="containerimg">
         <div>
-          <img src={Norte} alt="Mapa norte" />
+          <img id="efeito" src={Norte} alt="Mapa norte" />
         </div>
         <div>
-          <img src={Nordeste} alt="Ma´´a Nordeste" />
+          <img id="efeito"  src={Nordeste} alt="Ma´´a Nordeste" />
         </div>
         <div>
-          <img src={CentroOeste} alt="Mapa centro oeste" />
+          <img id="efeito"  src={CentroOeste} alt="Mapa centro oeste" />
         </div>
         <div>
-          <img src={Sudeste} alt="Mapa Sudeste" />
+          <img id="efeito" src={Sudeste} alt="Mapa Sudeste" />
         </div>
         <div>
-          <img src={Sul} alt=" Mapa Sul" />
+          <img id="efeito"  src={Sul} alt=" Mapa Sul" />
         </div>
 
       </div>
