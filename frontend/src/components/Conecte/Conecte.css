@@ -48,6 +48,12 @@
     background-color: #2a2b2c;
     padding-bottom: 5%;
 }
+
+#efeito {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
 #efeito:hover{
     opacity: 50%;
     transition: 0.8s;
