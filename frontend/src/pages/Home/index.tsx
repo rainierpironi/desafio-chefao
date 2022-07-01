@@ -7,11 +7,12 @@ import Destinos from '../../components/Destino/HomeDestinos';
 import Dicas from '../../components/Dicas/Dicas';
 import Conecte from '../../components/Conecte/Conecte';
 import Contato from '../../components/Contato';
-
+import BannerHome from '../../components/BannerHome'
 const Home: React.FC = () => {
   return (
     <Container>
         <Header />
+        <BannerHome />
         <Sobre />
         <Destinos />
         <Dicas/>

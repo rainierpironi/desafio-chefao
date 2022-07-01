@@ -9,14 +9,15 @@ const Header: React.FC = () => {
   return (
 
     
-<nav className=" p-3 navbar navbar-expand-md navbar-dark bg-black">
-<img src={icon} alt="icone" />
+<nav className=" p-1 navbar navbar-expand-md navbar-dark bg-black">
+  <div className="container m-2">
+<img className="ps-5" src={icon} alt="icone" />
   <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
 
-  <div className="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
-    <ul className="navbar-nav mr-auto mt-0">
+  <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul className="navbar-nav mr-auto mt-0 align-items-center gap-4">
       <li className="nav-item">
         <Link className="nav-link text-light" to="/">Sobre</Link>
       </li>
@@ -37,7 +38,7 @@ const Header: React.FC = () => {
       </li>
     </ul>
   </div>
-  <div className="dropdown">
+  <div className="nav-item dropdown">
   <button className="btn btn-dark bg-black rounded-pill dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
     Escolha o seu destino...
   </button>
@@ -47,6 +48,7 @@ const Header: React.FC = () => {
     <a className="dropdown-item" href="#">Something else here</a>
   </div>
 </div>
+  </div>
 </nav>
   
   )
