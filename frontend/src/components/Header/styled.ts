@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import {Link} from "react-router-dom"
+
+import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
+
 export const header = styled.header`
+
   width: 100%;
     padding: 24px;
   font-size: 1rem;
@@ -45,4 +49,11 @@ export const a = styled(Link)`
 &:active{
     color: red;
 };
+`
+
+export const Barra = styled(NavDropdown)`
+.dropdown-toggle::after{
+    color: white;
+}
+
 `

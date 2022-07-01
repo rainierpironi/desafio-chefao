@@ -5,7 +5,7 @@ import { faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg
 import * as Styled from './styled'
 const Footer: React.FC = () => {
   return (
-    <Styled.footer id="sticky-footer" className=" d-flex flex-row justify-content-around align-items-center py-4 bg-secondary text-white-50">
+    <footer id="sticky-footer" style={{ backgroundColor: 'black' }} className=" d-flex flex-row justify-content-around align-items-center py-3 text-white-50">
       <img src={icon} alt="icone" />
       <small>Copyright &copy; Mulheres viajantes</small>
     <small>Todos os direitos reservados</small>
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
     <a className="p-1 link-light" href="your link here"><FontAwesomeIcon icon={faFacebook} /></a>
     <a className="p-1 link-light" href="your link here"><FontAwesomeIcon icon={faYoutube} /></a>
     </div>
-  </Styled.footer>
+  </footer>
   )
 }
 

@@ -1,15 +1,63 @@
-
 import { Link } from "react-router-dom";
 import icon from "../../assets/Images/logo_mulheresviajantesolo_branco.png"
-
-
+import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
+import * as Styled from "./styled"
 
 const Header: React.FC = () => {
 
   return (
+    <Navbar style={{ backgroundColor: 'black', fontFamily: 'Roboto'}} variant="dark" expand="md">
+    <Container fluid>
+    <img className="ps-3" src={icon} alt="icone" />
+      <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Collapse id="navbarScroll">
+        <Nav
+          className="justify-content-center flex-grow-1 pe-3"
+          style={{ maxHeight: '100px' }}
+          navbarScroll
+        >
+      <li className="nav-item">
+        <Link className="nav-link text-light pe-4" to="/">Sobre</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link text-light pe-4" to="/">Destinos</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link text-light pe-4" to="/">Dicas</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link text-light pe-4" to="/">Conecte-se</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link text-light pe-4" to="/">Apoie</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link text-light pe-4" to="/">Contato</Link>
+      </li>
+        </Nav>
+        <Styled.Barra title={
+        <span className="text-primary text-light my-auto">Escolha o seu destino...</span>
+    }  style={{ border:' solid 3px white', borderRadius:'2em'}} id="navbarScrollingDropdown">              
+        <Link className="nav-link text-dark" to="/">Norte</Link>
+        <NavDropdown.Divider />
+        <Link className="nav-link text-dark" to="/">Nordeste</Link>
+        <NavDropdown.Divider />
+        <Link className="nav-link text-dark" to="/">Centro-Oeste</Link>
+        <NavDropdown.Divider />
+        <Link className="nav-link text-dark" to="/">Sudeste</Link>
+        <NavDropdown.Divider />
+        <Link className="nav-link text-dark" to="/">Sul</Link>
+            </Styled.Barra>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
 
-    
-<nav className=" p-1 navbar navbar-expand-md navbar-dark bg-black">
+
+
+
+
+
+/* <nav className=" p-1 navbar navbar-expand-md navbar-dark bg-black">
   <div className="container m-2">
 <img className="ps-5" src={icon} alt="icone" />
   <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +97,7 @@ const Header: React.FC = () => {
   </div>
 </div>
   </div>
-</nav>
+</nav> */
   
   )
 }
