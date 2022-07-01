@@ -43,6 +43,14 @@
    padding: 10px 50px 10px 50px;
    margin-top: 5%;
    font-size: 34.66px;
-   border-radius: 32.5px
+   border-radius: 32.5px;
+   text-shadow: 1px 2px 3px black;
    
+   
+}
+#buttonApoie:hover{
+   background-color: white;
+   color: red;
+   transition: 0.5s;
+   text-shadow: 1px 2px 3px black;
 }

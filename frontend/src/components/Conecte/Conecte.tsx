@@ -6,6 +6,7 @@ import CentroOeste from "../../assets/Images/imgcentrooeste.png"
 import Sudeste from "../../assets/Images/imgsudeste.png"
 import Sul from "../../assets/Images/imgsul.png"
 import Seta from "../../assets/Images/chevron-down.svg"
+import { Link } from 'react-router-dom'
 
 function Conecte() {
   return (
@@ -23,19 +24,29 @@ function Conecte() {
       <div ></div>
       <div className="containerimg">
         <div>
+          <Link to="/destinos/norte">
           <img id="efeito" src={Norte} alt="Mapa norte" />
+          </Link>
         </div>
         <div>
+          <Link to="/destinos/nordeste">
           <img id="efeito"  src={Nordeste} alt="Ma´´a Nordeste" />
+          </Link>
         </div>
         <div>
+          <Link to="/destinos/centro-oeste">
           <img id="efeito"  src={CentroOeste} alt="Mapa centro oeste" />
+          </Link>
         </div>
         <div>
+          <Link to="/destinos/sudeste">
           <img id="efeito" src={Sudeste} alt="Mapa Sudeste" />
+          </Link>
         </div>
         <div>
+          <Link to="/destinos/sul">
           <img id="efeito"  src={Sul} alt=" Mapa Sul" />
+          </Link>
         </div>
 
       </div>
