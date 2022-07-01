@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
 .containerApoie {
    width: 100vw;
    max-width: 100%;
@@ -15,19 +17,43 @@
 }
 
 .textoApoie {
-   max-width: 37vw;
+   max-width: 40vw;
+   min-height: 30vh;
+   margin-left: -10%;
 }
 
 .textoApoie h1 {
-   margin-top: 18vh;
+   margin-top: 13vh;
    font-family: 'Roboto', sans-serif;
    font-size: 48px;
    font-weight: 700;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-weight: bold;
+   text-shadow:  1px 5px 5px black;
 }
 
 .textoApoie p {
    font-size: 36px;
    font-family: 'Roboto', sans-serif;
-   font-weight: 400;
+   text-shadow:  1px 5px 5px black;
+   width: 80%;
+}
+#buttonApoie{
+   font-family: 'Roboto', sans-serif;
+   border: none;
+   background: #FEC901;
+   box-shadow: 1px 5px 5px black;
+   padding: 10px 50px 10px 50px;
+   margin-top: 5%;
+   font-size: 34.66px;
+   border-radius: 32.5px;
+   text-shadow: 1px 2px 3px black;
+   
+   
+}
+#buttonApoie:hover{
+   background-color: white;
+   color: red;
+   transition: 0.5s;
+   text-shadow: 1px 2px 3px black;
 }

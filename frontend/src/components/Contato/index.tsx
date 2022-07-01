@@ -35,7 +35,11 @@ const Contato: React.FC = () => {
         },
         validationSchema,
         onSubmit: async values => {
-            await postContato({ nome: values.nome, email: values.email, assunto: values.assunto, mensagem: values.mensagem });
+            const resposta = await postContato({ nome: values.nome, email: values.email, assunto: values.assunto, mensagem: values.mensagem });
+
+            if (resposta == 201 || resposta == 200) {
+                setShow(true);
+            }
         },
     });
 
@@ -67,8 +71,8 @@ const Contato: React.FC = () => {
                                     style={{ height: '50px', width: '45vh' }}
                                     defaultValue={formik.values.email}
                                     onChange={formik.handleChange} />
-                                    {formik.errors.email && <span>{formik.errors.email}</span>}
-                            </Form.Group>    
+                                {formik.errors.email && <span>{formik.errors.email}</span>}
+                            </Form.Group>
                         </div>
                         <div>
                             <Form.Group className="mb-3" controlId="assunto">
@@ -78,7 +82,7 @@ const Contato: React.FC = () => {
                                     style={{ height: '50px' }}
                                     defaultValue={formik.values.assunto}
                                     onChange={formik.handleChange} />
-                                    {formik.errors.assunto && <span>{formik.errors.assunto}</span>}
+                                {formik.errors.assunto && <span>{formik.errors.assunto}</span>}
                             </Form.Group>
                         </div>
                         <div>
@@ -88,18 +92,18 @@ const Contato: React.FC = () => {
                                     placeholder="Digite aqui sua mensagem..."
                                     defaultValue={formik.values.mensagem}
                                     onChange={formik.handleChange} />
-                                    {formik.errors.mensagem && <span>{formik.errors.mensagem}</span>}
+                                {formik.errors.mensagem && <span>{formik.errors.mensagem}</span>}
                             </Form.Group>
                         </div>
                         <div className='form-btn'>
-                            <Button style={{ width: '20vh', height: '7vh' }} variant="secondary" type="submit" onClick={() => setShow(true)}>
+                            <Button style={{ width: '20vh', height: '7vh' }} variant="secondary" type="submit">
                                 Enviar
                             </Button>
                         </div>
                     </form>
                 </div>
                 <Container className='conteudo d-flex justify-content-start'>
-                    <Toast className='notificacao' onClose={() => setShow(false)} show={show}  delay={3000} autohide>
+                    <Toast className='notificacao' onClose={() => setShow(false)} show={show} delay={3000} autohide>
                         <div className='conteudo-toast'>
                             <Toast.Header></Toast.Header>
                             <Toast.Body className='mensagem-notificacao'>Mensagem enviada!</Toast.Body>
@@ -112,3 +116,7 @@ const Contato: React.FC = () => {
 }
 
 export default Contato;
+
+function resetForm(arg0: { values: string; }) {
+    throw new Error('Function not implemented.');
+}

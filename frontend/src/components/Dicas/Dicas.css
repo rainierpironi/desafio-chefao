@@ -13,11 +13,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 48px;
+    margin-left: 4%;
        
 }
 .containerTextoDicas h1{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     font-size: 48px;
     color: #1A1A1B;
 }
@@ -31,4 +31,10 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0% 0% 0% 5%;
+    margin-left: 4%;
+}
+
+#efeitoDicas:hover{
+    opacity: 80%;
+    transition: 0.8s;
 }

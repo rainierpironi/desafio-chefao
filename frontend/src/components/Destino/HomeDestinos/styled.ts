@@ -60,14 +60,11 @@ export const LinkDestino = styled(Link)`
 
 export const ImagemDestino = styled.img`
 
-   -moz-transition: all 0.3s;
-   -webkit-transition: all 0.3s;
    transition: all 0.3s;
 
    :hover {
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
+      opacity: 50%;
+      transition: 0.8s;
    }
 
    @media screen and (max-width: 900px) {

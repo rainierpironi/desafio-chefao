@@ -12,7 +12,8 @@ export const postContato = async (contato: Contato) => {
     const jsonData = JSON.parse(body)
     try {
         const response =  await baseUrl.post('/contato', jsonData)
-        return response.data
+        return response.status
+        
     } catch (error) {
         throw new Error('Não foi possível realizar o contato!')
     }
