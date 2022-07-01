@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Card, Container, Figure } from 'react-bootstrap'
+import { Button, Card, Container, Figure } from 'react-bootstrap'
 import Imagem from "../../assets/Images/imgapoie.png"
 import "./Apoie.css"
 
@@ -14,8 +14,11 @@ function Apoie() {
                     <h1>Apoie</h1>
                     <br />
                     <p>Gostou da plataforma? Saiba como você pode contribuir financeiramente para manter essa plataforma funcionando.</p>
+                    <button id='buttonApoie'>Contribuir</button>
                 </div>
 
+                
+        
                 <Figure className='figura' >
                     
                    
