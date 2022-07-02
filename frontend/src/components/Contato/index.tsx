@@ -116,9 +116,15 @@ const Contato: React.FC = () => {
                             </Form.Group>
                         </div>
                         <div className='form-btn'>
-                            <Button style={{ width: '8.05em', 
-                                     height: '7vh',
-                                     borderRadius:'30px' }} 
+                            <Button style={{ width: '128.08px', 
+                                             height: '7vh',
+                                             borderRadius:'30px',
+                                             boxShadow:' 1px 5px 5px black',
+                                             fontStyle:'bold',
+                                             fontSize:'20px',
+                                             display:'flex',
+                                             alignItems:'center',
+                                             justifyContent:'center' }} 
                                      variant="warning" type="submit">
                                 Enviar
                             </Button>
