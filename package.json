@@ -11,6 +11,6 @@
     "react-bootstrap-icons": "^1.8.4"
   },
   "scripts": {
-    "start": "node backend/src/app.js"
+    "start": "cd backend && npm install && node src/app.js"
    }
 }
