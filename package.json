@@ -11,8 +11,6 @@
     "react-bootstrap-icons": "^1.8.4"
   },
   "scripts": {
-       "postinstall": "if [ $CLIENT_ENV ]; then npm run postinstall-client; elif [ $SERVER_ENV ]; then npm run postinstall-server; else echo no environment detected, please set CLIENT_ENV or SERVER_ENV; fi",
-       "postinstall-client": "cd backend && npm install && node src/app.js",
-       "postinstall-server": "cd frontend && npm install"
+    "postinstall":"cd backend && npm install && node src/app.js"       
    }
 }
