@@ -1,35 +1,46 @@
 .main {
     margin: 0;
-    display: flex;
+    padding-bottom: 30px;
+    display:flex;  
     flex-wrap: wrap;
     height: 684px;
     background-color: #2a2b2c;
-    padding-bottom: 15%;
 }
 
 .contato {
-    width: 65vh;
+    width: 80vh;
     margin: 5%;
+    margin-rigth:0;
 }
 
 .contato h1 {
-    font-size: 48px;
-    margin-bottom: 15%;
+    font-size:3em;
+    font-weight:700;
+    margin-bottom:5%;
     color: #FFFFFF;
+}
+
+.contato h4 {
+    color: #FFFFFF;
+    font-size:2.25em;
+    font-weigh:400;
+    margin-bottom:15%;
 }
 
 .contato p {
-    font-size: 20px;
-    color: #FFFFFF;
+    font-family: 'Roboto Serif', serif;
+    font-size:1.25em;
+    color: #FFFFFF;  
+    text-align:justify;  
 }
 
 .contato-form {
-    font-size: 20px;
-    width: 95vh;
-    height: 80%;
+    font-size: 1.25em;
+    width: 100vh;
+    height:80%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .nome-email {
