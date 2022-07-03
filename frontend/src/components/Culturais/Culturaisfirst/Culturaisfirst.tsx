@@ -1,38 +1,27 @@
 import React, { Fragment } from 'react'
 import { Figure } from 'react-bootstrap'
 import "../../Culturais/Culturaisfirst/Culturaisfirst.css"
-import Imagem from "../../../assets/Images/cultura.jpg"
+import Imagem from "../../../assets/Images/culturaisdesk.svg"
+import Faixa from "../../../assets/Images/faixacult.png"
 
 function Culturaisfirst() {
   return (
     <Fragment>
-      
-<div className='containerCult'>
-                <div className='textoCult'>
-                    <p>Conhecendo os costumes locais de cada região do Brasil...</p>
-                    <br />
-                    <h1>Dicas</h1>
-                    <h6>Culturais</h6>
-                </div>
+      <main className='containercult'>
+        
+        <div className='containerBack'>
+          <img src={Imagem} alt="" />
+        </div>
+        
+        <div className='titulocult'>
+          <h1>Dicas Culturais</h1>
+          <p>Conhecendo a riqueza das diferenças culturais no Brasil...</p>
+        </div>
+        <div className='faixacult'>
+          <img src={Faixa} alt="" />
+        </div>
 
-                <Figure className='figuraCult' >
-                    <Figure.Image
-                        // width={650}
-                        // height={180}
-                        alt="171x180"
-                        // src={Imagem}
-                    />
-                    
-                </Figure>
-                
-            </div>
-            
-
-
-
-
-
-
+      </main>
 
     </Fragment>
   )
