@@ -9,6 +9,7 @@ const ConteudoCidades: React.FC = () => {
 
       <div className='conteudo-principal'>
         <h1>Olinda</h1>
+        <h2>Patrimônio Histórico Cultural</h2>
         <p>
           Olinda é um município brasileiro do estado de Pernambuco. Pertence à Região Metropolitana do Recife, distando seis quilômetros da capital pernambucana.
         </p>
