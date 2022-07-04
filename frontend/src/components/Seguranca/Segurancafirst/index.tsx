@@ -15,8 +15,8 @@ function SecurityFirst() {
         </div>
         
         <div className='titulocult'>
-          <h1>Dicas Culturais</h1>
-          <p>Conhecendo a riqueza das diferenças culturais no Brasil...</p>
+          <h1>Dicas de Segurança</h1>
+          <p>Identificando fatores de risco para evitá-los...</p>
         </div>
         <div className='faixacult'>
           <img src={Faixa} alt="" />

@@ -14,8 +14,8 @@ function Uteisfirst() {
         </div>
         
         <div className='titulocult'>
-          <h1>Dicas Culturais</h1>
-          <p>Conhecendo a riqueza das diferenças culturais no Brasil...</p>
+          <h1>Dicas de Contatos Úteis</h1>
+          <p>Procurando soluções em caso de necessidade...</p>
         </div>
         <div className='faixacult'>
           <img src={Faixa} alt="" />

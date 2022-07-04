@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Figure } from 'react-bootstrap'
 import "../../Culturais/Culturaisfirst/Culturaisfirst.css"
-import Imagem from "../../../assets/Images/culturaisdesk.svg"
+import Imagem from "../../../assets/Images/culturaisdesk.png"
 import Faixa from "../../../assets/Images/faixacult.png"
 
 function Culturaisfirst() {
