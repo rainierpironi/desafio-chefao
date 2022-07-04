@@ -1,12 +1,22 @@
 .banner-cidades {
-    background-image: url('../../../assets/Images/exemplo-banner-destinos.png');
-    height: 680px;
+    background-image: url('../../../assets/Images/Olinda/capa-olinda.png');
+    height: 42.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #FFFFFF;
 }
 
 .nome-cidades h1{
     margin-left: 6%;
-    font-size: 48px;
+    font-size: 3.25rem;
+    font-weight:700;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.nome-cidades h2{
+    margin-left: 6%;
+    font-size: 2.25rem;
+    font-weight:400;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }

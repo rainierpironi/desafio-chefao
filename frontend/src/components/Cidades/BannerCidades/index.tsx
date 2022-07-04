@@ -7,6 +7,7 @@ const BannerCidades: React.FC = () => {
         <div className='banner-cidades'>
             <div className="nome-cidades">
                 <h1>Olinda</h1>
+                <h2>Patrimônio Histôrico Cultural</h2>
             </div>
         </div>
     );
