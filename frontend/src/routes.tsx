@@ -23,11 +23,10 @@ import Uteis from "./pages/Uteis";
 import Cidades from "./pages/Cidades";
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
+import DestinoSudeste from "./pages/DestinoSudeste";
 import DestinoCentroOeste from "./pages/DestinoCentroOeste";
 import DestinoNorte from "./pages/DestinoNorte";
 import DestinoSul from "./pages/DestinoSul";
-
-
 
 const MyRoutes: React.FC = () => {
   return (
@@ -39,7 +38,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/centro-oeste" element={<DestinoCentroOeste/>} />
         <Route path="/destinos/norte" element={<DestinoNorte/>} />
         <Route path="/destinos/sul" element={<DestinoSul/>} />
-        <Route path="/destinos/sudeste" element={<DestinoNordeste/>} />
+        <Route path="/destinos/sudeste" element={<DestinoSudeste/>} />
         <Route path="/planejamento" element={<PlanejamentoDesktop/>} />
         <Route path="/culturais" element={<Paginaculturais/>} />
         <Route path="/seguranca" element={<PaginaSecurity/>} />

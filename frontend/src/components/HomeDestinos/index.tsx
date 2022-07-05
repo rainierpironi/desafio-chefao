@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import ImagemNorte from '../../../assets/Images/norte.svg';
-import ImagemNordeste from '../../../assets/Images/nordeste.svg';
-import ImagemCentroOeste from '../../../assets/Images/centro-oeste.svg';
-import ImagemSudeste from '../../../assets/Images/sudeste.svg';
-import ImagemSul from '../../../assets/Images/sul.svg';
-import Chevron from '../../../assets/Images/chevron-down.svg';
+import ImagemNorte from '../../assets/Images/norte.svg';
+import ImagemNordeste from '../../assets/Images/nordeste.svg';
+import ImagemCentroOeste from '../../assets/Images/centro-oeste.svg';
+import ImagemSudeste from '../../assets/Images/sudeste.svg';
+import ImagemSul from '../../assets/Images/sul.svg';
+import Chevron from '../../assets/Images/chevron-down.svg';
 import { ContainerDestinos, ConteudoDestinos, ImagemDestino, LinkDestino, SubtituloDestinos, TituloDestinos, Seta, ImagemChevron, ContainerTitulos, Gradiente2 } from './styled';
 
 const Destinos: React.FC = () => {
