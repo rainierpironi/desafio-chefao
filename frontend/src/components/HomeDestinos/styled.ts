@@ -7,16 +7,20 @@ export const ContainerDestinos = styled.div`
    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
 `
 
-export const ContainerTitulos = styled.div``
+export const ContainerTitulos = styled.div`
+   padding-left: 10%;
+
+   @media screen and (max-width: 1400px) {
+      padding-left: 0;
+}
+`
 
 export const TituloDestinos = styled.h2`
    font-family: 'Roboto', sans-serif;
    font-weight: 700;
    font-size: 48px;
    color: #FFF;
-   padding-left: 5%;
-   padding-top: 30px;
-   padding-left: 7%;
+   padding: 7% 0 0 7%;
 `
 
 export const SubtituloDestinos = styled.h3`
@@ -25,13 +29,16 @@ export const SubtituloDestinos = styled.h3`
    font-size: 36px;
    color: #FFF;
    padding-bottom: 2%;
-   padding-left: 5%;
    padding-left: 7%;
 `
 
 export const ConteudoDestinos = styled.div`
    justify-content: center;
-   margin: 2% 0 8% 7%;
+   padding: 0 0 10% 16%;
+
+   @media screen and (max-width: 1400px) {
+      padding: 0 0 10% 7%;
+   }
 
    @media screen and (max-width: 900px) {
       flex-direction: column;
@@ -78,17 +85,24 @@ export const ImagemDestino = styled.img`
    }
 `
 
-export const Gradiente2 = styled.div`
-   background-color: #1b1b1b;
-   background: linear-gradient(0deg, #f6f6f7 35%, #2a2b2c 103%);
+export const GradienteDestinos = styled.div`
+   background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
+   mix-blend-mode: normal;
+   backdrop-filter: blur(10px);
    width: 100%;
-   height: 100px;
+   height: 80px;
+   position: absolute;
+   top: 2680px;
+
+   @media screen and (max-width: 1400px) {
+      top: 2180px;
+   }
 `
 
-export const Seta = styled.a`
+export const SetaDestinos = styled.a`
    display: flex;
    justify-content: center;
    padding-top: -10px;
 `
 
-export const ImagemChevron = styled.img``
+export const ImagemChevronDestinos = styled.img``

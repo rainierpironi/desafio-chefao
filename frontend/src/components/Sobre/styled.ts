@@ -8,6 +8,11 @@ export const ContainerSobre = styled.div`
 
 export const Titulos = styled.div`
     padding: 0;
+    padding-left: 10%;
+
+    @media screen and (max-width: 1400px) {
+        padding-left: 0;
+    }
 `
 
 export const TituloSobre = styled.h2`
@@ -31,6 +36,7 @@ export const SubtituloSobre = styled.h3`
 export const ConteudoSobre = styled.div`
     display: flex;
     justify-content: center;
+    padding-bottom: 5%;
 
     @media screen and (max-width: 900px) {
         flex-direction: column;
@@ -101,7 +107,7 @@ export const GradienteSobre = styled.div`
     width: 100%;
     height: 80px;
     position: absolute;
-    top: 1930px;
+    top: 2010px;
 
     @media screen and (max-width: 1400px) {
         top: 1500px;

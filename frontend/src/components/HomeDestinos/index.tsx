@@ -5,7 +5,7 @@ import ImagemCentroOeste from '../../assets/Images/centro-oeste.svg';
 import ImagemSudeste from '../../assets/Images/sudeste.svg';
 import ImagemSul from '../../assets/Images/sul.svg';
 import Chevron from '../../assets/Images/chevron-down.svg';
-import { ContainerDestinos, ConteudoDestinos, ImagemDestino, LinkDestino, SubtituloDestinos, TituloDestinos, Seta, ImagemChevron, ContainerTitulos, Gradiente2 } from './styled';
+import { ContainerDestinos, ConteudoDestinos, ImagemDestino, LinkDestino, SubtituloDestinos, TituloDestinos, SetaDestinos, ImagemChevronDestinos, ContainerTitulos, GradienteDestinos } from './styled';
 
 const Destinos: React.FC = () => {
     return (
@@ -34,11 +34,11 @@ const Destinos: React.FC = () => {
                     </LinkDestino>
                 </ConteudoDestinos>
 
-                <Gradiente2>
-                    <Seta href="#dicas">
-                        <ImagemChevron src={Chevron} alt="seta" />
-                    </Seta>
-                </Gradiente2>
+                <GradienteDestinos>
+                    <SetaDestinos href="#dicas">
+                        <ImagemChevronDestinos src={Chevron} alt="seta" />
+                    </SetaDestinos>
+                </GradienteDestinos>
             </ContainerDestinos>
     );
 }
