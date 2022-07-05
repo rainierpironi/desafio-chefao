@@ -94,17 +94,22 @@ export const TextoSobre = styled.p`
     }
 `
 
-export const Gradiente = styled.div`
-   background-color: #2a2b2c;
-   background: linear-gradient(0deg, #2a2b2c 35%, #f6f6f7 103%);
-   width: 100%;
-   height: 80px;
+export const GradienteSobre = styled.div`
+    background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 1500px;
 `
 
-export const Seta = styled.a`
+export const SetaSobre = styled.a`
    display: flex;
    justify-content: center;
-   padding-top: -10px;
 `
 
-export const ImagemChevron = styled.img``
+export const ImagemChevronSobre = styled.img`
+    position: absolute;
+    top: 15px;
+`
