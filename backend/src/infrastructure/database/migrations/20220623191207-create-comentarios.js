@@ -21,14 +21,6 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING(256)
       },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
       destinos_id: {
         type: Sequelize.DataTypes.INTEGER,
         references: {
@@ -39,7 +31,15 @@ module.exports = {
         },
         onDelete: "cascade",
         allowNull: false
-      }
+      },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },      
     });
   },
 
