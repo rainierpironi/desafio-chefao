@@ -1,0 +1,29 @@
+.main-fotos-cidades{
+    font-family: 'Roboto Mono', sans-serif;
+    color: #316072;
+    margin: 0 5%;
+}
+
+#borda-dashed{
+    width:100%;
+    
+}
+
+.main-fotos-cidades h2{
+    margin: 3% 0;
+    font-size: 2rem;
+    font-weight:500;
+}
+
+.main-fotos-cidades h5{
+    margin: 3% 0;
+    font-size: 1.25rem;
+    font-weight:400;
+    text-align: center;
+}
+
+.container-fotos-cidades{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}

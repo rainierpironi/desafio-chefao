@@ -15,13 +15,7 @@ function Uteisfourth() {
                                     <Accordion.Header>Disque 180: Central de Atendimento para a Mulher  </Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                A Secretaria Especial de Políticas para Mulheres (Ministério da Justiça) oferece uma linha direta gratuita para receber relatos de violência contra mulheres, para orientá-las sobre os seus direitos e a legislação atual, e encaminhá-las aos serviços locais quando necessário.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -33,13 +27,7 @@ function Uteisfourth() {
                                     <Accordion.Header>Disque 181: Disque Denúncia</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                Linha direta gratuita para relatar crimes e agressões caso você deseje permanecer ANÔNIMO.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -50,13 +38,7 @@ function Uteisfourth() {
                                     <Accordion.Header>Disque 190: Polícia Militar</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                Linha direta gratuita para relatar emergências, ex. crimes, agressões, proteção de cidadãos em risco, ameaças à vida, relatos de furtos e atentados à segurança pública. Você também pode usar esse número para contatar o Serviço de Bombeiros.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -66,13 +48,7 @@ function Uteisfourth() {
                                     <Accordion.Header>Disque 192: Ambulância Pública (SAMU)</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                Chame uma ambulância pública para um atendimento de emergência. Você deve dizer: 1 – o que aconteceu com o paciente; 2 – o endereço e uma referência do lugar; 3 – informações do paciente, como nome, idade e sexo.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -82,13 +58,7 @@ function Uteisfourth() {
                                     <Accordion.Header>Disque 193: Corpo de Bombeiros </Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                O Corpo de Bombeiros brasileiro age em casos de incêndio, acidentes com animais, vazamentos de gás, produtos químicos e desastres naturais como enchentes e queimadas.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>

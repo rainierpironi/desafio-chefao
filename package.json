@@ -12,8 +12,8 @@
   },
   "scripts": {
     "postinstall": "if [ $CLIENT_ENV ]; then npm run postinstall-client; elif [ $SERVER_ENV ]; then npm run postinstall-server; else echo no environment detected, please set CLIENT_ENV or SERVER_ENV; fi",
-       "postinstall-client": "cd backend && npm instal && npm run start",
-       "postinstall-server": "cd frontend && npm install"
+       "postinstall-client": "cd backend && npm install",
+       "postinstall-server": "cd backend && npm install"
     
    }
 }

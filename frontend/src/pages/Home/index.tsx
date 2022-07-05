@@ -3,7 +3,7 @@ import Apoie from '../../components/Apoie/Apoie';
 import Sobre from '../../components/Sobre';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Destinos from '../../components/Destino/HomeDestinos';
+import Destinos from '../../components/HomeDestinos';
 import Dicas from '../../components/Dicas/Dicas';
 import Conecte from '../../components/Conecte/Conecte';
 import Contato from '../../components/Contato';

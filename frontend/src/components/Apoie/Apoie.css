@@ -48,12 +48,13 @@
    font-size: 34.66px;
    border-radius: 32.5px;
    text-shadow: 1px 2px 3px black;
+   color: #424243;
    
    
 }
 #buttonApoie:hover{
-   background-color: white;
-   color: red;
+   background-color: #F6980B;
+   color: #1A1A1B;
    transition: 0.5s;
    text-shadow: 1px 2px 3px black;
 }

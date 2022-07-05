@@ -4,19 +4,24 @@ const DestinosController = {
     async create(req, res) {
         try {
             const { nome_regiao, nome_estado, nome_cidade } = req.body;
+            if (!nome_regiao || !nome_estado || !nome_cidade) {
+                throw new Error ( res.status(500).json('Todas as informações são obrigatórias!'));
+                  
+              }
             const novoDestino = await Destinos.create({
                 nome_regiao,
                 nome_estado,
                 nome_cidade
 
             });
-
+            
+       
             res.status(201).json(novoDestino);
 
         }
         catch (error) {
             console.error(error);
-            return res.json('Não foi possível cadastrar novo destino').status(400);
+            return res.status(400).json('Não foi possível cadastrar novo destino');
         };
     },
     async listarDestinos(req, res) {
@@ -30,19 +35,6 @@ const DestinosController = {
         }
     },
 
-    // async listarDestinosId(req, res) {
-    //     try {
-    //       const { id } = req.params;
-    //       const destino = await Destinos.findByPk(id);
-    
-    //       return res.status(200).json(destino);
-    //     } catch (error) {
-    //       return res.status(500).json('Falha ao buscar destino');
-    //     }
-    //   },
-
-
- 
 
     async listarDestinosNomes(req, res) {
         try {

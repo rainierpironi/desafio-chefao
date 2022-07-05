@@ -12,16 +12,13 @@ function Uteisthird() {
                         <div className='adjustUteisThird'>
                             <Accordion.Item eventKey="0">
                                 <div className='sombra'>
-                                    <Accordion.Header>Norte</Accordion.Header>
+                                    <Accordion.Header>Delegacias do Turista no Norte</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                    Amazonas
+                                    Delegacia Especializada em Crimes contra o Turista - DECCT
+                                    Mezanino do Porto de Manaus e Aeroporto – Manaus/AM
+                                    Telefone: (92) 3652-1656/ 3233-0739
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -30,32 +27,65 @@ function Uteisthird() {
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="1">
                                 <div className='sombra'>
-                                    <Accordion.Header>Nordeste</Accordion.Header>
+                                    <Accordion.Header>Delegacias do Turista no Nordeste</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                    Bahia
+                                    Delegacia de Proteção ao Turista - DELTUR
+                                    Cruzeiro de São Francisco – Pç. Anchieta nº 14.
+                                    Bairro: Centro Histórico – Salvador/BA
+                                    Telefone: (71) 3116-6817
+
+                                    Ceará
+                                    Delegacia de Apoio ao Turista – DEPROTUR
+                                    Rua Costa Barro Nº1971 – Fortaleza/CE
+                                    Telefone: (85) 3101-2488
+
+                                    Paraíba
+                                    Delegacia de Apoio ao Turista
+                                    Av. Almirante Tamandaré, nº100 – João Pessoa/PB
+                                    Telefone: (83) 3214-8022/ 32478405
+
+                                    Pernambuco
+                                    Delegacia de Polícia do Turista – DPTUR
+                                    Aeroporto Internacional dos Guararapes – Recife/PE
+                                    Telefone: (81) 3184-3437/ 3322-4088/ 3322-4867/ 3184-3438
+
+                                    Rio Grande do Norte
+                                    Delegacia Especializada em Assistência ao Turista e Meio
+                                    Ambiente – DEATUR/ DEPREMA
+                                    Praia Shopping – Ponta Negra
+                                    Avenida Engenheiro Roberto Freire, 8790 – Ponta Negra – Natal/RN
+                                    Telefone: (84) 3232-7402
+
+                                    Sergipe
+                                    Delegacia Especial de Turismo
+                                    Praça Santos Dumont, Box 1710 – Atalaia – Aracaju/SE
+                                    Telefone: (79) 3198-1118
+
+
+
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="2">
                                 <div className='sombra'>
-                                    <Accordion.Header>Centro-Oeste</Accordion.Header>
+                                    <Accordion.Header>Delegacias do Turista no Centro-Oeste</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                Mato Grosso do Sul
+Mato Grosso do Sul 
+Delegacia Especializada de Repressão a Crimes Ambientais e Proteção ao Turista – DECAT
+Av. Duque de Caxias, s/n°
+Aeroporto Internacional (Mezanino) – Campo Grande/MS
+Telefone: (67) 3368-6144
+
+
+
+
+
+
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -63,16 +93,29 @@ function Uteisthird() {
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="3">
                                 <div className='sombra'>
-                                    <Accordion.Header>Sudeste</Accordion.Header>
+                                    <Accordion.Header>Delegacias do Turista no Sudeste</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                Espírito Santo
+Delegacia de Apoio ao Turista – DPTUR
+Avenida Américo Buaiz, 200, Enseada do Suá (Shopping Vitória) – Vitória/ES
+Telefone: (27) 3137-9117
+
+São Paulo
+Delegacia Especializada no Atendimento ao Turista – DEATUR
+Rua Cantareira Nº390, Centro – São Paulo/SP
+Telefone: (11) 3257-4475
+
+Rio de Janeiro
+Delegacia Especial de Apoio ao Turismo – DEAT
+Avenida Afrânio de Melo Franco, 159 – Leblon – Rio de Janeiro/RJ
+Telefone: (21) 2332-2924/ 2332-2885/ 2332-2889
+
+
+
+
+
+
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -80,21 +123,23 @@ function Uteisthird() {
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="4">
                                 <div className='sombra'>
-                                    <Accordion.Header>Sul</Accordion.Header>
+                                    <Accordion.Header>Delegacias do Turista no Sul</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                Santa Catarina
+Delegacia de Proteção ao Turista – DPTUR
+Avenida Paulo Fontes,1101 Centro – Florianópolis/SC
+Telefone: (48) 3665-5723
+
+Rio grande do Sul
+Delegacia de Apoio ao Turista – DPTUR
+Setor de Desembarque do Aeroporto Salgado Filho – Porto Alegre/RS
+Telefone: (51) 3358-2255
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
 
-                        
+
                     </Accordion>
 
 

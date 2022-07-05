@@ -71,3 +71,28 @@ export const Link3 = styled.a`
   margin-top: 25%;
   left: 88.9%;
 `
+
+export const Gradiente = styled.div`
+   background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
+   mix-blend-mode: normal;
+   backdrop-filter: blur(10px);
+   width: 100%;
+   height: 80px;
+   position: absolute;
+   top: 1120px;
+
+   @media screen and (max-width: 1400px) {
+      top: 770px;
+   }
+`
+
+export const Seta = styled.a`
+  display: flex;
+  justify-content: center;
+  padding-top: -10px;
+`
+
+export const ImagemChevron = styled.img`
+  position: absolute;
+  top: -40px;
+`

@@ -1,4 +1,4 @@
-import { ContaineirVideo, ContainerSobre, ContainerTextoSobre, ConteudoSobre, Gradiente, ImagemChevron, Seta, SubtituloSobre, TextoSobre, Titulos, TituloSobre, VideoSobre } from './styled';
+import { ContaineirVideo, ContainerSobre, ContainerTextoSobre, ConteudoSobre, GradienteSobre, ImagemChevronSobre, SetaSobre, SubtituloSobre, TextoSobre, Titulos, TituloSobre, VideoSobre } from './styled';
 import Chevron from '../../assets/Images/chevron-down.svg';
 
 const Sobre: React.FC = () => {
@@ -16,12 +16,11 @@ const Sobre: React.FC = () => {
                         <TextoSobre>Somos uma plataforma digital focada em mulheres viajantes solo.<br /><br />Oferecemos grupos para conexão entre mulheres em viagem solo no território brasileiro com interesses em destinos comuns. Possibilitando troca de informações para suporte, referências e orientações para as viagens.<br /><br />Dessa forma, contribuimos para democratizar o acesso sobre quaisquer destinos de interesse no Brasil, além de oferecer dicas sobre segurança e suporte para destinos de interesse.</TextoSobre>
                     </ContainerTextoSobre>
                 </ConteudoSobre>
-
-                <Gradiente>
-                    <Seta href='#destinos'>
-                        <ImagemChevron src={Chevron} alt="seta" />
-                    </Seta>
-                </Gradiente>
+                <GradienteSobre>
+                    <SetaSobre href='#destinos'>
+                        <ImagemChevronSobre src={Chevron} alt="seta" />
+                    </SetaSobre>
+                </GradienteSobre>
             </ContainerSobre>
     )
 }
