@@ -3,15 +3,18 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Chevron from '../../assets/Images/chevron-down.svg';
 import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, GradienteBrancoDestino, ImagemChevronDestino, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade, SetaDestino } from './styled';
-import ImagemSalvador from '../../assets/Images/imagem-salvador.png';
-import ImagemTrancoso from '../../assets/Images/imagem-trancoso.png';
-import ImagemChapada from '../../assets/Images/imagem-chapada.png';
-import ImagemOlinda from '../../assets/Images/imagem-olinda.png';
-import ImagemRecife from '../../assets/Images/imagem-recife.png';
-import ImagemPorto from '../../assets/Images/imagem-porto.png';
+import ImagemCaldas from '../../assets/Images/imagem-caldas.png';
+import ImagemPirenopolis from '../../assets/Images/imagem-pirenopolis.png';
+import ImagemChapadaVe from '../../assets/Images/imagem-chapada-ve.png';
+import ImagemCampo from '../../assets/Images/imagem-campo.png';
+import ImagemBonito from '../../assets/Images/imagem-bonito.png';
+import ImagemBodoquena from '../../assets/Images/imagem-bodoquena.png';
+import SetaVoltar from '../../assets/Images/seta-voltar.png';
 import { useRef } from 'react';
 import botaoPrev from '../../assets/Images/botao-prev.png';
 import botaoNext from '../../assets/Images/botao-next.png';
+import { Link } from 'react-router-dom';
+import { VoltarPagina } from '../DestinoNordeste/styled';
 
 const DestinoCentroOeste: React.FC = () => {
 
@@ -40,8 +43,11 @@ const DestinoCentroOeste: React.FC = () => {
 
   return (
     <Container>
-      <Header/>
+      <Header />
       <BannerDestinos>
+        <Link to={'/'}>
+          <VoltarPagina src={SetaVoltar} alt="seta-voltar" />
+        </Link>
         <FraseDestinos>
           <FraseDestinosTitulo>Destinos do Centro-Oeste</FraseDestinosTitulo>
           <FraseDestinosSubtitulo>Guia de destinos do Brasil</FraseDestinosSubtitulo>
@@ -64,15 +70,15 @@ const DestinoCentroOeste: React.FC = () => {
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemSalvador} alt="" />
+                  <ImagemCidade src={ImagemCaldas} alt="" />
                   Caldas Novas
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemTrancoso} alt="" />
+                  <ImagemCidade src={ImagemPirenopolis} alt="" />
                   Pirenópolis
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemChapada} alt="" />
+                  <ImagemCidade src={ImagemChapadaVe} alt="" />
                   Chapada dos Veadeiros
                 </LinkCidade>
               </div>
@@ -93,15 +99,15 @@ const DestinoCentroOeste: React.FC = () => {
             <Carousel ref={secondCarousel}>
               <div className='item d-flex'>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemOlinda} alt="" />
+                  <ImagemCidade src={ImagemCampo} alt="" />
                   Campo Grande
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemRecife} alt="" />
+                  <ImagemCidade src={ImagemBonito} alt="" />
                   Bonito
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemPorto} alt="" />
+                  <ImagemCidade src={ImagemBodoquena} alt="" />
                   Bodoquena
                 </LinkCidade>
               </div>

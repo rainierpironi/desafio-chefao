@@ -3,15 +3,18 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Chevron from '../../assets/Images/chevron-down.svg';
 import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, GradienteBrancoDestino, ImagemChevronDestino, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade, SetaDestino } from './styled';
-import ImagemSalvador from '../../assets/Images/imagem-salvador.png';
-import ImagemTrancoso from '../../assets/Images/imagem-trancoso.png';
-import ImagemChapada from '../../assets/Images/imagem-chapada.png';
-import ImagemOlinda from '../../assets/Images/imagem-olinda.png';
-import ImagemRecife from '../../assets/Images/imagem-recife.png';
-import ImagemPorto from '../../assets/Images/imagem-porto.png';
+import ImagemSaoPaulo from '../../assets/Images/imagem-sao-paulo.png';
+import ImagemIlhabela from '../../assets/Images/imagem-ilhabela.png';
+import ImagemCampos from '../../assets/Images/imagem-campos.png';
+import ImagemRio from '../../assets/Images/imagem-rio.png';
+import ImagemAngra from '../../assets/Images/imagem-angra.png';
+import ImagemPetropolis from '../../assets/Images/imagem-petropolis.png';
+import SetaVoltar from '../../assets/Images/seta-voltar.png';
 import { useRef } from 'react';
 import botaoPrev from '../../assets/Images/botao-prev.png';
 import botaoNext from '../../assets/Images/botao-next.png';
+import { Link } from 'react-router-dom';
+import { VoltarPagina } from '../DestinoNordeste/styled';
 
 const DestinoSudeste: React.FC = () => {
 
@@ -40,10 +43,13 @@ const DestinoSudeste: React.FC = () => {
 
   return (
     <Container>
-      <Header/>
+      <Header />
       <BannerDestinos>
+        <Link to={'/'}>
+          <VoltarPagina src={SetaVoltar} alt="seta-voltar" />
+        </Link>
         <FraseDestinos>
-          <FraseDestinosTitulo>Destinos do Norte</FraseDestinosTitulo>
+          <FraseDestinosTitulo>Destinos do Sudeste</FraseDestinosTitulo>
           <FraseDestinosSubtitulo>Guia de destinos do Brasil</FraseDestinosSubtitulo>
         </FraseDestinos>
       </BannerDestinos>
@@ -54,7 +60,7 @@ const DestinoSudeste: React.FC = () => {
       </GradienteBrancoDestino>
       <ConteudoEstados id='conteudo-estados'>
         <div>
-          <EstadosTitulo>Amazonas</ EstadosTitulo>
+          <EstadosTitulo>São Paulo</ EstadosTitulo>
           <ContainerCidades>
             <div>
               <BotaoPrev onClick={handleLeftClickFirst}>
@@ -64,16 +70,16 @@ const DestinoSudeste: React.FC = () => {
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemSalvador} alt="" />
-                  Manaus
+                  <ImagemCidade src={ImagemSaoPaulo} alt="" />
+                  São Paulo
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemTrancoso} alt="" />
-                  Parintins
+                  <ImagemCidade src={ImagemIlhabela} alt="" />
+                  Ilhabela
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemChapada} alt="" />
-                  Presidente Figueiredo
+                  <ImagemCidade src={ImagemCampos} alt="" />
+                  Campos do Jordão
                 </LinkCidade>
               </div>
             </Carousel>
@@ -83,7 +89,7 @@ const DestinoSudeste: React.FC = () => {
               </BotaoNext>
             </div>
           </ContainerCidades>
-          <EstadosTitulo>Pará</EstadosTitulo>
+          <EstadosTitulo>Rio de Janeiro</EstadosTitulo>
           <ContainerCidades>
             <div className='botao-prev'>
               <BotaoPrev onClick={handleLeftClickSecond}>
@@ -93,16 +99,16 @@ const DestinoSudeste: React.FC = () => {
             <Carousel ref={secondCarousel}>
               <div className='item d-flex'>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemOlinda} alt="" />
-                  Belém
+                  <ImagemCidade src={ImagemRio} alt="" />
+                  Rio de Janeiro
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemRecife} alt="" />
-                  Alter do Chão
+                  <ImagemCidade src={ImagemAngra} alt="" />
+                  Angra dos Reis
                 </LinkCidade>
                 <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemPorto} alt="" />
-                  Marabá
+                  <ImagemCidade src={ImagemPetropolis} alt="" />
+                  Petrópolis
                 </LinkCidade>
               </div>
             </Carousel>

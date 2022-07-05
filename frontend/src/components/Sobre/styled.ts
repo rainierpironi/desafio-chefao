@@ -101,7 +101,11 @@ export const GradienteSobre = styled.div`
     width: 100%;
     height: 80px;
     position: absolute;
-    top: 1500px;
+    top: 1930px;
+
+    @media screen and (max-width: 1400px) {
+        top: 1500px;
+    }
 `
 
 export const SetaSobre = styled.a`

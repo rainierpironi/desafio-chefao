@@ -5,10 +5,18 @@ import { Link } from 'react-router-dom';
 export const BannerDestinos = styled.div`
     background-image: url(${bg});
     background-repeat: no-repeat;
-    height: 680px;
+    height: 110vh;
     display: flex;
+    background-size:cover;
+    background-position:center;
     flex-direction: column;
     justify-content: center;
+`
+
+export const VoltarPagina = styled.img`
+    position: absolute;
+    top: 100px;
+    left: 25px;
 `
 
 export const FraseDestinos = styled.div`
@@ -35,7 +43,11 @@ export const GradienteBrancoDestino = styled.div`
     width: 100%;
     height: 80px;
     position: absolute;
-    top: 680px;
+    top: 1085px;
+
+    @media screen and (max-width: 1400px) {
+        top: 760px;
+    }
 `
 
 export const SetaDestino = styled.a`
@@ -46,7 +58,7 @@ export const SetaDestino = styled.a`
 
 export const ImagemChevronDestino = styled.img`
     position: absolute;
-    top: -15px;
+    top: -40px;
 `
 
 export const ConteudoEstados = styled.div`
@@ -98,10 +110,15 @@ export const BotaoPrev = styled.div`
 export const ImagemPrev = styled.img`
     opacity: 0.9;
     position: absolute;
-    top: 1060px;
-    left: 55px;
+    top: 1480px;
+    left: 90px;
     z-index: 9999;
     cursor: pointer;
+
+    @media screen and (max-width: 1400px) {
+        top: 1080px;
+        left: 55px;
+    }
 
     @media screen and (max-width: 900px) {
         top: 1030px;
@@ -119,10 +136,15 @@ export const ImagemPrev = styled.img`
 export const ImagemPrevSecond = styled.img`
     opacity: 0.9;
     position: absolute;
-    top: 1570px;
-    left: 55px;
+    top: 2040px;
+    left: 90px;
     z-index: 9999;
     cursor: pointer;
+
+    @media screen and (max-width: 1400px) {
+        top: 1590px;
+        left: 55px;
+    }
 
     @media screen and (max-width: 900px) {
         top: 1470px;
@@ -204,10 +226,15 @@ export const BotaoNext = styled.div`
 export const ImagemNext = styled.img`
     opacity: 0.9;
     position: absolute;
-    top: 1060px;
-    right: 90px;
+    top: 1480px;
+    right: 160px;
     z-index: 9999;
     cursor: pointer;
+
+    @media screen and (max-width: 1400px) {
+        top: 1080px;
+        right: 90px;
+    }
 
     @media screen and (max-width: 900px) {
         top: 1030px;
@@ -224,10 +251,15 @@ export const ImagemNext = styled.img`
 export const ImagemNextSecond = styled.img`
     opacity: 0.9;
     position: absolute;
-    top: 1570px;
-    right: 90px;
+    top: 2040px;
+    right: 160px;
     z-index: 9999;
     cursor: pointer;
+
+    @media screen and (max-width: 1400px) {
+        top: 1590px;
+        right: 90px;
+    }
 
     @media screen and (max-width: 900px) {
         top: 1470px;

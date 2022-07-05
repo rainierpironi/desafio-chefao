@@ -2,16 +2,18 @@ import Container from '../../components/Container';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Chevron from '../../assets/Images/chevron-down.svg';
-import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, GradienteBrancoDestino, ImagemChevronDestino, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade, SetaDestino } from './styled';
+import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, GradienteBrancoDestino, ImagemChevronDestino, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade, SetaDestino, VoltarPagina } from './styled';
 import ImagemSalvador from '../../assets/Images/imagem-salvador.png';
 import ImagemTrancoso from '../../assets/Images/imagem-trancoso.png';
 import ImagemChapada from '../../assets/Images/imagem-chapada.png';
 import ImagemOlinda from '../../assets/Images/imagem-olinda.png';
 import ImagemRecife from '../../assets/Images/imagem-recife.png';
 import ImagemPorto from '../../assets/Images/imagem-porto.png';
+import SetaVoltar from '../../assets/Images/seta-voltar.png';
 import { useRef } from 'react';
 import botaoPrev from '../../assets/Images/botao-prev.png';
 import botaoNext from '../../assets/Images/botao-next.png';
+import { Link } from 'react-router-dom';
 
 const DestinoNordeste: React.FC = () => {
 
@@ -42,6 +44,9 @@ const DestinoNordeste: React.FC = () => {
     <Container>
       <Header/>
       <BannerDestinos>
+        <Link  to={'/'}>
+          <VoltarPagina src={SetaVoltar} alt="seta-voltar" />
+        </Link>
         <FraseDestinos>
           <FraseDestinosTitulo>Destinos do Nordeste</FraseDestinosTitulo>
           <FraseDestinosSubtitulo>Guia de destinos do Brasil</FraseDestinosSubtitulo>
