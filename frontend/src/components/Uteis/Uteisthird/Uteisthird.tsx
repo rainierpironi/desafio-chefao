@@ -15,10 +15,7 @@ function Uteisthird() {
                                     <Accordion.Header>Delegacias do Turista no Norte</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Amazonas
-                                    Delegacia Especializada em Crimes contra o Turista - DECCT
-                                    Mezanino do Porto de Manaus e Aeroporto – Manaus/AM
-                                    Telefone: (92) 3652-1656/ 3233-0739
+                                    <b>Amazonas</b> Delegacia Especializada em Crimes contra o Turista - DECCT – Mezanino do Porto de Manaus e Aeroporto – Manaus/AM  (92) 3652-1656/ 3233-0739
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
@@ -30,35 +27,30 @@ function Uteisthird() {
                                     <Accordion.Header>Delegacias do Turista no Nordeste</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    Bahia
+                                    <b>Bahia</b>
                                     Delegacia de Proteção ao Turista - DELTUR
                                     Cruzeiro de São Francisco – Pç. Anchieta nº 14.
                                     Bairro: Centro Histórico – Salvador/BA
                                     Telefone: (71) 3116-6817
-
-                                    Ceará
+                                    <b> Ceará</b>
                                     Delegacia de Apoio ao Turista – DEPROTUR
                                     Rua Costa Barro Nº1971 – Fortaleza/CE
                                     Telefone: (85) 3101-2488
-
-                                    Paraíba
+                                    <b>Paraíba</b>
                                     Delegacia de Apoio ao Turista
                                     Av. Almirante Tamandaré, nº100 – João Pessoa/PB
                                     Telefone: (83) 3214-8022/ 32478405
-
-                                    Pernambuco
+                                    <b>Pernambuco</b>
                                     Delegacia de Polícia do Turista – DPTUR
                                     Aeroporto Internacional dos Guararapes – Recife/PE
                                     Telefone: (81) 3184-3437/ 3322-4088/ 3322-4867/ 3184-3438
-
-                                    Rio Grande do Norte
+                                    <b>Rio Grande do Norte</b>
                                     Delegacia Especializada em Assistência ao Turista e Meio
                                     Ambiente – DEATUR/ DEPREMA
                                     Praia Shopping – Ponta Negra
                                     Avenida Engenheiro Roberto Freire, 8790 – Ponta Negra – Natal/RN
                                     Telefone: (84) 3232-7402
-
-                                    Sergipe
+                                    <b>Sergipe</b>
                                     Delegacia Especial de Turismo
                                     Praça Santos Dumont, Box 1710 – Atalaia – Aracaju/SE
                                     Telefone: (79) 3198-1118
@@ -74,67 +66,30 @@ function Uteisthird() {
                                     <Accordion.Header>Delegacias do Turista no Centro-Oeste</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                Mato Grosso do Sul
-Mato Grosso do Sul 
-Delegacia Especializada de Repressão a Crimes Ambientais e Proteção ao Turista – DECAT
-Av. Duque de Caxias, s/n°
-Aeroporto Internacional (Mezanino) – Campo Grande/MS
-Telefone: (67) 3368-6144
-
-
-
-
-
-
+                                    <b>Mato Grosso do Sul</b> Delegacia Especializada de Repressão a Crimes Ambientais e Proteção ao Turista, DECAT (67) 3368-6144
+                                    Aeroporto Internacional (Mezanino) – Campo Grande/MS
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="3">
                                 <div className='sombra'>
                                     <Accordion.Header>Delegacias do Turista no Sudeste</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                Espírito Santo
-Delegacia de Apoio ao Turista – DPTUR
-Avenida Américo Buaiz, 200, Enseada do Suá (Shopping Vitória) – Vitória/ES
-Telefone: (27) 3137-9117
-
-São Paulo
-Delegacia Especializada no Atendimento ao Turista – DEATUR
-Rua Cantareira Nº390, Centro – São Paulo/SP
-Telefone: (11) 3257-4475
-
-Rio de Janeiro
-Delegacia Especial de Apoio ao Turismo – DEAT
-Avenida Afrânio de Melo Franco, 159 – Leblon – Rio de Janeiro/RJ
-Telefone: (21) 2332-2924/ 2332-2885/ 2332-2889
-
-
-
-
-
-
+                                    <b>Espírito Santo</b> Delegacia de Apoio ao Turista, DPTUR (27) 3137-9117, Avenida Américo Buaiz, 200, Enseada do Suá, Vitória/ES
+                                    <b>São Paulo</b> Delegacia Especializada no Atendimento ao Turista, DEATUR  (11) 3257-4475, Rua Cantareira Nº390, Centro – São Paulo/SP <b>Rio de Janeiro</b> Delegacia Especial de Apoio ao Turismo, DEAT (21) 2332-2924/ 2332-2885/ 2332-2889, Avenida Afrânio de Melo Franco, 159 – Leblon – Rio de Janeiro/RJ
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="4">
                                 <div className='sombra'>
                                     <Accordion.Header>Delegacias do Turista no Sul</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                Santa Catarina
-Delegacia de Proteção ao Turista – DPTUR
-Avenida Paulo Fontes,1101 Centro – Florianópolis/SC
-Telefone: (48) 3665-5723
+                                <b>Santa Catarina</b> Delegacia de Proteção ao Turista, DPTUR (48) 3665-5723, Avenida Paulo Fontes,1101 Centro – Florianópolis/SC <b>Rio grande do Sul</b>Delegacia de Apoio ao Turista, DPTUR (51) 3358-2255, Setor de Desembarque do Aeroporto Salgado Filho – Porto Alegre/RS
 
-Rio grande do Sul
-Delegacia de Apoio ao Turista – DPTUR
-Setor de Desembarque do Aeroporto Salgado Filho – Porto Alegre/RS
-Telefone: (51) 3358-2255
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>

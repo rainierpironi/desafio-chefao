@@ -3,20 +3,20 @@
     max-width: 100%;
     height: 100vh;
     font-family: 'DM Sans', sans-serif;
-    background-color: #DCE9E2;
+    background-color: rgba(0, 0, 0, 0.1);
     
 }
 
 .milhasUteisThird{
     font-size: 48px;
-    margin-left: 5%;
+    margin-left: 7%;
     padding-top: 5%;
     
 }
 .scrollUteisThird{
     margin-top: 2%;
-    width: 90vw;
-    margin-left: 5%;
+    width: 88vw;
+    margin-left: 7%;
         
 }
 .adjustUteisThird{
