@@ -46,7 +46,7 @@ const Contato: React.FC = () => {
     return (
 
         <>
-            <div className='main'>
+            <div className='main' id='contato'>
                 <div className='contato'>
                     <h1>Contato</h1>
                     <h4>A sua opinião é importante</h4>
