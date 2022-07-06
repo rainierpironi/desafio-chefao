@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
 .containerUteisThird{
     width: 100vw;
     max-width: 100%;
     height: 100vh;
     font-family: 'DM Sans', sans-serif;
     background-color: rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -11,6 +13,7 @@
     font-size: 48px;
     margin-left: 7%;
     padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
     
 }
 .scrollUteisThird{

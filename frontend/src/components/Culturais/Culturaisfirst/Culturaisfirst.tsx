@@ -6,9 +6,9 @@ import "../../Culturais/Culturaisfirst/Culturaisfirst.css"
 function Culturaisfirst() {
   return (
     <Fragment>
-       <div className='containerPlanFirst'>
-      <div className='containerPlanTituloFirst'>
-        <div className='tituloSegFirst'>
+       <div className='containerCultFirst'>
+      <div className='containerCultTituloFirst'>
+        <div className='tituloCultFirst'>
           <h1>Dicas Culturais</h1>
           <p>Conhecendo a riqueza das diferenças culturais no Brasi... 
 </p>

@@ -97,7 +97,7 @@ function Culturaisthird() {
                         <div className='adjustThird'>
                             <Accordion.Item eventKey="4">
                                 <div className='sombra'>
-                                    <Accordion.Header>Sul</Accordion.Header>
+                                    <Accordion.Header>Gastronomia do Sul</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
                                     <b>Churrasco </b>

@@ -1,24 +1,27 @@
-.containerFourth{
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
+.containerFourthPlan{
     width: 100vw;
     max-width: 100%;
     height: 100vh;
     font-family: 'DM Sans', sans-serif;
-    background-color: black;
+    background-color: #2a2b2c;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 .hospedagemPlan{
     font-size: 48px;
-    margin-left: 5%;
+    margin-left: 7%;
     padding-top: 5%;
     color: white;
+    font-family: 'Roboto', sans-serif;
     
 }
 .scrollHospedagem{
     margin-top: 2%;
-    width: 90vw;
-    margin-left: 5%;
-        
+    width: 88vw;
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;    
 }
 .adjustPlan{
     padding: 0.1%;

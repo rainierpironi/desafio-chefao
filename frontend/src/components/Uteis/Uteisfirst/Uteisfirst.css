@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
 div.containerUtilFirst{
    width: 100vw;
    height: 100vh;
@@ -7,20 +8,23 @@ div.containerUtilFirst{
    background-size:cover;
    background-position:center;
    color: white;
-  
+   font-family: 'Roboto', sans-serif;
 }
 div.containerTituloUtilFirst{
 text-shadow: 2px 4px 5px black;
-width: 38vw;
+width: 41vw;
 height: 10vh;
 text-align: left;
 padding-top: 14%;
 margin-left: 7%;
+font-family: 'Roboto', sans-serif;
 }
 div.containerTituloUtilFirst h1{
    font-size: 52px;
+   font-family: 'Roboto', sans-serif;
 }
 div.containerTituloUtilFirst p{
    font-size: 36px;
+   font-family: 'Roboto', sans-serif;
 }
 
