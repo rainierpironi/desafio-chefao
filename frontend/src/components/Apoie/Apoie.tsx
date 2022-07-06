@@ -1,31 +1,39 @@
 import React, { Fragment } from 'react'
 import { Button, Card, Container, Figure } from 'react-bootstrap'
 import Imagem from "../../assets/Images/imgapoie.png"
+import Seta from "../../assets/Images/chevron-down.svg"
 import "./Apoie.css"
 
 function Apoie() {
     return (
         <Fragment>
-            
+
             <div className='containerApoie' id='apoie'>
-            
+
                 <div className='textoApoie'>
-                
+
                     <h1>Apoie</h1>
                     <br />
                     <p>Gostou da plataforma? Saiba como você pode contribuir financeiramente para manter essa plataforma funcionando.</p>
                     <button id='buttonApoie'>Contribuir</button>
                 </div>
 
-                
-        
+
+
                 <Figure className='figura' >
-                    
-                   
-                    
+
+
+
                 </Figure>
 
             </div>
+
+            <div className='gradienteApoie'>
+                <a href="#contato" className='seta'>
+                    <img src={Seta} alt="seta" />
+                </a>
+            </div>
+
 
         </Fragment>
     )

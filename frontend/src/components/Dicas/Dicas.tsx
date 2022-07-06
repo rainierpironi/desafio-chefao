@@ -60,8 +60,8 @@ function Dicas() {
             </div>
 
             <div className='gradiente'>
-                <a href="#conecte-se" className='seta'>
-                    <img src={Seta} alt="seta" />
+                <a href="#dicas" className='seta'>
+                    <img src={Seta} alt="seta" className='chevron'/>
                 </a>
             </div>
 

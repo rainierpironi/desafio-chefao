@@ -25,7 +25,7 @@ const BannerHome: React.FC = () => {
       </div>
 
       <Gradiente>
-        <Seta href="#dicas">
+        <Seta href="#sobre">
           <Styled.ImagemChevron src={Chevron} alt="seta" />
         </Seta>
       </Gradiente>

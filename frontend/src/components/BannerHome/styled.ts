@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import fundo from "../../assets/Images/fundo-banner-home.png";
+import fundo from "../../assets/Images/banner-home.svg";
 
 export const containerApoie = styled.div`
     width: 100vw;
@@ -23,16 +23,23 @@ export const containerApoie = styled.div`
     h1{
     margin-top: 18vh;
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 52px;
     font-weight: 700;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.95);
  }
  
  p{
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.95);
+    width: 90%;
  }
+
+    @media screen and (max-width: 1400px) {
+      padding-left: 7%;
+      margin-left: 0;
+    }
  `
 
 export const VL = styled.div`
@@ -79,10 +86,10 @@ export const Gradiente = styled.div`
    width: 100%;
    height: 80px;
    position: absolute;
-   top: 1120px;
+   top: 1085px;
 
    @media screen and (max-width: 1400px) {
-      top: 770px;
+      top: 760px;
    }
 `
 

@@ -16,36 +16,36 @@ function Conecte() {
         <div className='containerConecte'>
           <div className="textoConecte">
             <h1>Conecte-se</h1>
-            <h2>Selecionando uma região do Brasil você será direcionada para um grupo de mulheres viajantes solo Telegram</h2>
+            <h2>Selecione um grupo de mulheres viajantes solo</h2>
           </div>
         </div>
       </div>
 
       <div ></div>
       <div className="containerimg">
-        <div>
+        <div className='linkRegiao'>
           <Link to="/destinos/norte">
-          <img id="efeito" src={Norte} alt="Mapa norte" />
+            <img id="efeito" src={Norte} alt="Mapa norte" />
           </Link>
         </div>
-        <div>
+        <div className='linkRegiao'>
           <Link to="/destinos/nordeste">
-          <img id="efeito"  src={Nordeste} alt="Ma´´a Nordeste" />
+            <img id="efeito" src={Nordeste} alt="Ma´´a Nordeste" />
           </Link>
         </div>
-        <div>
+        <div className='linkRegiao'>
           <Link to="/destinos/centro-oeste">
-          <img id="efeito"  src={CentroOeste} alt="Mapa centro oeste" />
+            <img id="efeito" src={CentroOeste} alt="Mapa centro oeste" />
           </Link>
         </div>
-        <div>
+        <div className='linkRegiao'>
           <Link to="/destinos/sudeste">
-          <img id="efeito" src={Sudeste} alt="Mapa Sudeste" />
+            <img id="efeito" src={Sudeste} alt="Mapa Sudeste" />
           </Link>
         </div>
-        <div>
+        <div  className='linkRegiao'>
           <Link to="/destinos/sul">
-          <img id="efeito"  src={Sul} alt=" Mapa Sul" />
+            <img id="efeito" src={Sul} alt=" Mapa Sul" />
           </Link>
         </div>
 
@@ -53,7 +53,7 @@ function Conecte() {
 
       <div className='containerblur'>
         <div>
-          <div className='gradiente2'>
+          <div className='gradienteConecte'>
             <a href="#apoie" className='seta'>
               <img src={Seta} alt="seta" />
             </a>
