@@ -3,17 +3,8 @@ import Form from 'react-bootstrap/Form';
 import { useFormik } from 'formik';
 import * as yup from "yup";
 import { postContato } from '../../services/MainAPI/contato';
-import Button from 'react-bootstrap/Button';
-import Toast from 'react-bootstrap/Toast';
+import { Container, Toast, Button } from 'react-bootstrap';
 import './contato.css';
-import { Container } from 'react-bootstrap';
-
-interface Contato {
-    nome: string,
-    email: string,
-    assunto: string,
-    mensagem: string
-}
 
 const validationSchema = yup.object({
     nome: yup.string().required("Valor é requerido"),
@@ -22,7 +13,7 @@ const validationSchema = yup.object({
     mensagem: yup.string().min(50, "Quantidade mínima requerida").max(500, "Quantidade máxima ultrapassada").required("Valor é requerido")
 })
 
-const Contato: React.FC = () => {
+const FormContato: React.FC = () => {
 
     const [show, setShow] = useState(false);
 
@@ -144,7 +135,7 @@ const Contato: React.FC = () => {
     );
 }
 
-export default Contato;
+export default FormContato;
 
 function resetForm(arg0: { values: string; }) {
     throw new Error('Function not implemented.');

@@ -32,11 +32,16 @@
 }
 
 .comentario-cidades {
-    width:90vh;
+    height: 90vh;
+    width: 45vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
 }
 
 .comentario-cidades div{
     margin-bottom: 5vh;
+    overflow-y: visible;
 }
 
 .comentario-cidades h3{
@@ -45,6 +50,10 @@
 
 .comentario-cidades div h5{
     color:#6F971A;
+}
+
+.comentario-cidades p {
+    width: 50vw;
 }
 
 .form-comentario-cidades{
