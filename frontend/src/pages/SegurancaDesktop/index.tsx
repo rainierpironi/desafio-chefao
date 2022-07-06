@@ -12,7 +12,7 @@ function PaginaSecurity() {
       <Header/>
         <SegurancaFirst/>
         <SegurancaSecond/>
-        
+        <Footer/>
         
         </Fragment>
       )
