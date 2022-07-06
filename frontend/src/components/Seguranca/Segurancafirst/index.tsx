@@ -1,33 +1,21 @@
-import React, { Fragment } from 'react'
-import { Figure } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import Imagem from "../../../assets/Images/segdesktop.png"
-import "../Segurancafirst/styles.css"
-import Faixa from "../../../assets/Images/segfaixa.png"
+import React from 'react';
+import "./styles.css"
+import FaixaSeg from "../../../assets/Images/segfaixa.png"
 
-function SecurityFirst() {
+// import { Container } from './styles';
+
+const SegurancaFirst: React.FC = () => {
   return (
-    <Fragment>
-<main className='containercult'>
-        
-        <div className='containerBack'>
-          <img src={Imagem} alt="" />
-        </div>
-        
-        <div className='titulocult'>
+    <div className='containerSegFirst'>
+      <div className='containerTituloFirst'>
+        <div className='tituloSegFirst'>
           <h1>Dicas de Segurança</h1>
           <p>Identificando fatores de risco para evitá-los...</p>
         </div>
-        <div className='faixacult'>
-          <img src={Faixa} alt="" />
+      </div>
         </div>
-
-      </main>
-
-
-
-    </Fragment>
-     )
+    
+  )
 }
 
-export default SecurityFirst
+export default SegurancaFirst;

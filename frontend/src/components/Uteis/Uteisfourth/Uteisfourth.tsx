@@ -63,22 +63,8 @@ function Uteisfourth() {
                             </Accordion.Item>
                         </div>
                     </Accordion>
-
-
-
-
                 </div>
-
-
-
-
             </div >
-
-
-
-
-
-
         </Fragment>
     )
 }
