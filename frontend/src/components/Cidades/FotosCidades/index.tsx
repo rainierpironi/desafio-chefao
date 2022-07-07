@@ -11,7 +11,6 @@ import './fotos-cidades.css';
 
 const FotosCidades: React.FC = () => {
   return (
-    <Container>
       <div className='main-fotos-cidades'>
         <img id='borda-dashed' src={linhaPontilhada} alt="" />
         <h2>Lugares interessantes para conhecer</h2>
@@ -34,7 +33,6 @@ const FotosCidades: React.FC = () => {
           </div>
         </div>
       </div>
-    </Container>
   );
 }
 

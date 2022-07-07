@@ -55,16 +55,16 @@ const ComentarioCidades: React.FC = () => {
 
     <div className='main-form-cidades'>
       <div id='borda'></div>
-
-
-      <div className='comentario-cidades'>
+      <div className='comentarios'>
         <h3>Comentários</h3>
-        {comentario.map((comentario: Comentarios) => (
-        <div>
-          <h5>{comentario.nome}</h5>
-          <p>{comentario.mensagem}</p>
+        <div className='comentario-cidades'>
+          {comentario.map((comentario: Comentarios) => (
+            <div>
+              <h5>{comentario.nome}</h5>
+              <p>{comentario.mensagem}</p>
+            </div>
+          )).reverse()}
         </div>
-        )).reverse()}
       </div>
 
 
@@ -72,12 +72,21 @@ const ComentarioCidades: React.FC = () => {
         <Form onSubmit={formik.handleSubmit}>
           <h3>Deixe o seu comentário sobre esse conteúdo:</h3>
           <Form.Group className="mb-3 " controlId="nome">
-            <Form.Label>Nome</Form.Label>
+            <Form.Label style={{
+                fontFamily: 'Roboto',
+                fontStyle: 'normal',
+                fontWeight: '500',
+                fontSize: '20px',
+              }}>Nome</Form.Label>
             <Form.Control type="text"
               placeholder="Digite aqui o seu nome..."
               style={{
                 height: '50px',
-                borderRadius: '30px'
+                borderRadius: '30px',
+                fontFamily: 'Roboto',
+                fontStyle: 'normal',
+                fontWeight: '300',
+                fontSize: '16px',
               }}
               defaultValue={formik.values.nome}
               onChange={formik.handleChange} />
@@ -85,12 +94,21 @@ const ComentarioCidades: React.FC = () => {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="email">
-            <Form.Label>E-mail</Form.Label>
+            <Form.Label style={{
+                fontFamily: 'Roboto',
+                fontStyle: 'normal',
+                fontWeight: '500',
+                fontSize: '20px',
+              }}>E-mail</Form.Label>
             <Form.Control type="email"
               placeholder="Digite aqui o seu e-mail..."
               style={{
                 height: '50px',
-                borderRadius: '30px'
+                borderRadius: '30px',
+                  fontFamily: 'Roboto',
+                  fontStyle: 'normal',
+                  fontWeight: '300',
+                  fontSize: '16px',
               }}
               defaultValue={formik.values.email}
               onChange={formik.handleChange} />
@@ -100,10 +118,21 @@ const ComentarioCidades: React.FC = () => {
           <div>
 
             <Form.Group className="mb-3 " controlId="mensagem">
-              <Form.Label>Mensagem</Form.Label>
+              <Form.Label style={{
+                fontFamily: 'Roboto',
+                fontStyle: 'normal',
+                fontWeight: '500',
+                fontSize: '20px',
+              }}>Mensagem</Form.Label>
               <Form.Control as="textarea" rows={5}
                 placeholder="Digite aqui sua mensagem até 280 caracteres..."
-                style={{ borderRadius: '30px' }}
+                style={{ 
+                  borderRadius: '30px',
+                  fontFamily: 'Roboto',
+                  fontStyle: 'normal',
+                  fontWeight: '300',
+                  fontSize: '16px',
+              }}
                 defaultValue={formik.values.mensagem}
                 onChange={formik.handleChange} />
               {formik.errors.mensagem && <span>{formik.errors.mensagem}</span>}
@@ -115,8 +144,10 @@ const ComentarioCidades: React.FC = () => {
               width: '8rem',
               height: '3rem',
               borderRadius: '30px',
-              boxShadow: ' 1px 5px 5px black',
-              fontStyle: 'bold',
+              filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))',
+              fontFamily: 'Roboto',
+              fontStyle: 'normal',
+              fontWeight: '700',
               fontSize: '20px',
               display: 'flex',
               alignItems: 'center',
