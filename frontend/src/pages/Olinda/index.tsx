@@ -8,7 +8,7 @@ import ComentarioCidades from '../../components/Cidades/ComentarioCidades';
 import Footer from '../../components/Footer';
 
 
-const Cidades: React.FC = () => {
+const Olinda: React.FC = () => {
   return (
       <Container>
           <Header/>
@@ -22,4 +22,4 @@ const Cidades: React.FC = () => {
   );
 }
 
-export default Cidades;
+export default Olinda;

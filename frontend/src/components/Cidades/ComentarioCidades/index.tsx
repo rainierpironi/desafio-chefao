@@ -53,7 +53,7 @@ const ComentarioCidades: React.FC = () => {
 
   return (
 
-    <div className='main-cidades'>
+    <div className='main-form-cidades'>
       <div id='borda'></div>
 
 

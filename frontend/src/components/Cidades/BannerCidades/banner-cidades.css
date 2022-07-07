@@ -8,8 +8,10 @@
     color: #FFFFFF;
 }
 
-.nome-cidades{
-    margin-top:17rem;
+.voltar-pagina{
+    margin-left:6%;
+    margin-top:3%;
+
 }
 
 .nome-cidades h1{
@@ -29,14 +31,15 @@
 .gradient{
     backdrop-filter: blur(5px);
     width: 100%;
-    height: 80px;
+    height: 5rem;
     
 }
 
 .seta-down{
     display: flex;
     justify-content: center;
-    
-    height:81px;
+    padding-top:2rem;
+    height:5rem;
     
 }
+
