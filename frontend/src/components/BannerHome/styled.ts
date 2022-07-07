@@ -14,10 +14,10 @@ export const containerApoie = styled.div`
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
  `
- 
- export const textoApoie = styled.div`
-    max-width: 50%;
-    margin-top: 10%;
+
+export const textoApoie = styled.div`
+    max-width: 60%;
+    margin-top: 5%;
     margin-left: 5%;
     
     h1{
@@ -42,42 +42,62 @@ export const containerApoie = styled.div`
     }
  `
 
-export const VL = styled.div`
- border-left: 6px solid white;
-  height: 25%;
-  position: absolute;
-  margin-top: -30%;
-  left: 90%;
+export const BotaoHome = styled.button`
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border: none;
+    background: #FEC901;
+    box-shadow: 0px 4.33272px 4.33272px rgba(0, 0, 0, 0.95);
+    padding: 10px 50px 10px 50px;
+    margin-top: 5%;
+    font-size: 28px;
+    border-radius: 32.5px;
+    color: #424243;
+    transition: all 0.3s;
+
+  :hover {
+   background-color: #F6980B;
+   color: #1A1A1B;
+   transition: 0.5s;
+}
 `
 
-export const VL2 = styled.div`
- border-left: 6px solid white;
-  height: 25%;
-  position: absolute;
-  margin-top: 40%;
-  left: 90%;
-`
-export const Link = styled.a`
-    font-size: 20px;
-  height: 30%;
-  position: absolute;
-  margin-top: 5%;
-  left: 89.2%;
-`
-export const Link2 = styled.a`
- font-size: 20px;
-  height: 30%;
-  position: absolute;
-  margin-top: 15%;
-  left: 89%;
-`
-export const Link3 = styled.a`
- font-size: 20px;
-  height: 30%;
-  position: absolute;
-  margin-top: 25%;
-  left: 88.9%;
-`
+// export const VL = styled.div`
+//  border-left: 6px solid white;
+//   height: 25%;
+//   position: absolute;
+//   margin-top: -30%;
+//   left: 90%;
+// `
+
+// export const VL2 = styled.div`
+//  border-left: 6px solid white;
+//   height: 25%;
+//   position: absolute;
+//   margin-top: 40%;
+//   left: 90%;
+// `
+// export const Link = styled.a`
+//     font-size: 20px;
+//   height: 30%;
+//   position: absolute;
+//   margin-top: 5%;
+//   left: 89.2%;
+// `
+// export const Link2 = styled.a`
+//  font-size: 20px;
+//   height: 30%;
+//   position: absolute;
+//   margin-top: 15%;
+//   left: 89%;
+// `
+// export const Link3 = styled.a`
+//  font-size: 20px;
+//   height: 30%;
+//   position: absolute;
+//   margin-top: 25%;
+//   left: 88.9%;
+// `
 
 export const Gradiente = styled.div`
    background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
