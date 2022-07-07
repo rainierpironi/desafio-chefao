@@ -3,7 +3,7 @@
     padding-bottom: 30px;
     display:flex;  
     flex-wrap: wrap;
-    height: 684px;
+    height: 50rem;
     background-color: #2a2b2c;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .contato h1 {
-    font-size:3em;
+    font-size:3rem;
     font-weight:700;
     margin-bottom:5%;
     color: #FFFFFF;
@@ -22,7 +22,7 @@
 
 .contato h4 {
     color: #FFFFFF;
-    font-size:2.25em;
+    font-size:2.25rem;
     font-weigh:400;
     margin-bottom:15%;
 }
@@ -45,6 +45,7 @@
 
 .nome-email {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -92,4 +93,30 @@ span {
     font-weight: 400;
     font-size: 24px;
     color: #495057;
+}
+
+@media only screen and (max-width: 480px){
+    .main {
+       height:90rem;
+       margin-bottom:0;
+       
+    }
+
+    .contato-form{
+        height:40rem;
+        width:90%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 820px) and (min-width: 481px){
+    .main {
+        height:120rem;
+    }
+
+    .contato-form{
+        height:40rem;
+        width:90%;
+    }
 }
