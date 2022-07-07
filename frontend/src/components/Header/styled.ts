@@ -52,6 +52,8 @@ export const a = styled(Link)`
 `
 
 export const Barra = styled(NavDropdown)`
+    right: 60px;
+
 .dropdown-toggle::after{
     color: white;
 }

@@ -8,11 +8,11 @@ export const ContainerDestinos = styled.div`
 `
 
 export const ContainerTitulos = styled.div`
-   padding-left: 10%;
+   padding-left: 17%;
 
    @media screen and (max-width: 1400px) {
-      padding-left: 0;
-}
+      padding-left: 7%;
+   }
 `
 
 export const TituloDestinos = styled.h2`
@@ -20,7 +20,7 @@ export const TituloDestinos = styled.h2`
    font-weight: 700;
    font-size: 48px;
    color: #FFF;
-   padding: 7% 0 0 7%;
+   padding: 7% 0 0 0;
 `
 
 export const SubtituloDestinos = styled.h3`
@@ -29,12 +29,11 @@ export const SubtituloDestinos = styled.h3`
    font-size: 36px;
    color: #FFF;
    padding-bottom: 2%;
-   padding-left: 7%;
 `
 
 export const ConteudoDestinos = styled.div`
    justify-content: center;
-   padding: 0 0 10% 16%;
+   padding: 0 0 10% 17%;
 
    @media screen and (max-width: 1400px) {
       padding: 0 0 10% 7%;
@@ -105,4 +104,7 @@ export const SetaDestinos = styled.a`
    padding-top: -10px;
 `
 
-export const ImagemChevronDestinos = styled.img``
+export const ImagemChevronDestinos = styled.img`
+   position: absolute;
+   top: -10px;
+`

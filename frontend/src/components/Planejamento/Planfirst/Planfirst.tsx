@@ -8,25 +8,15 @@ function Planfirst() {
   return (
     <Fragment>
       
-      <main className='containercult'>
-        
-        <div className='containerBack'>
-          <img src={Imagem} alt="" />
-        </div>
-        
-        <div className='titulocult'>
-          <h1>Dicas Planejamento</h1>
+      <div className='containerPlanFirst'>
+      <div className='containerTituloPlanFirst'>
+        <div className='tituloPlanFirst'>
+          <h1>Dicas de Planejamento</h1>
           <p>Organizando e entendendo o que é preciso para por o pé na estrada...</p>
         </div>
-        <div className='faixacult'>
-          <img src={Faixa} alt="" />
+      </div>
         </div>
-
-      </main>
-
-
-            
-            
+           
 
 
     </Fragment>

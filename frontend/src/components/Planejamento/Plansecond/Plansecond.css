@@ -1,33 +1,32 @@
-.containerSecond{
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
+div.containerPlanSecond {
+
     width: 100vw;
-    max-width: 100%;
     height: 100vh;
-    font-family: 'DM Sans', sans-serif;
-    background-color: #FFE3E3;
-    
+    max-width: 100%;
+    background-color: #2a2b2c;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+}
+#faixa{
+    max-width: 100vw;
+    margin-top: -55px;
 }
 
-.borderPlan{
-    border: 1px solid white;
-    padding: 2%;
-    background-color: white;
-}
-.aereasPlan{
-    font-size: 48px;
-    margin-left: 5%;
-    margin-top: 4%;
+div.tituloPlanSecond{
     color: white;
+   font-size: 48px;
+   margin-left: 7%;
+   font-family: 'Roboto', sans-serif;
 }
-.scrollPaln{
-    margin-top: 2%;
-    width: 90vw;
-    margin-left: 5%;
-        
+div.dropPlanSecond{
+    color: black;
+    width: 88vw;
+   margin-left: 7%;
 }
-.adjustPlan{
+div.adjustPlanSecond{
     padding: 0.1%;
-}
-.sombra{
-    box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
-        
 }

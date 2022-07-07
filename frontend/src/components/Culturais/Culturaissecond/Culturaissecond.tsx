@@ -1,165 +1,72 @@
 import React, { Fragment } from 'react'
 import { Accordion } from 'react-bootstrap'
 import "../../Culturais/Culturaissecond/Culturaissecond.css"
-
+import FaixaCult from "../../../assets/Images/cultfaixa.png"
 function Culturaissecond() {
     return (
         <Fragment>
+ <div className='containerCultSecond'>
+            <div>
+                <img id="faixa" src={FaixaCult} alt="Faixa banner" />
+            </div>
+            <div className='tituloCultSecond'>
+                <p>Expressões</p>
+            </div>
+            <div className='dropCultSecond'>
+                <Accordion >
+                    <div className='adjustCult'>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>Expressões do Norte</Accordion.Header>
+                        <Accordion.Body>
+                        <b>BOROGODÓ</b> – pessoa que se destaca por alguma coisa. <b>BROCADO</b> – estar com fome. <b>CAPAR O GATO</b> – ir embora. <b>CURIMIN</b> – menino, garoto. <b>DE ROCHA</b> – pessoa que tem palavra, convicção no assunto. <b>ÉGUA DE LARGURA</b> – muita sorte.<b>ÉGUA</b> – expressa espanto, assim como “eita” ou “caramba”. <b>GAIATO</b> – uma pessoa que gosta de fazer gracinhas.<b>IXI</b> – serve como exclamação. <b>LEVOU O FARELO</b> – morreu. <b>MIUDINHO</b> – pequeno. <b>MOSCOU</b> – foi pego em flagrante. <b>TEÚ </b>– lagarto. <b>TUBÃO</b> – soco na cara. <b>VIGIA BEM</b> – presta muita atenção.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    </div>
+                    <div className='adjustCult'>
+                    <Accordion.Item eventKey="1">
+                        <Accordion.Header>Expressões do Nordeste</Accordion.Header>
+                        <Accordion.Body>
+                        <b>ABESTADO</b> –  bobo, tolo, leso. <b>ACOITAR</b> – proteger. <b>ALUADO</b>– que fica no mundo da lua. <b>AMARRADO</b> – pessoa avarenta, mesquinha. <b>AMOFINADO</b> – aborrecido. <b>APERREAR</b> – encher o saco. <b>APOMBAIADO</b> – nunca entende nada. <b>ARRETADO</b> – que é legal, bacana, tudo de bom. AVEXADO – que está apressado. <b>AZURETADO</b> –  confuso. <b>BARRIL</b> – quando algo é difícil ou perigoso. <b>BIZONHO</b> – pessoa quando triste, calado. <b>BUCHUDA</b> – gestante. <b>CAFURINGA</b> – coisa muito pequena. <b>DESMANTELAR</b> – arruinar. <b>ESTRAMBÓLICO</b> – esquisito, extravagante. <b>FARRAPAR</b> – marcar um compromisso e faltar. <b>FUZUÊ</b> – confusão, barulho. <b>MACAMBÚZIO</b> – pensativo, tristonho, cabisbaixo. <b>MANGAR</b> – fazer graça com alguém. <b>MIGUÉ</b> – falar algo só para convencer alguém. <b>MORGADO</b> – desanimado. <b>PAGAR SAPO</b> – passar vergonha. <b>SUSTANÇA</b> – comida que dá força e vigor.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    </div>
+                    <div className='adjustCult'>
+                    <Accordion.Item eventKey="2">
+                        <Accordion.Header>Expressões do Centro-Oeste</Accordion.Header>
+                        <Accordion.Body>
+                        <b>ABISCOITAR</b> – receber dinheiro ou herança. <b>ARRUINOU</b> – piorou de saúde. <b>BERERÉ</b> – propina, dinheiro ganhado fácil. <b>BITELO</b> – algo grande. <b>BORRACHO</b> – bêbado. <b>CAMELA</b> – bicicleta. <b>CARRETA</b> – carro. <b>COMER NA GAVETA</b> – se relaciona a uma pessoa que é avarenta, um pão-duro. <b>DESCABRIADO</b> – descontrolado. <b>DORMIR NO MACIO</b> – viver folgado. <b>EMPATAR</b> – atrapalhar. <b>MADURAR</b> – amadurecer. <b>NÃO DÁ CONTA</b> – não consegue fazer algo que precisa ser feito. <b>PARA DE MULA</b> – perturbar. <b>PATIFE</b> – alguém medroso. <b>PÉ-DE-BOI</b> – pessoa que é trabalhadora. <b>PERRENGUE</b> – pessoa está adoentada ou enfraquecida. <b>TÁ CHOVENDO DURO</b> – chover torrencialmente.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    </div>
+                    <div className='adjustCult'>
+                    <Accordion.Item eventKey="3">
+                        <Accordion.Header>Expressões do Sudeste</Accordion.Header>
+                        <Accordion.Body>
+                        <b>BATER UM RANGO</b> – comer, matar a fome. <b>BOLADO</b> – preocupado. <b>CHAPAR O COCO</b> – beber muito. <b>DA HORA</b> – legal. <b>É FRIA</b> – é perigoso. <b>JACÚ</b> – bobo, ignorante. <b>LARICA</b> – fome. <b>MAROMBADO</b> – pessoa que faz musculação, quem é musculoso. <b>PADOCA</b> – padaria. <b>QUEBRADO</b> – sem dinheiro. <b>ROLÊ</b> – sair, dar uma volta, passeio. <b>SANGUE BOM</b> – pessoa legal, gente fina. <b>SÓ O PÓ</b> – cansado. <b>TREM</b> – qualquer coisa, qualquer objeto. <b>TRETA</b> – confusão, briga. <b>TROCAR IDEIA</b> – conversar. <b>ZUEIRA</b> – brincadeira, bagunça.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    </div>
+                    <div className='adjustCult'>
+                    <Accordion.Item eventKey="4">
+                        <Accordion.Header>Expressões do Sul</Accordion.Header>
+                        <Accordion.Body>
+                        <b>ALÇAR A PENA</b> – montar no cavalo. <b>BAH</b> – é uma expressão usada em diversas situações e no início das frases. <b>CACETINHO</b> – pão francês. <b>CAIR OS BUTIÁ DO BOLSO</b> – se assustar, ficar surpreso com algo. <b>DAR UMA BANDA</b> – sair, dar uma volta. <b>DEITAR O CABELO</b> – fugir, cair fora. <b>DESABOTINADO</b> – adoidado, estourado. <b>EMPRETAR-SE</b> – meter-se em apuros. <b>ESGUALEPADO</b> – ferido, machucado. <b>GUAIPECA</b> – cachorro, vira-lata. <b>GURI E GURIA</b> – menino e menina. <b>LAGARTEAR</b> – ficar no sol. <b>LINDEIRO</b> – vizinho. <b>SOLITO</b> – sozinho, sem companhia. <b>TCHÊ</b> – usado geralmente no fim das frases para chamar atenção. <b>TRI</b> – bom, legal, muito maneiro. TROVAR – chavecar.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    </div>
 
-            <div className='containerSecond'>
+                    
 
-                <div className='borderSecond'></div>
-                <div className='aereasSecond'>Expressões</div>
-                <div className='scrollSecond'>
-
-                    <Accordion >
-                        <div className='adjustSecond'>
-
-                            <Accordion.Item eventKey="0">
-
-                                <div className='sombra'>
-                                    <Accordion.Header>Expressões do Norte</Accordion.Header>
-                                </div>
-                                <Accordion.Body>
-                                    <b> Borogodó</b> – pessoa que se destaca por alguma coisa.
-                                    <b>Brocado</b> – estar com fome.
-                                    <b> Capar o gato</b> – ir embora.
-                                    <b>Curumin</b> – menino, garoto.
-                                    <b>De rocha</b> – pessoa que tem palavra, convicção no assunto.
-                                    <b>Égua de largura</b> – muita sorte.
-                                    <b>Égua</b> – expressa espanto, assim como “eita” ou “caramba”.
-                                    <b>Gaiato</b> – uma pessoa que gosta de fazer gracinhas.
-                                    <b>Ixi</b> – serve como exclamação.
-                                    <b>Levou o farelo</b> – morreu.
-                                    <b>Miudinho</b> – pequeno.
-                                    <b>Moscou</b> – foi pego em flagrante.
-                                    <b>Teú</b> – lagarto.
-                                    <b>Tubão</b> – soco na cara.
-                                    <b>Vigia bem</b> – presta muita atenção.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        </div>
-
-
-                        <div className='adjustSecond'>
-                            <Accordion.Item eventKey="1">
-                                <div className='sombra'>
-                                    <Accordion.Header>Expressões do Nordeste</Accordion.Header>
-                                </div>
-                                <Accordion.Body>
-                                    <b>Abestado</b> –  bobo, tolo, leso.
-                                    <b>Acoitar</b> – proteger.
-                                    <b>Aluado</b> – que fica no mundo da lua.
-                                    <b>Amarrado</b> – pessoa avarenta, mesquinha.
-                                    <b>Amofinado</b> –  aborrecido.
-                                    <b>Aperrear</b> – encher o saco.
-                                    <b>Apombaiado</b> – nunca entende nada.
-                                    <b>Arretado</b> – que é legal, bacana, tudo de bom.
-                                    <b>Avexado</b> – que está apressado.
-                                    <b>Azuretado</b> –  confuso.
-                                    <b>Barril</b> – quando algo é difícil ou perigoso.
-                                    <b>Bizonho</b> – pessoa quando triste, calado.
-                                   <b> Buchuda</b> – gestante.
-                                   <b>Cafuringa</b> – coisa muito pequena.
-                                   <b>Desmantelar</b> – arruinar.
-                                   <b>Estrambólico</b> – esquisito, extravagante.
-                                   <b>Farrapar</b> – marcar um compromisso e faltar.
-                                   <b>Fuzuê</b> – confusão, barulho.
-                                   <b>Macambúzio</b> – pensativo, tristonho, cabisbaixo.
-                                   <b>Mangar</b> – fazer graça com alguém.
-                                   <b>Migué</b> – falar algo só para convencer alguém.
-                                   <b>Morgado</b> – desanimado.
-                                   <b>Pagar sapo</b> – passar vergonha.
-                                   <b>Sustança</b> – comida que dá força e vigor.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        </div>
+                    
 
 
-                        <div className='adjustPlan'>
-                            <Accordion.Item eventKey="2">
-                                <div className='sombra'>
-                                    <Accordion.Header>Expressões do Centro-Oeste</Accordion.Header>
-                                </div>
-                                <Accordion.Body>
-                                    <b>Abiscoitar</b> – receber dinheiro ou herança.
-                                    <b>Arruinou</b> – piorou de saúde.
-                                    <b>Bereré</b> – propina, dinheiro ganhado fácil.
-                                    <b>Bitelo</b> – algo grande.
-                                    <b>Borracho</b> – bêbado.
-                                    <b>Camela</b> – bicicleta.
-                                    <b>Carreta</b>  – carro.
-                                    <b>Comer na gaveta</b> – se relaciona a uma pessoa que é avarenta, um pão-duro.
-                                    <b>Descabriado</b> – descontrolado.
-                                    <b>Dormir no macio</b> – viver folgado.
-                                    <b>Empatar</b> – atrapalhar.
-                                    <b>Madurar</b> – amadurecer.
-                                    <b>Não dá conta</b> – não consegue fazer algo que precisa ser feito.
-                                    <b>Para de mula</b> – perturbar.
-                                    <b>Patife</b> – alguém medroso.
-                                    <b>Pé-de-boi</b> – pessoa que é trabalhadora.
-                                    <b>Perrengue</b> – pessoa está adoentada ou enfraquecida.
-                                    <b>Tá chovendo duro</b> – chover torrencialmente.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        </div>
-                        <div className='adjustPlan'>
-                            <Accordion.Item eventKey="3">
-                                <div className='sombra'>
-                                    <Accordion.Header>Expressões doSudeste</Accordion.Header>
-                                </div>
-                                <Accordion.Body>
-                                    <b>Bater um rango</b> – comer, matar a fome.
-                                    <b>Bolado</b> – preocupado.
-                                    <b>Chapar o coco</b> – beber muito.
-                                    <b>Da hora</b> – legal.
-                                    <b>É fria</b> – é perigoso.
-                                    <b>Jacú</b> – bobo, ignorante.
-                                    <b>Larica</b> – fome.
-                                    <b>Marombado</b> – pessoa que faz musculação, quem é musculoso.
-                                    <b>Padoca</b> – padaria.
-                                    <b>Quebrado</b> – sem dinheiro.
-                                    <b>Rolê</b> – sair, dar uma volta, passeio.
-                                    <b>Sangue bom</b> – pessoa legal, gente fina.
-                                    <b>Só o pó</b> – cansado.
-                                    <b>Trem – qualquer</b> coisa, qualquer objeto.
-                                    <b>Treta</b> – confusão, briga.
-                                    <b>Trocar ideia</b> – conversar.
-                                    <b>Zueira</b> – brincadeira, bagunça.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        </div>
-                        <div className='adjustPlan'>
 
-                            <Accordion.Item eventKey="4">
-                                <div className='sombra'>
-                                    <Accordion.Header>Expressões do Sul</Accordion.Header>
-                                </div>
-                                <Accordion.Body>
-                                <b>Alçar a pena</b> – montar no cavalo.
-                                <b>Bah</b> – é uma expressão usada em diversas situações e no início das frases.
-                                <b>Cacetinho</b> – pão francês.
-                                <b>Cair os butiá do bolso</b> – se assustar, ficar surpreso com algo.
-                                <b>Dar uma banda</b> – sair, dar uma volta.
-                                <b>Deitar o cabelo</b> – fugir, cair fora.
-                                <b>Desabotinado</b> – adoidado, estourado.
-                                <b>Embretar-se</b> – meter-se em apuros.
-                                <b>Esgualepado</b> – ferido, machucado.
-                                <b>Guaipeca</b> – cachorro, vira-lata.
-                                <b>Guri e Guria</b> – menino e menina.
-                                <b>Lagartear</b> – ficar no sol.
-                                <b>Lindeiro</b> – vizinho.
-                                <b>Solito</b> – sozinho, sem companhia.
-                                <b>Tchê</b> – usado geralmente no fim das frases para chamar atenção.
-                                <b>Tri</b> – bom, legal, muito maneiro.
-                                <b>Trovar</b> – chavecar.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        </div>
-                    </Accordion>
-                </div>
-            </div >
+                </Accordion>
+            </div>
 
+
+
+        </div>
         </Fragment >
     )
 

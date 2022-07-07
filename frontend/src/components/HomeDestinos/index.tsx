@@ -24,13 +24,13 @@ const Destinos: React.FC = () => {
                         <ImagemDestino src={ImagemNordeste} alt="paisagem-nordeste" />
                     </LinkDestino>
                     <LinkDestino to='/destinos/centro-oeste'>
-                        <ImagemDestino src={ImagemCentroOeste} alt="paisagem-centrooeste" />
+                        <ImagemDestino  src={ImagemCentroOeste} alt="paisagem-centrooeste" />
                     </LinkDestino>
                     <LinkDestino to='/destinos/sudeste'>
                         <ImagemDestino src={ImagemSudeste} alt="paisagem-sudeste" />
                     </LinkDestino>
                     <LinkDestino to='/destinos/sul'>
-                        <ImagemDestino src={ImagemSul} alt="paisagem-sul" />
+                        <ImagemDestino  src={ImagemSul} alt="paisagem-sul" />
                     </LinkDestino>
                 </ConteudoDestinos>
 

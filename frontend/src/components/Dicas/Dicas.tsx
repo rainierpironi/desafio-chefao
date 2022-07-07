@@ -61,7 +61,7 @@ function Dicas() {
 
             <div className='gradiente'>
                 <a href="#conecte-se" className='seta'>
-                    <img src={Seta} alt="seta" />
+                    <img src={Seta} alt="seta" className='chevron'/>
                 </a>
             </div>
 

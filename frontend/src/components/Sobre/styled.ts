@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ContainerSobre = styled.div`
     background-color: #f6f6f7;
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 5%;
 `
 
 export const Titulos = styled.div`
@@ -107,7 +107,7 @@ export const GradienteSobre = styled.div`
     width: 100%;
     height: 80px;
     position: absolute;
-    top: 2010px;
+    top: 1930px;
 
     @media screen and (max-width: 1400px) {
         top: 1500px;
@@ -121,5 +121,5 @@ export const SetaSobre = styled.a`
 
 export const ImagemChevronSobre = styled.img`
     position: absolute;
-    top: 15px;
+    top: -10px;
 `

@@ -1,52 +1,50 @@
-.containerGeralConecte{
+.containerGeralConecte {
     width: 100vw;
     max-width: 100%;
-    height: 51vh;
     background-color: #2a2b2c;
 }
 
-.gradiente {
-    background-color: #2a2b2c;
-    background: linear-gradient(0deg, #2a2b2c 35%, #f6f6f7 103%);
+.gradienteConecte {
+    background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(10px);
     width: 100%;
     height: 80px;
- }
- 
+    position: absolute;
+    top: 4000px;
+}
+
 .seta {
     display: flex;
     justify-content: center;
     padding-top: -10px;
 }
 
-.gradiente2 {
-    background-color: #1b1b1b;
-    background: linear-gradient(0deg, #f6f6f7 35%, #2a2b2c 103%);
-    width: 100%;
-    height: 100px;
- }
- 
-
-.containerConecte{
+.containerConecte {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    padding-left: 17%;
     width: 100%;
     background-color: #2a2b2c;
-    }
+}
 
-.textoConecte{
+.textoConecte {
     margin-top: 4%;
     text-align: start;
-    max-width: 70% ;
+    max-width: 70%;
     color: white;
-    
-    
 }
-.containerimg{
+
+.containerimg {
     display: flex;
     justify-content: center;
     background-color: #2a2b2c;
-    padding-bottom: 5%;
+    padding: 5% 0 5% 0;
+    flex-wrap: wrap;
+}
+
+.linkRegiao {
+    margin-right: 3%;
 }
 
 #efeito {
@@ -54,7 +52,18 @@
     cursor: pointer;
 }
 
-#efeito:hover{
+#efeito:hover {
     opacity: 50%;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 1400px) {
+
+    .gradienteConecte {
+        top: 3400px;
+    }
+
+    .containerConecte {
+        padding-left: 7%;
+    }
+ }

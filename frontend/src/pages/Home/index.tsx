@@ -6,7 +6,7 @@ import Footer from '../../components/Footer';
 import Destinos from '../../components/HomeDestinos';
 import Dicas from '../../components/Dicas/Dicas';
 import Conecte from '../../components/Conecte/Conecte';
-import Contato from '../../components/Contato';
+import FormContato from '../../components/Contato';
 import BannerHome from '../../components/BannerHome'
 const Home: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
         <Dicas/>
         <Conecte/>
         <Apoie />
-        <Contato/>
+        <FormContato/>
         <Footer />
     </Container>
   );

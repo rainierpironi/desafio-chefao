@@ -1,22 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
 .containerThird{
     width: 100vw;
     max-width: 100%;
     height: 100vh;
     font-family: 'DM Sans', sans-serif;
     background-color: #DCE9E2;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 .milhasPlan{
     font-size: 48px;
-    margin-left: 5%;
-    padding-top: 5%;
+    margin-left: 7%;
+    padding-top: 3%;
+    font-family: 'Roboto', sans-serif;
     
 }
-.scrollMilhas{
+div.scrollMilhas{
     margin-top: 2%;
-    width: 90vw;
-    margin-left: 5%;
+    width: 88vw;
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;
         
 }
 .adjustPlan{
