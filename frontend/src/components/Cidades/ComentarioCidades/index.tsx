@@ -112,8 +112,8 @@ const ComentarioCidades: React.FC = () => {
 
           <div className='form-comentario-btn'>
             <Button style={{
-              width: '128.08px',
-              height: '7vh',
+              width: '8rem',
+              height: '3rem',
               borderRadius: '30px',
               boxShadow: ' 1px 5px 5px black',
               fontStyle: 'bold',
