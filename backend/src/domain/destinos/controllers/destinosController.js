@@ -4,10 +4,10 @@ const DestinosController = {
     async create(req, res) {
         try {
             const { nome_regiao, nome_estado, nome_cidade } = req.body;
-            if (!nome_regiao || !nome_estado || !nome_cidade) {
-                throw new Error ( res.status(500).json('Todas as informações são obrigatórias!'));
+            // if (!nome_regiao || !nome_estado || !nome_cidade) {
+            //     throw new Error ( res.status(500).json('Todas as informações são obrigatórias!'));
                   
-              }
+            //   }
             const novoDestino = await Destinos.create({
                 nome_regiao,
                 nome_estado,

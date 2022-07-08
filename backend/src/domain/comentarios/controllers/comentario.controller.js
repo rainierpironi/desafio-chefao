@@ -6,9 +6,9 @@ const ComentarioController = {
         try{
             const { nome, email, mensagem, destinos_id } = req.body
 
-            if(!nome || !email || !mensagem || !destinos_id){
-                return res.status(400).json({message: "Nome, email, mensagem e id de destinos são obrigatórios"})
-            }
+            // if(!nome || !email || !mensagem || !destinos_id){
+            //     return res.status(400).json({message: "Nome, email, mensagem e id de destinos são obrigatórios"})
+            // }
             
             const novoComentario = await Comentarios.create({
                 nome,
