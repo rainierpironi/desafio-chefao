@@ -1,5 +1,4 @@
-const Destinos = require("./Destinos"),
-  Destinos_filtros = require("../../destinos_filtros/models/Destino_filtros"),
+const Destinos = require("./Destinos"),  
   Comentarios = require("../../comentarios/models/Comentarios");
 
 Destinos.hasMany(Destinos_filtros, {

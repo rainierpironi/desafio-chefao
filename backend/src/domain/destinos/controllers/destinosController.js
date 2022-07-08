@@ -1,4 +1,4 @@
-const {Destinos, Destinos_filtros} = require('../models/')
+const {Destinos} = require('../models/')
 
 const DestinosController = {
     async create(req, res) {
