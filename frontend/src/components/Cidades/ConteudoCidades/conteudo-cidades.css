@@ -1,9 +1,10 @@
 
 
 .conteudo-principal{
-    height: 70rem;
+    height: 50rem;
     text-align: justify;
-    margin: 5%;
+    margin: 5% 10% 2% 10%;
+    
 }
 
 .conteudo-principal h1{
@@ -27,14 +28,15 @@
 
 @media only screen and (max-width: 480px){
     .conteudo-principal{
-        height: 200rem;
+        height: 115rem;
+        margin-top:15%;
         
     }
 }
 
 @media only screen and (max-width: 820px) and (min-width: 481px){
     .conteudo-principal{
-        height: 100rem;
-        
+        height: 62rem;
+        margin-top:15%;
     }
 }

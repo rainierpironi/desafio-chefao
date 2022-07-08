@@ -1,18 +1,20 @@
-import React from 'react';
-import Container from '../../Container';
-import linhaPontilhada from "../../../assets/Images/Olinda/dashed-border.png";
-import igrejaSe from "../../../assets/Images/Olinda/igreja-se.svg";
-import miranteSe from "../../../assets/Images/Olinda/mirante-se.svg";
-import mercadosArtesanato from "../../../assets/Images/Olinda/mercados-artesanato.svg";
-import igrejaCarmo from "../../../assets/Images/Olinda/igreja-carmo.svg";
+import React, {Fragment} from 'react';
+import linhaPontilhada from "../../../assets/Images/Cidades/Olinda/dashed-border.png";
+import igrejaSe from "../../../assets/Images/Cidades/Olinda/igreja-se.svg";
+import miranteSe from "../../../assets/Images/Cidades/Olinda/mirante-se.svg";
+import mercadosArtesanato from "../../../assets/Images/Cidades/Olinda/mercados-artesanato.svg";
+import igrejaCarmo from "../../../assets/Images/Cidades/Olinda/igreja-carmo.svg";
 
 
 import './fotos-cidades.css';
 
 const FotosCidades: React.FC = () => {
   return (
+    <Fragment>
+      <div className='borda-dashed'>
+        <img id='borda-dashed' src={linhaPontilhada} alt="linha amarela pontilhada" />
+      </div>
       <div className='main-fotos-cidades'>
-        <img id='borda-dashed' src={linhaPontilhada} alt="" />
         <h2>Lugares interessantes para conhecer</h2>
         <div className='container-fotos-cidades'>
           <div>
@@ -33,6 +35,8 @@ const FotosCidades: React.FC = () => {
           </div>
         </div>
       </div>
+    </Fragment>
+
   );
 }
 

@@ -11,27 +11,26 @@ const ConteudoCidades: React.FC = () => {
         <h1 id='conteudo'>Olinda</h1>
         <h2>Patrimônio Histórico Cultural</h2>
         <p>
-          Olinda é um município brasileiro do estado de Pernambuco. Pertence à Região Metropolitana do Recife, distando seis quilômetros da capital pernambucana.
+        Olinda fica grudada à Recife, conhecida por suas ladeiras e seu centro histórico, além de um dos carnavais mais famosos do país.
         </p>
         <p>
-          Fundada em 1535, Olinda é a mais antiga entre as cidades brasileiras declaradas Patrimônio Histórico e Cultural da Humanidade pela UNESCO, e foi o segundo centro histórico do país a receber tal título, em 1982, após Ouro Preto. Em que pesem a descaracterização de parte do seu casario histórico e a perda de diversos exemplares da arquitetura quinhentista com o ataque holandês, Olinda abriga dezenas de igrejas e conventos barrocos de inestimável valor histórico, e mantém o seu traçado urbano colonial. É uma localidade de grande relevo na história do Brasil.
+        Olinda tornou-se uma das mais bem preservadas cidades coloniais do Brasil. Possui várias igrejas barrocas e outras riquezas católicas e uma arquitetura rústica e muito colorida. Foi a segunda cidade brasileira a ser declarada Patrimônio Histórico e Cultural da Humanidade pela ONU, em 1982.
         </p>
         <p>
-          Olinda foi a urbe mais rica do Brasil Colônia entre o século XVI e as primeiras décadas do século XVII de acordo com escritores da época como Pero de Magalhães Gândavo, chegando a ser referida como uma "Lisboa pequena", dada a opulência só comparável à da Corte portuguesa. Desenvolveu-se em torno do antigo Castelo de Duarte Coelho, primeira casa-forte brasileira. Foi sede do Brasil colonial entre 1624 e 1625 por ocasião das invasões neerlandesas: Matias de Albuquerque foi nomeado Governador-Geral, administrando a colônia a partir de Olinda.
+        O famoso Carnaval de Olinda é embalado ao som do frevo, maracatu e outros ritmos de Pernambuco. Bonecos gigantes caracterizados desfilam pelas ladeiras da cidade levando junto com eles, os vários blocos carnavalescos que fazem a alegria da população.
         </p>
         <p>
-          A vila manteve-se próspera até a invasão holandesa à Capitania de Pernambuco, quando os neerlandeses, após retirar
-          os materiais nobres das edificações para construir suas casas na capital da Nova Holanda (Recife), incendiaram Olinda. Com o término da Insurreição Pernambucana, Olinda voltou a ser a sede da capitania, porém sem a influência de outrora, o que ocasionou conflitos como a Guerra dos Mascates. Em 1827, a cidade deixou de ser a capital de Pernambuco. Já em 2006, Olinda foi eleita a primeira Capital Brasileira da Cultura, após concorrer com as cidades de Salvador e João Pessoa.
+        Quem viaja à Recife, aproveita para conhecer o centro histórico de Olinda, repleto de ladeiras, construções antigas, igrejas e museus.
         </p>
         <p>
-          Olinda é um município brasileiro do estado de Pernambuco. Pertence à Região Metropolitana do Recife, distando seis quilômetros da capital pernambucana.
+        O carnaval de Olinda é o principal motivo de visitação da cidade, que é famoso em todo o Brasil. Assim como suas outras atrações culturais, até mesmo no carnaval a história é muito enfatizada e respeitada, mantendo as tradições do carnaval pernambucano.
         </p>
         <p>
-          Fundada em 1535, Olinda é a mais antiga entre as cidades brasileiras declaradas Patrimônio Histórico e Cultural da Humanidade pela UNESCO, e foi o segundo centro histórico do país a receber tal título, em 1982, após Ouro Preto. Em que pesem a descaracterização de parte do seu casario histórico e a perda de diversos exemplares da arquitetura quinhentista com o ataque holandês, Olinda abriga dezenas de igrejas e conventos barrocos de inestimável valor histórico, e mantém o seu traçado urbano colonial. É uma localidade de grande relevo na história do Brasi
-          </p>
-          <p>
-          Olinda foi a urbe mais rica do Brasil Colônia entre o século XVI e as primeiras décadas do século XVII de acordo com escritores da época como Pero de Magalhães Gândavo, chegando a ser referida como uma "Lisboa pequena", dada a opulência só comparável à da Corte portuguesa. Desenvolveu-se em torno do antigo Castelo de Duarte Coelho, primeira casa-forte brasileira. Foi sede do Brasil colonial entre 1624 e 1625 por ocasião das invasões neerlandesas: Matias de Albuquerque foi nomeado Governador-Geral, administrando a colônia a partir de Olinda.
-          </p>
+        Os ritmos que mais destacam, são o Frevo e o Maracatu. O Maracatu divide-se em Maracatu Nação (uma manifestação com relação ao candomblé e a cultura negra); e o Maracatu Rural (relacionado ao folclore da região). 
+        </p>
+        <p>
+        Os desfiles são onde o povão se reúne para muita festa e diversão, sendo que a principal atração são os Bonecos Gigantes, que ganham novos personagens a cada ano.
+        </p>
       </div>
       </Fragment>
 
