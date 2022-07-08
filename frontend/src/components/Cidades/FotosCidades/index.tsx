@@ -1,9 +1,9 @@
 import React, {Fragment} from 'react';
-import linhaPontilhada from "../../../assets/Images/Olinda/dashed-border.png";
-import igrejaSe from "../../../assets/Images/Olinda/igreja-se.svg";
-import miranteSe from "../../../assets/Images/Olinda/mirante-se.svg";
-import mercadosArtesanato from "../../../assets/Images/Olinda/mercados-artesanato.svg";
-import igrejaCarmo from "../../../assets/Images/Olinda/igreja-carmo.svg";
+import linhaPontilhada from "../../../assets/Images/Cidades/Olinda/dashed-border.png";
+import igrejaSe from "../../../assets/Images/Cidades/Olinda/igreja-se.svg";
+import miranteSe from "../../../assets/Images/Cidades/Olinda/mirante-se.svg";
+import mercadosArtesanato from "../../../assets/Images/Cidades/Olinda/mercados-artesanato.svg";
+import igrejaCarmo from "../../../assets/Images/Cidades/Olinda/igreja-carmo.svg";
 
 
 import './fotos-cidades.css';
