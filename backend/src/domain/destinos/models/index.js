@@ -6,7 +6,6 @@ Destinos.hasMany(Comentarios, {
 });
 
 module.exports = {
-  Destinos,
-  Destinos_filtros,
+  Destinos,  
   Comentarios
 };
