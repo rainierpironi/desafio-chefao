@@ -52,10 +52,29 @@ export const a = styled(Link)`
 `
 
 export const Barra = styled(NavDropdown)`
-    right: 60px;
+    /* right: 60px; */
 
 .dropdown-toggle::after{
     color: white;
 }
+.dropdown-menu {
+
+    background-color: #000;
+    min-width: 12.5rem;
+}
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid white;
+}
 
 `
+
+// export const = (NavBarColl)`
+// @media (min-width: 885px){
+//     display: flex!important;
+//     flex-basis: auto;
+// }
+
+

@@ -1,52 +1,51 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/Images/logo-header.png"
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
+import { Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
 import * as Styled from "./styled"
-
 const Header: React.FC = () => {
 
   return (
-    <Navbar style={{ backgroundColor: 'black', fontFamily: 'Roboto' }} variant="dark" expand="md">
-      <Container fluid className='ms-5 me-5'>
+    <Navbar style={{ backgroundColor: 'black', fontFamily: 'Roboto' }} variant="dark" expand="lg">
+      <Container fluid className='ms-3 me-3'>
         <img className="ps-5" src={Logo} alt="icone" />
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="justify-content-center flex-grow-1 pe-3"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '240px' }}
             navbarScroll
           >
             <li className="nav-item">
-              <Link className="nav-link text-light me-5" to="/">Sobre</Link>
+              <a className="nav-link text-light me-4" href="/#sobre">Sobre</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light me-5" to="/">Destinos</Link>
+              <a className="nav-link text-light me-4" href="/#destinos">Destinos</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light me-5" to="/">Dicas</Link>
+              <a className="nav-link text-light me-4" href="/#dicas">Dicas</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light me-5" to="/">Conecte-se</Link>
+              <a className="nav-link text-light me-4" href="/#conecte">Conecte-se</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light me-5" to="/">Apoie</Link>
+              <a className="nav-link text-light me-4" href="/#apoie">Apoie</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light me-5" to="/">Contato</Link>
+              <a className="nav-link text-light me-5" href="/#contato">Contato</a>
             </li>
           </Nav>
           <Styled.Barra title={
             <span className="text-primary text-light my-auto">Escolha o seu destino...</span>
-          } style={{ border: ' solid 3px white', borderRadius: '2em' }} id="navbarScrollingDropdown">
-            <Link className="nav-link text-dark" to="/">Norte</Link>
+          } style={{ border: ' solid 3px white', borderRadius: '2em', backgroundColor: 'black' }} id="navbarScrollingDropdown">
+            <Link className="nav-link text-white" to="/destinos/norte">Norte</Link>
             <NavDropdown.Divider />
-            <Link className="nav-link text-dark" to="/">Nordeste</Link>
+            <Link className="nav-link text-white" to="/destinos/nordeste">Nordeste</Link>
             <NavDropdown.Divider />
-            <Link className="nav-link text-dark" to="/">Centro-Oeste</Link>
+            <Link className="nav-link text-white" to="/destinos/centro-oeste">Centro-Oeste</Link>
             <NavDropdown.Divider />
-            <Link className="nav-link text-dark" to="/">Sudeste</Link>
+            <Link className="nav-link text-white" to="/destinos/sudeste">Sudeste</Link>
             <NavDropdown.Divider />
-            <Link className="nav-link text-dark" to="/">Sul</Link>
+            <Link className="nav-link text-white" to="/destinos/sul">Sul</Link>
           </Styled.Barra>
         </Navbar.Collapse>
       </Container>

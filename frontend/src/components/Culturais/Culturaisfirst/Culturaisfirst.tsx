@@ -10,7 +10,7 @@ function Culturaisfirst() {
       <div className='containerCultTituloFirst'>
         <div className='tituloCultFirst'>
           <h1>Dicas Culturais</h1>
-          <p>Conhecendo a riqueza das diferenças culturais no Brasi... 
+          <p>Conhecendo a riqueza das diferenças culturais no Brasil... 
 </p>
         </div>
       </div>

@@ -15,17 +15,17 @@ function Culturaisthird() {
                                     <Accordion.Header>Gastronomia do Norte</Accordion.Header>
                                 </div>
                                 <Accordion.Body>
-                                    <b>Pato no Tucupi </b>
+                                    <b>PATO NO TUCUPI </b>
                                     Um dos pratos mais populares, composto por pato, jambu e tucupi – um líquido extraído da mandioca brava. Como acompanhamento, pode ser servido arroz ou farofa de mandioca.
-                                    <b>Caldeirada </b>
+                                    <b>CALDEIRADA </b>
                                     Feita com peixes em postas (pode ser filhote, dourada, tucunaré, pescada amarela etc.), temperos, ovos, azeite e tucupi.
-                                   <b> Maniçoba </b>
+                                   <b> MANIÇOBA </b>
                                     Espécie de feijoada produzida com folhas de mandioca que substituem o feijão. Leva paio, costelinha e carne de porco. É servida com farinha, arroz e pimenta.
-                                   <b> Damorida </b>
+                                   <b> DAMORIDA </b>
                                     Receita indígena feita com carne ou peixe assado e pimenta malagueta, pimenta jiquitaia, sal e goma de tapioca.
-                                    <b>Doces </b>
+                                    <b>DOCES </b>
                                     Em geral, são criados a partir das frutas da Amazônia, como doces de açaí, cupuaçu, camu-camu, tucumã etc.
-                                    <b>Açaí </b>
+                                    <b>AÇAÍ </b>
                                     Embora no restante do país o açaí seja consumido doce, com leite condensado e outros, na região norte ele é consumido com farinha de mandioca e com pratos salgados.
                                     est laborum.
                                 </Accordion.Body>
