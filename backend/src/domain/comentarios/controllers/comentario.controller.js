@@ -1,23 +1,17 @@
 const Comentarios = require('../models/Comentarios');
+const ComentarioServices = require('../services/comentariosService');
+const comentarioServices = require('../services/comentariosService')
 
 const ComentarioController = {
 
-    async criaComentario(req, res){
-        try{
+    async criaComentario(req, res) {
+        try {
             const { nome, email, mensagem, destinos_id } = req.body
-
-            if(!nome || !email || !mensagem || !destinos_id){
-                return res.status(400).json({message: "Nome, email, mensagem e id de destinos são obrigatórios"})
+            if (!nome || !email || !mensagem || !destinos_id) {
+                return res.status(400).json({ message: "Nome, email, mensagem e id de destinos são obrigatórios" })
             }
-            
-            const novoComentario = await Comentarios.create({
-                nome,
-                email, 
-                mensagem,
-                destinos_id
-            })
-
-            res.json(novoComentario)
+            const novoComentario = await comentarioServices.criaComent(req.body)
+            return res.status(201).json(novoComentario)
         }
 
         catch (error) {
@@ -29,7 +23,12 @@ const ComentarioController = {
 
     async listaComentarios(req, res) {
         try {
-            const listPosts = await Comentarios.findAll();
+            const listPosts = await comentarioServices.listaComents(req);
+
+            if (!listPosts.length) {
+                return res.status(404).json("Eita! Não foi feito nenhum post ainda");
+            }
+
             res.status(201).json(listPosts);
         }
 
@@ -39,55 +38,47 @@ const ComentarioController = {
         }
     },
 
-    async listaComentariosIdDestino(req,res){
+    async listaComentariosIdDestino(req, res) {
         try {
-            const { id } = req.params;
-            const comentario = await Comentarios.findByPk(id);
-      
-            return res.json(comentario);
-          } catch (error) {
+            const comentarios = await comentarioServices.listaComentIdDestino(req);
+
+            return res.json(comentarios);
+        } catch (error) {
             return res.status(500).json("Falha ao listar o comentário");
-          }
+        }
     },
 
-    async atualizaComentario(req,res){
-        try{
-            const {id} = req.params;
-            const {nome, email, mensagem, destinos_id} = req.body;
+    async atualizaComentario(req, res) {
+        try {
 
-            const atualizarComentario = await Comentarios.update(
-                {
-                    nome,
-                    email,
-                    mensagem,
-                    destinos_id,
-                },
-                {
-                    where: {
-                        id,
-                    }
-                }
-            );       
-            const ComentarioUpdated = await Comentarios.findByPk(id);
+            const { id } = req.params;
+            const checaComentario = await ComentarioServices.encontraComent(id);
+            if (!checaComentario) {
+                return res.status(400).json("Comentario não encontrado!");
+            }
+
+            const ComentarioUpdated = await comentarioServices.atualizaComent(req)
             return res.status(200).json(ComentarioUpdated);
-        } catch{            
+
+        } catch {
             return res.status(400).json("Falha ao atualizar os comentários");
-        }     
+        }
     },
 
-    async deletaComentario(req,res){
+    async deletaComentario(req, res) {
         try {
             const { id } = req.params;
-            await Comentarios.destroy({
-                where: {
-                  id,
-                },
-              });
-        
-              return res.sendStatus(204);
-            } catch (error) {
-              return res.status(500).json("Falha ao deletar o comentário");
+            const checaComentario = await ComentarioServices.encontraComent(id);
+            if (!checaComentario) {
+                return res.status(400).json("Comentario não encontrado!");
             }
+
+            const postDeletado = await ComentarioServices.deletaComent(id);
+            return res.status(204)
+
+        } catch (error) {
+            return res.status(500).json("Falha ao deletar o comentário");
+        }
     }
 }
 
