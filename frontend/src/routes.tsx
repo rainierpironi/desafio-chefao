@@ -48,6 +48,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/uteis" element={<Uteis/>} />
         <Route path="/conecte" element={<Conecte/>} />
         
+        
 
         <Route path="/destinos/nordeste/pernambuco/olinda" element={<Olinda/>} />
 
