@@ -8,10 +8,10 @@ export const ContainerSobre = styled.div`
 
 export const Titulos = styled.div`
     padding: 0;
-    padding-left: 10%;
+    padding-left: 20%;
 
     @media screen and (max-width: 1400px) {
-        padding-left: 0;
+        padding-left: 10%;
     }
 `
 
@@ -21,7 +21,6 @@ export const TituloSobre = styled.h2`
     font-weight: 700;
     font-size: 48px;
     color: #1A1A1B;
-    padding-left: 7%;
 `
 
 export const SubtituloSobre = styled.h3`
@@ -30,7 +29,6 @@ export const SubtituloSobre = styled.h3`
     font-size: 36px;
     color: #1A1A1B;
     padding-bottom: 4%;
-    padding-left: 7%;
 `
 
 export const ConteudoSobre = styled.div`
@@ -68,7 +66,7 @@ export const VideoSobre = styled.iframe`
 `
 
 export const ContainerTextoSobre = styled.div`
-    width: 700px;
+    width: 655px;
     height: 400px;
     padding-left: 4%;
 
@@ -89,7 +87,8 @@ export const ContainerTextoSobre = styled.div`
 
 export const TextoSobre = styled.p`
     font-family: 'Roboto Serif', serif;
-    font-size: 20px;
+    font-size: 18px;
+    color: #1A1A1B;
 
     @media screen and (max-width: 900px) {
         font-size: 25px;

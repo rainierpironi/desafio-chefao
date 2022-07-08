@@ -25,11 +25,12 @@ const FormContato: React.FC = () => {
             mensagem: ''
         },
         validationSchema,
-        onSubmit: async values => {
+        onSubmit: async (values, {resetForm}) => {
             const resposta = await postContato({ nome: values.nome, email: values.email, assunto: values.assunto, mensagem: values.mensagem });
 
             if (resposta == 201 || resposta == 200) {
                 setShow(true);
+                resetForm()
             }
         },
     });
@@ -67,7 +68,7 @@ const FormContato: React.FC = () => {
                                             background: '#2a2b2c',
                                             borderRadius: '30px'
                                         }}
-                                        defaultValue={formik.values.nome}
+                                        value={formik.values.nome}
                                         onChange={formik.handleChange} />
                                     {formik.errors.nome && <span>{formik.errors.nome}</span>}
                                 </Form.Group>
@@ -84,7 +85,7 @@ const FormContato: React.FC = () => {
                                             borderRadius: '30px'
                                         }}
 
-                                        defaultValue={formik.values.email}
+                                        value={formik.values.email}
                                         onChange={formik.handleChange} />
                                     {formik.errors.email && <span>{formik.errors.email}</span>}
                                 </Form.Group>
@@ -100,7 +101,7 @@ const FormContato: React.FC = () => {
                                         background: '#2a2b2c',
                                         borderRadius: '30px'
                                     }}
-                                    defaultValue={formik.values.assunto}
+                                    value={formik.values.assunto}
                                     onChange={formik.handleChange} />
                                 {formik.errors.assunto && <span>{formik.errors.assunto}</span>}
                             </Form.Group>

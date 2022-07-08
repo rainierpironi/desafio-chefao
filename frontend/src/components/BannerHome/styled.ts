@@ -54,6 +54,7 @@ export const BotaoHome = styled.button`
     border-radius: 32.5px;
     color: #424243;
     transition: all 0.3s;
+    cursor: pointer;
 
   :hover {
    background-color: #F6980B;
