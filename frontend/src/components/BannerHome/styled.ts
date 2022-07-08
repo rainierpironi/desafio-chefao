@@ -63,42 +63,42 @@ export const BotaoHome = styled.button`
 }
 `
 
-// export const VL = styled.div`
-//  border-left: 6px solid white;
-//   height: 25%;
-//   position: absolute;
-//   margin-top: -30%;
-//   left: 90%;
-// `
+export const VL = styled.div`
+ border-left: 6px solid white;
+  height: 25%;
+  position: absolute;
+  margin-top: 50px;
+  left: 90%;
+`
 
-// export const VL2 = styled.div`
-//  border-left: 6px solid white;
-//   height: 25%;
-//   position: absolute;
-//   margin-top: 40%;
-//   left: 90%;
-// `
-// export const Link = styled.a`
-//     font-size: 20px;
-//   height: 30%;
-//   position: absolute;
-//   margin-top: 5%;
-//   left: 89.2%;
-// `
-// export const Link2 = styled.a`
-//  font-size: 20px;
-//   height: 30%;
-//   position: absolute;
-//   margin-top: 15%;
-//   left: 89%;
-// `
-// export const Link3 = styled.a`
-//  font-size: 20px;
-//   height: 30%;
-//   position: absolute;
-//   margin-top: 25%;
-//   left: 88.9%;
-// `
+export const VL2 = styled.div`
+ border-left: 6px solid white;
+  height: 25%;
+  position: absolute;
+  margin-top: 480px;
+  left: 90%;
+`
+export const Link = styled.a`
+    font-size: 20px;
+  height: 30%;
+  position: absolute;
+  margin-top: 280px;
+  left: 89.2%;
+`
+export const Link2 = styled.a`
+ font-size: 20px;
+  height: 30%;
+  position: absolute;
+  margin-top: 340px;
+  left: 89.1%;
+`
+export const Link3 = styled.a`
+ font-size: 20px;
+  height: 30%;
+  position: absolute;
+  margin-top: 400px;
+  left: 89%;
+`
 
 export const Gradiente = styled.div`
    background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
@@ -123,4 +123,10 @@ export const Seta = styled.a`
 export const ImagemChevron = styled.img`
   position: absolute;
   top: -40px;
+`
+export const Container = styled.div`
+  position: initial;
+  @media (max-width: 768px) {
+   display: none;
+  }
 `

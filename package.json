@@ -12,7 +12,10 @@
   },
   "scripts": {
     "postinstall": "if [ $CLIENT_ENV ]; then npm run postinstall-client; elif [ $SERVER_ENV ]; then npm run postinstall-server; else echo no environment detected, please set CLIENT_ENV or SERVER_ENV; fi",
-       "postinstall-client": "cd frontend && npm install",
-       "postinstall-server": "cd backend && npm install"    
-   }
+    "postinstall-client": "cd frontend && npm install",
+    "postinstall-server": "cd backend && npm install"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14"
+  }
 }
