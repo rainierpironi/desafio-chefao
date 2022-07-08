@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import ImagemNorte from '../../assets/Images/norte.svg';
-import ImagemNordeste from '../../assets/Images/nordeste.svg';
-import ImagemCentroOeste from '../../assets/Images/centro-oeste.svg';
-import ImagemSudeste from '../../assets/Images/sudeste.svg';
-import ImagemSul from '../../assets/Images/sul.svg';
+import ImagemNorte from '../../assets/Images/norte.png';
+import ImagemNordeste from '../../assets/Images/nordeste.png';
+import ImagemCentroOeste from '../../assets/Images/centro-oeste.png';
+import ImagemSudeste from '../../assets/Images/sudeste.png';
+import ImagemSul from '../../assets/Images/sul.png';
 import Chevron from '../../assets/Images/chevron-down.svg';
 import { ContainerDestinos, ConteudoDestinos, ImagemDestino, LinkDestino, SubtituloDestinos, TituloDestinos, SetaDestinos, ImagemChevronDestinos, ContainerTitulos, GradienteDestinos } from './styled';
 
