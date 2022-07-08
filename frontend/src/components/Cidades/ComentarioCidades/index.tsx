@@ -22,6 +22,7 @@ const validationSchema = yup.object({
 const ComentarioCidades: React.FC = () => {
 
   const [show, setShow] = useState(false);
+  const [comentario, setComentarios] = useState<Comentarios[]>([]);
 
   const formik = useFormik({
     initialValues: {
@@ -30,16 +31,17 @@ const ComentarioCidades: React.FC = () => {
       mensagem: ''
     },
     validationSchema,
-    onSubmit: async values => {
+    onSubmit: async (values, {resetForm}) => {
       const resposta = await postComentario({ nome: values.nome, email: values.email, mensagem: values.mensagem });
 
-      if (resposta == 201 || resposta == 200) {
+      if (resposta.status == 201 || resposta.status == 200) {
         setShow(true);
+        setComentarios(pComentarios => [...pComentarios, resposta.data])
+        resetForm()
       }
     },
   });
 
-  const [comentario, setComentarios] = useState<Comentarios[]>([]);
 
   const carregarComentarios = async () => {
     const resposta = await getComentarios();
@@ -88,7 +90,7 @@ const ComentarioCidades: React.FC = () => {
                 fontWeight: '300',
                 fontSize: '16px',
               }}
-              defaultValue={formik.values.nome}
+              value={formik.values.nome}
               onChange={formik.handleChange} />
             {formik.errors.nome && <span>{formik.errors.nome}</span>}
           </Form.Group>
@@ -110,7 +112,7 @@ const ComentarioCidades: React.FC = () => {
                   fontWeight: '300',
                   fontSize: '16px',
               }}
-              defaultValue={formik.values.email}
+              value={formik.values.email}
               onChange={formik.handleChange} />
             {formik.errors.email && <span>{formik.errors.email}</span>}
           </Form.Group>
@@ -133,7 +135,7 @@ const ComentarioCidades: React.FC = () => {
                   fontWeight: '300',
                   fontSize: '16px',
               }}
-                defaultValue={formik.values.mensagem}
+                value={formik.values.mensagem}
                 onChange={formik.handleChange} />
               {formik.errors.mensagem && <span>{formik.errors.mensagem}</span>}
             </Form.Group>

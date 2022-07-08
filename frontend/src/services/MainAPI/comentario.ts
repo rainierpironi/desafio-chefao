@@ -11,7 +11,10 @@ export const postComentario = async (comentario: Comentario) => {
     const jsonData = JSON.parse(body)
     try {
         const response = await baseUrl.post('/comentario', jsonData)
-        return response.status
+        return {
+            status: response.status,
+            data: response.data
+        }
 
     } catch (error) {
         throw new Error('Não foi possível realizar o comentário!')

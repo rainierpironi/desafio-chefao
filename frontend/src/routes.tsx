@@ -1,4 +1,5 @@
-import {  BrowserRouter as Router,  Routes,  Route,} from "react-router-dom";
+import React, { useEffect } from 'react'
+import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 import Apoie from "./components/Apoie/Apoie";
 import Home from "./pages/Home";
 import Conecte from "./components/Conecte/Conecte";
@@ -29,6 +30,8 @@ import DestinoNorte from "./pages/DestinoNorte";
 import DestinoSul from "./pages/DestinoSul";
 
 const MyRoutes: React.FC = () => {
+
+
   return (
     
     <Router>
@@ -43,7 +46,8 @@ const MyRoutes: React.FC = () => {
         <Route path="/culturais" element={<Paginaculturais/>} />
         <Route path="/seguranca" element={<PaginaSecurity/>} />
         <Route path="/uteis" element={<Uteis/>} />
-        <Route path="/testeenio" element={<Conecte/>} />
+        <Route path="/conecte" element={<Conecte/>} />
+        
         
 
         <Route path="/destinos/nordeste/pernambuco/olinda" element={<Olinda/>} />

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import bg from '../../assets/Images/banner-nordeste.svg';
+import bg from '../../assets/Images/banner-nordeste.png';
 import { Link } from 'react-router-dom';
 
 export const BannerDestinos = styled.div`
@@ -34,31 +34,6 @@ export const FraseDestinosTitulo = styled.h1`
 export const FraseDestinosSubtitulo = styled.h2`
     font-weight: 400;
     font-size: 36px;
-`
-
-export const GradienteBrancoDestino = styled.div`
-    background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
-    mix-blend-mode: normal;
-    backdrop-filter: blur(10px);
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    top: 1085px;
-
-    @media screen and (max-width: 1400px) {
-        top: 760px;
-    }
-`
-
-export const SetaDestino = styled.a`
-    display: flex;
-    justify-content: center;
-    padding-top: -10px;
-`
-
-export const ImagemChevronDestino = styled.img`
-    position: absolute;
-    top: -40px;
 `
 
 export const ConteudoEstados = styled.div`
@@ -127,7 +102,7 @@ export const ImagemPrev = styled.img`
 
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 895px;
+        top: 950px;
         left: 8px;
     }
 
@@ -153,7 +128,7 @@ export const ImagemPrevSecond = styled.img`
 
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 1150px;
+        top: 1200px;
         left: 8px;
     }
 `
@@ -243,7 +218,7 @@ export const ImagemNext = styled.img`
 
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 895px;
+        top: 950px;
         right: 70px;
     }
 `
@@ -268,7 +243,7 @@ export const ImagemNextSecond = styled.img`
 
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 1150px;
+        top: 1200px;
         right: 70px;
     }
 `

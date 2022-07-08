@@ -8,10 +8,10 @@ export const ContainerDestinos = styled.div`
 `
 
 export const ContainerTitulos = styled.div`
-   padding-left: 17%;
+   padding-left: 20%;
 
    @media screen and (max-width: 1400px) {
-      padding-left: 7%;
+      padding-left: 10%;
    }
 `
 
@@ -32,11 +32,12 @@ export const SubtituloDestinos = styled.h3`
 `
 
 export const ConteudoDestinos = styled.div`
+   display: flex;
    justify-content: center;
-   padding: 0 0 10% 17%;
+   padding-bottom: 10%;
 
    @media screen and (max-width: 1400px) {
-      padding: 0 0 10% 7%;
+      padding-bottom: 10%;
    }
 
    @media screen and (max-width: 900px) {
@@ -47,7 +48,7 @@ export const ConteudoDestinos = styled.div`
 
 export const LinkDestino = styled(Link)`
 
-   margin-right: 3%;
+   margin-right: 2%;
 
    @media screen and (max-width: 900px) {
       margin-right: 4%;

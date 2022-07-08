@@ -16,11 +16,6 @@ const BannerCidades: React.FC = () => {
                     <h1>Olinda</h1>
                     <h2>Patrimônio Histôrico Cultural</h2>
                 </div>
-                <div className='gradient'>
-                    <div className='seta-down'>
-                        <a href="#conteudo"><img src={Seta} alt="vá para conteúdo" /></a>
-                    </div>
-                </div>
             </div>
 
 
