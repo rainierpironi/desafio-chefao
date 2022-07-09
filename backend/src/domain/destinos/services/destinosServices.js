@@ -36,7 +36,7 @@ const destinosServices = {
     });
     return cidadeExiste;
   },
-  async atualizarDestino(data) {
+  async atualizarDestino(id, data) {
     const destinoAtualizado = await Destinos.update(
       {
         ...data

@@ -41,6 +41,7 @@ const DestinosController = {
   async atualizarDestino(req, res) {
     try {
       const { id } = req.params;
+      const {nome_regiao, nome_estado, nome_cidade} = req.body
 
       if (!nome_regiao || !nome_estado || !nome_cidade) {
         return res.status(400).json("Todas as infomações são obrigatórias!");
