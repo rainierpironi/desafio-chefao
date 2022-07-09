@@ -16,7 +16,7 @@ function Culturaissecond() {
                 <Accordion >
                     <div className='adjustCult'>
                     <Accordion.Item eventKey="0">
-                        <Accordion.Header>Expressões do Norte</Accordion.Header>
+                        <Accordion.Header  >Expressões do Norte</Accordion.Header>
                         <Accordion.Body>
                         <b>BOROGODÓ</b> – pessoa que se destaca por alguma coisa. <b>BROCADO</b> – estar com fome. <b>CAPAR O GATO</b> – ir embora. <b>CURIMIN</b> – menino, garoto. <b>DE ROCHA</b> – pessoa que tem palavra, convicção no assunto. <b>ÉGUA DE LARGURA</b> – muita sorte.<b>ÉGUA</b> – expressa espanto, assim como “eita” ou “caramba”. <b>GAIATO</b> – uma pessoa que gosta de fazer gracinhas.<b>IXI</b> – serve como exclamação. <b>LEVOU O FARELO</b> – morreu. <b>MIUDINHO</b> – pequeno. <b>MOSCOU</b> – foi pego em flagrante. <b>TEÚ </b>– lagarto. <b>TUBÃO</b> – soco na cara. <b>VIGIA BEM</b> – presta muita atenção.
                         </Accordion.Body>
