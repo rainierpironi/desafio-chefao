@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import fundo from "../../assets/Images/banner-home.svg";
+import fundo from "../../assets/Images/banner-home.png";
 
 export const containerApoie = styled.div`
     width: 100vw;
@@ -21,7 +21,7 @@ export const textoApoie = styled.div`
     margin-left: 5%;
     
     h1{
-    margin-top: 18vh;
+    margin-top: 10vh;
     font-family: 'Roboto', sans-serif;
     font-size: 52px;
     font-weight: 700;
@@ -49,7 +49,7 @@ export const BotaoHome = styled.button`
     background: #FEC901;
     box-shadow: 0px 4.33272px 4.33272px rgba(0, 0, 0, 0.95);
     padding: 10px 50px 10px 50px;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 28px;
     border-radius: 32.5px;
     color: #424243;
@@ -58,7 +58,6 @@ export const BotaoHome = styled.button`
 
   :hover {
    background-color: #F6980B;
-   color: #1A1A1B;
    transition: 0.5s;
 }
 `
@@ -67,37 +66,42 @@ export const VL = styled.div`
  border-left: 6px solid white;
   height: 25%;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 35px;
   left: 90%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
 `
 
 export const VL2 = styled.div`
  border-left: 6px solid white;
   height: 25%;
   position: absolute;
-  margin-top: 480px;
+  margin-top: 410px;
   left: 90%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
 `
 export const Link = styled.a`
     font-size: 20px;
   height: 30%;
   position: absolute;
-  margin-top: 280px;
-  left: 89.2%;
+  margin-top: 230px;
+  left: 89%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
 `
 export const Link2 = styled.a`
  font-size: 20px;
   height: 30%;
   position: absolute;
-  margin-top: 340px;
-  left: 89.1%;
+  margin-top: 280px;
+  left: 89.2%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
 `
 export const Link3 = styled.a`
  font-size: 20px;
   height: 30%;
   position: absolute;
-  margin-top: 400px;
-  left: 89%;
+  margin-top: 330px;
+  left: 89.1%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
 `
 
 export const Gradiente = styled.div`

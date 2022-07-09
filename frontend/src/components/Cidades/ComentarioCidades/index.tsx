@@ -16,7 +16,7 @@ interface Comentarios {
 const validationSchema = yup.object({
   nome: yup.string().required("Valor é requerido"),
   email: yup.string().email("Email inválido").required("Valor é requerido"),
-  mensagem: yup.string().min(50, "Quantidade mínima requerida").max(281, "Quantidade máxima ultrapassada").required("Valor é requerido")
+  mensagem: yup.string().max(281, "Quantidade máxima ultrapassada").required("Valor é requerido")
 })
 
 const ComentarioCidades: React.FC = () => {

@@ -84,6 +84,13 @@
 .form-comentario-btn {
     display: flex;
     justify-content: flex-end;
+    transition: all 0.3s;
+}
+
+.form-comentario-btn Button:hover {
+    background-color: #F6980B;
+    transition: 0.5s;
+    border: #F6980B;
 }
 
 @media only screen and (max-width: 480px) {

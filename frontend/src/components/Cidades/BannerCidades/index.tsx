@@ -17,8 +17,6 @@ const BannerCidades: React.FC = () => {
                     <h2>Patrimônio Histórico Cultural</h2>
                 </div>
             </div>
-
-
         </Container>
     );
 }

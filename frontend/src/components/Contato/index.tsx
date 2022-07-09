@@ -25,7 +25,7 @@ const FormContato: React.FC = () => {
             mensagem: ''
         },
         validationSchema,
-        onSubmit: async (values, {resetForm}) => {
+        onSubmit: async (values, { resetForm }) => {
             const resposta = await postContato({ nome: values.nome, email: values.email, assunto: values.assunto, mensagem: values.mensagem });
 
             if (resposta == 201 || resposta == 200) {
@@ -125,12 +125,14 @@ const FormContato: React.FC = () => {
                                 width: '8rem',
                                 height: '3rem',
                                 borderRadius: '30px',
-                                boxShadow: ' 1px 5px 5px black',
-                                fontStyle: 'bold',
+                                filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))',
+                                fontFamily: 'Roboto',
+                                fontStyle: 'normal',
+                                fontWeight: '700',
                                 fontSize: '20px',
                                 display: 'flex',
                                 alignItems: 'center',
-                                justifyContent: 'center'
+                                justifyContent: 'center',
                             }}
                                 variant="warning" type="submit">
                                 Enviar
