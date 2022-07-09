@@ -21,7 +21,8 @@ import Uteisfourth from "./components/Uteis/Uteisfourth/Uteisfourth";
 import Uteissecond from "./components/Uteis/Uteissecond/Uteissecond";
 import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
-import Olinda from "./pages/Olinda";
+import Olinda from "./pages/CidadesNE-Olinda";
+import Manaus from "./pages/CidadesN-Manaus";
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
 import DestinoSudeste from "./pages/DestinoSudeste";
@@ -51,6 +52,8 @@ const MyRoutes: React.FC = () => {
         
 
         <Route path="/destinos/nordeste/pernambuco/olinda" element={<Olinda/>} />
+
+        <Route path="/destinos/norte/amazonas/manaus" element={<Manaus/>} />
 
       </Routes>
     </Router>
