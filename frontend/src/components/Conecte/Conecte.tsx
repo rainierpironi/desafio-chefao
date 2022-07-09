@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 import "./Conecte.css"
-import Norte from "../../assets/Images/imgnorte.png"
-import Nordeste from "../../assets/Images/imgnordeste.png"
-import CentroOeste from "../../assets/Images/imgcentrooeste.png"
-import Sudeste from "../../assets/Images/imgsudeste.png"
-import Sul from "../../assets/Images/imgsul.png"
+import Norte from "../../assets/Images/Mulheresnorte.png"
+import Nordeste from "../../assets/Images/Mulheresnordeste.png"
+import CentroOeste from "../../assets/Images/Mulherescentro.png"
+import Sudeste from "../../assets/Images/Mulheressudeste.png"
+import Sul from "../../assets/Images/Mulheressul.png"
 import Seta from "../../assets/Images/chevron-down.svg"
 import { Link } from 'react-router-dom'
 
