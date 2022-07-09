@@ -11,6 +11,7 @@ interface Comentarios {
   "nome": string,
   "email": string,
   "mensagem": string,
+  "destinos_id": number,
 };
 
 const validationSchema = yup.object({
