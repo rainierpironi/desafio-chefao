@@ -19,8 +19,6 @@ function Uteisfourth() {
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-
-
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="1">
                                 <div className='sombra'>
@@ -31,7 +29,6 @@ function Uteisfourth() {
                                 </Accordion.Body>
                             </Accordion.Item>
                         </div>
-
                         <div className='adjustPlan'>
                             <Accordion.Item eventKey="2">
                                 <div className='sombra'>
@@ -68,5 +65,4 @@ function Uteisfourth() {
         </Fragment>
     )
 }
-
 export default Uteisfourth

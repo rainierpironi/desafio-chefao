@@ -1,15 +1,10 @@
-const Comentarios = require('../models/Comentarios');
 const ComentarioServices = require('../services/comentariosService');
 const comentarioServices = require('../services/comentariosService')
 
 const ComentarioController = {
 
     async criaComentario(req, res) {
-        try {
-            const { nome, email, mensagem, destinos_id } = req.body
-            if (!nome || !email || !mensagem || !destinos_id) {
-                return res.status(400).json({ message: "Nome, email, mensagem e id de destinos são obrigatórios" })
-            }
+        try {            
             const novoComentario = await comentarioServices.criaComent(req.body)
             return res.status(201).json(novoComentario)
         }

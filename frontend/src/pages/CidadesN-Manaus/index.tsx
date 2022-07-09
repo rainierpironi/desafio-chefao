@@ -1,14 +1,14 @@
 import React from 'react';
 import Container from '../../components/Container';
 import Header from '../../components/Header';
-import BannerCidades from '../../components/Cidades/BannerCidades';
-import ConteudoCidades from '../../components/Cidades/ConteudoCidades';
-import FotosCidades from '../../components/Cidades/FotosCidades';
-import ComentarioCidades from '../../components/Cidades/ComentarioCidades';
+import BannerCidades from '../../components/CidadesN-Manaus/BannerCidades';
+import ConteudoCidades from '../../components/CidadesN-Manaus/ConteudoCidades';
+import FotosCidades from '../../components/CidadesN-Manaus/FotosCidades';
+import ComentarioCidades from '../../components/CidadesN-Manaus/ComentarioCidades';
 import Footer from '../../components/Footer';
 
 
-const Olinda: React.FC = () => {
+const Manaus: React.FC = () => {
   return (
       <Container>
           <Header/>
@@ -22,4 +22,4 @@ const Olinda: React.FC = () => {
   );
 }
 
-export default Olinda;
+export default Manaus;
