@@ -12,7 +12,7 @@ function Dicas() {
     return (
         <Fragment>
             <div className='containerDicas' id='dicas'>
-                
+
                 <div className='containerTextoDicas'>
                     <div>
                         <h1>Dicas</h1>
@@ -25,34 +25,27 @@ function Dicas() {
                 <div className='containerModuloUm'>
                     <div className='conteudoModuloUm'>
                         <div className='culturais'>
-                            <Link to="./culturais">
-                                <img id="efeitoDicas" src={Culturais} alt="Imagem Dicas Culturais" />
+                            <a href="./culturais"><img id="efeitoDicas" src={Culturais} alt="Imagem Dicas Culturais" /></a>
 
-                            </Link>
                         </div>
                         <div>
-                            <Link to="./seguranca">
-                                <img id="efeitoDicas" src={Seguranca} alt="Imagem Dicas Seguranca" />
-                            </Link>
+
+                            <a href="./seguranca"><img id="efeitoDicas" src={Seguranca} alt="Imagem Dicas Seguranca" /></a>
+
                         </div>
                     </div>
                 </div>
                 <div className='containerModuloUm'>
                     <div className='conteudoModuloUm'>
                         <div className='uteis'>
-                            <Link to="./uteis">
-                                <img id="efeitoDicas" src={Contatos} alt="Imagem Dicas Contatos" />
-                            </Link>
+                            <a href='./uteis'><img id="efeitoDicas" src={Contatos} alt="Imagem Dicas Contatos" /></a>
                         </div>
                         <div>
-                            <Link to="./planejamento">
-                                <img id="efeitoDicas" src={Planejamento} alt="Imagem Dicas Planejamento" />
-                            </Link>
+                            <a href="planejamento">   <img id="efeitoDicas" src={Planejamento} alt="Imagem Dicas Planejamento" /></a>
                         </div>
                     </div>
                 </div>
             </div>
-
         </Fragment>
     )
 }
