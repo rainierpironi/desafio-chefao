@@ -2,10 +2,15 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/Images/logo-header.png"
 import { Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
 import * as Styled from "./styled"
+// import { HashLink } from 'react-router-hash-link';
+
+
 const Header: React.FC = () => {
 
+  
+
   return (
-    <Navbar style={{ backgroundColor: 'black', fontFamily: 'Roboto' }} variant="dark" expand="lg">
+    <Navbar style={{ backgroundColor: 'black', fontFamily: 'Roboto', paddingRight:'46px' }} variant="dark" expand="lg">
       <Container fluid className='ms-3 me-3'>
         <img className="ps-5" src={Logo} alt="icone" />
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -16,22 +21,22 @@ const Header: React.FC = () => {
             navbarScroll
           >
             <li className="nav-item">
-              <a className="nav-link text-light me-4" href="/#sobre">Sobre</a>
+              <a className="nav-link text-light" style={{ paddingRight:'52px' }} href="/#sobre">Sobre</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light me-4" href="/#destinos">Destinos</a>
+              <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#destinos">Destinos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light me-4" href="/#dicas">Dicas</a>
+              <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#dicas">Dicas</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light me-4" href="/#conecte">Conecte-se</a>
+              <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#conecte">Conecte-se</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light me-4" href="/#apoie">Apoie</a>
+              <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#apoie">Apoie</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light me-5" href="/#contato">Contato</a>
+              <a className="nav-link text-light me-3" href="/#contato">Contato</a>
             </li>
           </Nav>
           <Styled.Barra title={

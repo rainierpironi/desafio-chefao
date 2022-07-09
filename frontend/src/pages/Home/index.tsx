@@ -11,7 +11,7 @@ import BannerHome from '../../components/BannerHome'
 const Home: React.FC = () => {
   return (
     <Container>
-        <Header />
+         <Header />
         <BannerHome />
         <Sobre />
         <Destinos />
