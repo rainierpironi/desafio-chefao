@@ -4,6 +4,7 @@ import Chevron from '../../assets/Images/chevron-down.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { BotaoHome, Gradiente, Seta } from "./styled";
+import { Link } from "react-router-dom";
 
 const BannerHome: React.FC = () => {
   return (
@@ -12,7 +13,11 @@ const BannerHome: React.FC = () => {
         <h1>Conectar-se com pares fortalece o ser possível</h1>
         <p>Plataforma para conexão de mulheres que viajam solo em território
           brasileiro</p>
-        <BotaoHome>Conecte-se</BotaoHome>
+          
+        <BotaoHome ><a id="botao" href="/#conecte-se" style={{textDecoration: "none", color: " black" }}>Conecte-se</a></BotaoHome>
+        
+        
+        
       </Styled.textoApoie>
       <Styled.Container>
         <Styled.VL></Styled.VL>

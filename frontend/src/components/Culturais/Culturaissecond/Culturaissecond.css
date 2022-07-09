@@ -12,10 +12,15 @@ div.containerCultSecond {
     font-family: 'Roboto', sans-serif;   
 }
 
+#setascroll{
+    margin-left: 48%;
+    margin-top: -70px;
+}
 
 #faixa{
-    max-width: 100vw;
+    max-width: 98.7vw;
     margin-top: -55px;
+    
 }
 
 div.tituloCultSecond{
