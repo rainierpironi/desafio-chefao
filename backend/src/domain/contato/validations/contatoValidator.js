@@ -4,7 +4,7 @@ module.exports = validate({
     body: Joi.object({
         nome: Joi.string().required(),
         email: Joi.string().email().required(),
-        mensagem: Joi.string().max(256).required(),
-        destinos_id: Joi.number().required(),
+        assunto: Joi.string().required(),
+        mensagem: Joi.string().required(),
     })
 });
