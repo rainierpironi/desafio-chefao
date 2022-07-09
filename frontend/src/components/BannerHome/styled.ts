@@ -18,7 +18,7 @@ export const containerApoie = styled.div`
 export const textoApoie = styled.div`
     max-width: 60%;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 20%;
     
     h1{
     margin-top: 10vh;
@@ -37,8 +37,12 @@ export const textoApoie = styled.div`
  }
 
     @media screen and (max-width: 1400px) {
-      padding-left: 7%;
-      margin-left: 0;
+      margin-left: 10%;
+      max-width: 50%;
+
+      p {
+        width: 100%;
+      }
     }
  `
 

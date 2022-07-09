@@ -12,7 +12,7 @@ function Dicas() {
     return (
         <Fragment>
             <div className='containerDicas' id='dicas'>
-
+                
                 <div className='containerTextoDicas'>
                     <div>
                         <h1>Dicas</h1>
@@ -39,7 +39,7 @@ function Dicas() {
                 </div>
                 <div className='containerModuloUm'>
                     <div className='conteudoModuloUm'>
-                        <div>
+                        <div className='uteis'>
                             <Link to="./uteis">
                                 <img id="efeitoDicas" src={Contatos} alt="Imagem Dicas Contatos" />
                             </Link>
@@ -51,18 +51,6 @@ function Dicas() {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-            </div>
-
-            <div className='gradiente'>
-                <a href="#conecte-se" className='seta'>
-                    <img src={Seta} alt="seta" className='chevron'/>
-                </a>
             </div>
 
         </Fragment>
