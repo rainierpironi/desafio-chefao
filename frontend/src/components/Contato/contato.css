@@ -1,15 +1,16 @@
 .main {
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 45%;
     display: flex;
+    padding-left: 20%;
     flex-wrap: wrap;
     height: 50rem;
     background-color: #2a2b2c;
 }
 
 .contato {
-    width: 70vh;
-    margin: 5%;
+    width: 50vh;
+    margin: 5% 0 5% 0;
     margin-right: 0;
 }
 
@@ -31,14 +32,13 @@
     font-family: 'Roboto Serif', serif;
     font-size: 1.25em;
     color: #FFFFFF;
-    text-align: justify;
 }
 
 .contato-form {
     font-size: 1.25em;
-    width: 100vh;
+    width: 65vh;
     height: 80%;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
     margin-top: 10%;
 }
@@ -55,6 +55,10 @@ span {
 
 .titulo-input {
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: 'normal';
+    font-weight: '500';
+    font-size: '20px';
 }
 
 .form-btn {
@@ -74,8 +78,9 @@ span {
 
 .notificacao {
     padding: 5px;
+    margin-right: 18% !important;
+    margin-top: 3%;
     border-radius: 10px !important;
-    justify-content: end;
     background-color: #FFFFFF !important;
 }
 
@@ -109,7 +114,6 @@ span {
     .main {
         height: 90rem;
         margin-bottom: 0;
-
     }
 
     .contato-form {
@@ -128,5 +132,38 @@ span {
     .contato-form {
         height: 40rem;
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 481px) {
+    
+    .main {
+        padding-bottom: 30px;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50rem;
+        background-color: #2a2b2c;
+    }
+
+    .contato {
+        width: 45vw;
+        padding-left: 10%;
+    }
+
+    .contato-form {
+        width: 45vw;
+        padding-bottom: 20% !important;
+    }
+
+    .comentario-cidades {
+        height: 70vh;
+    }
+    
+    .notificacao {
+        margin-right: 20% !important;
+        margin-top: 0;
+        position: absolute;
+        top: 4820px;
     }
 }

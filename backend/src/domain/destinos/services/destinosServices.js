@@ -2,7 +2,7 @@ const { Destinos } = require("../models/");
 
 const destinosServices = {
   async criarDestino(data) {
-    const novoDestino = await Destinos.create({ ...data.body });
+    const novoDestino = await Destinos.create({ ...data });
     return novoDestino;
   },
   async listarDestinos(data) {
@@ -36,7 +36,7 @@ const destinosServices = {
     });
     return cidadeExiste;
   },
-  async atualizarDestino(data) {
+  async atualizarDestino(id, data) {
     const destinoAtualizado = await Destinos.update(
       {
         ...data

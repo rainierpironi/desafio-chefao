@@ -6,7 +6,7 @@ const DestinosController = require('../domain/destinos/controllers/destinosContr
 const ContatoController = require('../domain/contato/controllers/contato.controller');
 const cadastroComentarioValidator = require("../domain/comentarios/validations/comentariosValidator");
 const cadastroDestinosValidator = require("../domain/destinos/validations/destinosValidator");
-const cadastroContatoValidator = require("../domain/contato/controllers/contato.controller");
+const cadastroContatoValidator = require("../domain/contato/validations/contatoValidator");
 
 routes.post('/comentario',cadastroComentarioValidator, ComentarioController.criaComentario)
 routes.get('/comentario', ComentarioController.listaComentarios)

@@ -10,16 +10,14 @@
    background-position: center;
    color: white;
    display: flex;
-   justify-content: space-around;
    flex-wrap: wrap;
-   margin: 100px 0 0 0;
    font-family: 'Roboto', sans-serif;
 }
 
 .textoApoie {
    max-width: 40vw;
    min-height: 30vh;
-   margin-left: -10%;
+   margin-left: 20%;
 }
 
 .textoApoie h1 {
@@ -77,8 +75,8 @@
 }
 
 @media screen and (max-width: 1400px) {
-
-   .gradienteApoie {
-      top: 4170px;
+   
+   .textoApoie {
+      margin-left: 10%;
    }
 }

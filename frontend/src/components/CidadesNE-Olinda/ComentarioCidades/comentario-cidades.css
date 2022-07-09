@@ -3,7 +3,7 @@
     margin: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 700px;
     width: 90%;
 }
@@ -32,7 +32,7 @@
 }
 
 .comentarios h3 {
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -40,7 +40,7 @@
 }
 
 .comentario-cidades {
-    height: 70vh;
+    height: 40vh;
     width: 45vw;
     overflow-x: hidden;
     overflow-y: auto;
@@ -67,8 +67,7 @@
 }
 
 .form-comentario-cidades {
-    width: 80vh;
-    font-size: 1.25em;
+    height: 50vh;
 }
 
 .form-comentario-cidades h3 {
@@ -91,6 +90,39 @@
     background-color: #F6980B;
     transition: 0.5s;
     border: #F6980B;
+}
+
+.notificacao-comentario {
+    padding: 5px;
+    margin-right: 12% !important;
+    border-radius: 10px !important;
+    background-color: #FFFFFF !important;
+}
+
+.conteudo-toast {
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.toast-header {
+    display: flex;
+    justify-content: end;
+    border: none !important;
+}
+
+.btn-close {
+    border: 2px solid #495057 !important;
+    border-radius: 20px !important;
+}
+
+.mensagem-notificacao {
+    display: flex;
+    padding: 0 0 20px 50px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #495057;
 }
 
 @media only screen and (max-width: 480px) {
@@ -143,5 +175,21 @@
 
     .form-comentario-cidades h3{
         width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 481px) {
+
+    .comentario-cidades {
+        height: 70vh;
+        width: 40vw;
+    }
+
+    .form-comentario-cidades {
+        width: 40vw;
+    }
+    
+    .notificacao-comentario {
+        margin-right: 16% !important;
     }
 }

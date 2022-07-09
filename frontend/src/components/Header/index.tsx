@@ -30,7 +30,7 @@ const Header: React.FC = () => {
               <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#dicas">Dicas</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#conecte">Conecte-se</a>
+              <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#conecte-se">Conecte-se</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" style={{ paddingRight:'52px' }}  href="/#apoie">Apoie</a>

@@ -11,6 +11,7 @@ interface Comentarios {
   "nome": string,
   "email": string,
   "mensagem": string,
+  "destinos_id": number,
 };
 
 const validationSchema = yup.object({
@@ -23,16 +24,18 @@ const ComentarioCidades: React.FC = () => {
 
   const [show, setShow] = useState(false);
   const [comentario, setComentarios] = useState<Comentarios[]>([]);
+  const destinos_id = window.location.search.split('/').length;
 
   const formik = useFormik({
     initialValues: {
       nome: '',
       email: '',
-      mensagem: ''
+      mensagem: '',
+      destinos_id: ''
     },
     validationSchema,
-    onSubmit: async (values, {resetForm}) => {
-      const resposta = await postComentario({ nome: values.nome, email: values.email, mensagem: values.mensagem });
+    onSubmit: async (values, { resetForm }) => {
+      const resposta = await postComentario({ nome: values.nome, email: values.email, mensagem: values.mensagem, destinos_id: destinos_id });
 
       if (resposta.status == 201 || resposta.status == 200) {
         setShow(true);
@@ -75,11 +78,11 @@ const ComentarioCidades: React.FC = () => {
           <h3>Deixe o seu comentário sobre esse conteúdo:</h3>
           <Form.Group className="mb-3 " controlId="nome">
             <Form.Label style={{
-                fontFamily: 'Roboto',
-                fontStyle: 'normal',
-                fontWeight: '500',
-                fontSize: '20px',
-              }}>Nome</Form.Label>
+              fontFamily: 'Roboto',
+              fontStyle: 'normal',
+              fontWeight: '500',
+              fontSize: '20px',
+            }}>Nome</Form.Label>
             <Form.Control type="text"
               placeholder="Digite aqui o seu nome..."
               style={{
@@ -89,32 +92,47 @@ const ComentarioCidades: React.FC = () => {
                 fontStyle: 'normal',
                 fontWeight: '300',
                 fontSize: '16px',
+                color: '#C4C4C4'
               }}
               value={formik.values.nome}
               onChange={formik.handleChange} />
-            {formik.errors.nome && <span>{formik.errors.nome}</span>}
+            {formik.errors.nome && <span
+              style={{
+                color: '#a8a7a7',
+                fontFamily: 'Roboto',
+                fontStyle: 'normal',
+                fontWeight: '300',
+                fontSize: '15px'
+              }}>{formik.errors.nome}</span>}
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="email">
             <Form.Label style={{
-                fontFamily: 'Roboto',
-                fontStyle: 'normal',
-                fontWeight: '500',
-                fontSize: '20px',
-              }}>E-mail</Form.Label>
+              fontFamily: 'Roboto',
+              fontStyle: 'normal',
+              fontWeight: '500',
+              fontSize: '20px',
+            }}>E-mail</Form.Label>
             <Form.Control type="email"
               placeholder="Digite aqui o seu e-mail..."
               style={{
                 height: '50px',
                 borderRadius: '30px',
-                  fontFamily: 'Roboto',
-                  fontStyle: 'normal',
-                  fontWeight: '300',
-                  fontSize: '16px',
+                fontFamily: 'Roboto',
+                fontStyle: 'normal',
+                fontWeight: '300',
+                fontSize: '16px',
               }}
               value={formik.values.email}
               onChange={formik.handleChange} />
-            {formik.errors.email && <span>{formik.errors.email}</span>}
+            {formik.errors.email && <span
+              style={{
+                color: '#a8a7a7',
+                fontFamily: 'Roboto',
+                fontStyle: 'normal',
+                fontWeight: '300',
+                fontSize: '15px'
+              }}>{formik.errors.email}</span>}
           </Form.Group>
 
           <div>
@@ -128,16 +146,23 @@ const ComentarioCidades: React.FC = () => {
               }}>Mensagem</Form.Label>
               <Form.Control as="textarea" rows={5}
                 placeholder="Digite aqui sua mensagem até 280 caracteres..."
-                style={{ 
+                style={{
                   borderRadius: '30px',
                   fontFamily: 'Roboto',
                   fontStyle: 'normal',
                   fontWeight: '300',
                   fontSize: '16px',
-              }}
+                }}
                 value={formik.values.mensagem}
                 onChange={formik.handleChange} />
-              {formik.errors.mensagem && <span>{formik.errors.mensagem}</span>}
+              {formik.errors.mensagem && <span
+                style={{
+                  color: '#a8a7a7',
+                  fontFamily: 'Roboto',
+                  fontStyle: 'normal',
+                  fontWeight: '300',
+                  fontSize: '15px'
+                }}>{formik.errors.mensagem}</span>}
             </Form.Group>
           </div>
 
@@ -162,8 +187,8 @@ const ComentarioCidades: React.FC = () => {
 
         </Form>
       </div>
-      <Container className='conteudo d-flex justify-content-start'>
-        <Toast className='notificacao' onClose={() => setShow(false)} show={show} delay={3000} autohide>
+      <Container className='conteudo d-flex justify-content-end'>
+        <Toast className='notificacao-comentar' onClose={() => setShow(false)} show={show} delay={3000} autohide>
           <div className='conteudo-toast'>
             <Toast.Header></Toast.Header>
             <Toast.Body className='mensagem-notificacao'>Comentário enviado!</Toast.Body>

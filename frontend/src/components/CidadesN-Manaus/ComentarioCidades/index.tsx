@@ -11,6 +11,7 @@ interface Comentarios {
   "nome": string,
   "email": string,
   "mensagem": string,
+  "destinos_id": number,
 };
 
 const validationSchema = yup.object({
@@ -23,6 +24,7 @@ const ComentarioCidades: React.FC = () => {
 
   const [show, setShow] = useState(false);
   const [comentario, setComentarios] = useState<Comentarios[]>([]);
+  const destinos_id = window.location.search.split('/').length;
 
   const formik = useFormik({
     initialValues: {
@@ -32,7 +34,7 @@ const ComentarioCidades: React.FC = () => {
     },
     validationSchema,
     onSubmit: async (values, {resetForm}) => {
-      const resposta = await postComentario({ nome: values.nome, email: values.email, mensagem: values.mensagem });
+      const resposta = await postComentario({ nome: values.nome, email: values.email, mensagem: values.mensagem, destinos_id: destinos_id});
 
       if (resposta.status == 201 || resposta.status == 200) {
         setShow(true);
