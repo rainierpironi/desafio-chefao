@@ -51,9 +51,9 @@ const MyRoutes: React.FC = () => {
         
         
 
-        <Route path="/destinos/nordeste/pernambuco/olinda/:1" element={<Olinda/>} />
+        <Route path="/destinos/nordeste/pernambuco/olinda/10" element={<Olinda/>} />
 
-        <Route path="/destinos/norte/amazonas/manaus" element={<Manaus/>} />
+        <Route path="/destinos/norte/amazonas/manaus/1" element={<Manaus/>} />
 
       </Routes>
     </Router>

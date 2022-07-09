@@ -1,5 +1,6 @@
 .containerDicas{
     width: 100vw;
+    height: 95vh;
     max-width: 100%;
     background-color: #fff;
     padding: 2% 0 6% 0;
@@ -75,6 +76,10 @@
 }
 
 @media screen and (max-width: 1400px) {
+
+    .containerDicas {
+        height: 110vh;
+    }
 
     .containerTextoDicas {
         padding-left: 10%;

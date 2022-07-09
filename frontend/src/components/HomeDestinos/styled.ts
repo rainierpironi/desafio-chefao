@@ -6,11 +6,16 @@ export const ContainerDestinos = styled.div`
    mix-blend-mode: normal;
    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
    width: 100vw;
+   height: 95vh;
    max-width: 100%;
    background-image: url(${backgroundDestinos});
    background-repeat:no-repeat;
    background-size:cover;
    background-position:center;
+
+   @media screen and (max-width: 1400px) {
+      height: 110vh;
+   }
 `
 
 export const ContainerTitulos = styled.div`
@@ -40,7 +45,7 @@ export const SubtituloDestinos = styled.h3`
 export const ConteudoDestinos = styled.div`
    display: flex;
    justify-content: center;
-   padding-bottom: 10%;
+   padding-bottom: 5% !important;
 
    @media screen and (max-width: 1400px) {
       padding-bottom: 10%;

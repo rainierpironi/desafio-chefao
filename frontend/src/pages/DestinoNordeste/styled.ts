@@ -38,6 +38,7 @@ export const FraseDestinosSubtitulo = styled.h2`
 
 export const ConteudoEstados = styled.div`
     display: flex;
+    background-color: #f7f7f8;
 
     @media screen and (max-width: 900px) {
         padding-top: 5%;
@@ -62,8 +63,8 @@ export const EstadosTitulo = styled.h3`
 
 export const ContainerCidades = styled.div`
     display: flex;
-    width: 90vw;
-    margin-left: 7%;
+    width: 88vw;
+    margin-left: 6%;
     margin-bottom: 5%;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -84,10 +85,7 @@ export const BotaoPrev = styled.div`
 
 export const ImagemPrev = styled.img`
     opacity: 0.9;
-    position: absolute;
-    top: 1480px;
-    left: 90px;
-    z-index: 9999;
+    margin-top: 120px;
     cursor: pointer;
 
     @media screen and (max-width: 1400px) {
@@ -110,10 +108,7 @@ export const ImagemPrev = styled.img`
 
 export const ImagemPrevSecond = styled.img`
     opacity: 0.9;
-    position: absolute;
-    top: 2040px;
-    left: 90px;
-    z-index: 9999;
+    margin-top: 120px;
     cursor: pointer;
 
     @media screen and (max-width: 1400px) {
@@ -137,7 +132,7 @@ export const Carousel = styled.div`
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    width: 93%;
+    width: 92%;
 
     ::-webkit-scrollbar {
         display: none;
@@ -165,7 +160,7 @@ export const LinkCidade = styled(Link)`
     height: 316px;
     padding-bottom: 5px;
     margin-bottom: 1%;
-    margin-right: 3%;
+    margin-right: 2%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.40));
     transition: all 0.3s;
 
@@ -200,10 +195,7 @@ export const BotaoNext = styled.div`
 
 export const ImagemNext = styled.img`
     opacity: 0.9;
-    position: absolute;
-    top: 1480px;
-    right: 160px;
-    z-index: 9999;
+    margin-top: 120px;
     cursor: pointer;
 
     @media screen and (max-width: 1400px) {
@@ -225,10 +217,7 @@ export const ImagemNext = styled.img`
 
 export const ImagemNextSecond = styled.img`
     opacity: 0.9;
-    position: absolute;
-    top: 2040px;
-    right: 160px;
-    z-index: 9999;
+    margin-top: 120px;
     cursor: pointer;
 
     @media screen and (max-width: 1400px) {

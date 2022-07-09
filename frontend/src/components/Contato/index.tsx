@@ -64,7 +64,7 @@ const FormContato: React.FC = () => {
                                         placeholder="Digite aqui o seu nome..."
                                         style={{
                                             height: '50px',
-                                            width: '20rem',
+                                            width: '17rem',
                                             background: '#2a2b2c',
                                             borderRadius: '30px',
                                             color: '#FFF',
@@ -92,7 +92,7 @@ const FormContato: React.FC = () => {
                                         placeholder="Digite aqui o seu e-mail..."
                                         style={{
                                             height: '50px',
-                                            width: '20rem',
+                                            width: '17rem',
                                             background: '#2a2b2c',
                                             borderRadius: '30px',
                                             color: '#FFF',
