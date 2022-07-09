@@ -1,0 +1,6 @@
+{
+    "root": "./frontend/dist",
+    "routes": {
+        "/": "index.html"
+    }
+}

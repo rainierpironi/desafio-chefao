@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
       <small>&copy;2022 - LAVAIELA.</small>
     <small>Todos os direitos reservados.</small>
     <div className="links">
+    <a className="p-1 link-light" href="your link here"><FontAwesomeIcon icon={faYoutube} /></a>
     <a className="p-1 link-light" href="your link here"><FontAwesomeIcon icon={faInstagram} /></a>
     <a className="p-1 link-light" href="your link here"><FontAwesomeIcon icon={faFacebook} /></a>
-    <a className="p-1 link-light" href="your link here"><FontAwesomeIcon icon={faYoutube} /></a>
     </div>
   </footer>
   )

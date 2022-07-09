@@ -1,7 +1,7 @@
 .main {
     margin: 0;
     padding-bottom: 30px;
-    display:flex;  
+    display: flex;
     flex-wrap: wrap;
     height: 50rem;
     background-color: #2a2b2c;
@@ -10,34 +10,34 @@
 .contato {
     width: 70vh;
     margin: 5%;
-    margin-rigth:0;
+    margin-right: 0;
 }
 
 .contato h1 {
-    font-size:3rem;
-    font-weight:700;
-    margin-bottom:5%;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5%;
     color: #FFFFFF;
 }
 
 .contato h4 {
     color: #FFFFFF;
-    font-size:2.25rem;
-    font-weigh:400;
-    margin-bottom:15%;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 15%;
 }
 
 .contato p {
     font-family: 'Roboto Serif', serif;
-    font-size:1.25em;
-    color: #FFFFFF;  
-    text-align:justify;  
+    font-size: 1.25em;
+    color: #FFFFFF;
+    text-align: justify;
 }
 
 .contato-form {
     font-size: 1.25em;
     width: 100vh;
-    height:80%;
+    height: 80%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10%;
@@ -60,6 +60,16 @@ span {
 .form-btn {
     display: flex;
     justify-content: flex-end;
+}
+
+.form-btn Button {
+    transition: all 0.3s;
+}
+
+.form-btn Button:hover {
+    background-color: #F6980B;
+    transition: 0.5s;
+    border: #F6980B;
 }
 
 .notificacao {
@@ -95,28 +105,28 @@ span {
     color: #495057;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
     .main {
-       height:90rem;
-       margin-bottom:0;
-       
+        height: 90rem;
+        margin-bottom: 0;
+
     }
 
-    .contato-form{
-        height:40rem;
-        width:90%;
+    .contato-form {
+        height: 40rem;
+        width: 90%;
     }
 
-    
+
 }
 
-@media only screen and (max-width: 820px) and (min-width: 481px){
+@media only screen and (max-width: 820px) and (min-width: 481px) {
     .main {
-        height:120rem;
+        height: 120rem;
     }
 
-    .contato-form{
-        height:40rem;
-        width:90%;
+    .contato-form {
+        height: 40rem;
+        width: 90%;
     }
 }
