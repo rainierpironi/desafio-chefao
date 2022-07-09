@@ -91,7 +91,7 @@ const DestinoNordeste: React.FC = () => {
             </div>
             <Carousel ref={secondCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'/destinos/nordeste/pernambuco/olinda'}>
+                <LinkCidade to={'/destinos/nordeste/pernambuco/olinda/10'}>
                   <ImagemCidade src={ImagemOlinda} alt="" />
                   Olinda
                 </LinkCidade>

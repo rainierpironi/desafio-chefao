@@ -3,7 +3,7 @@
 .containerApoie {
    width: 100vw;
    max-width: 100%;
-   height: 100vh;
+   height: 120vh;
    background-image: url("../../assets/Images/apoie.png");
    background-repeat: no-repeat;
    background-size: cover;
@@ -21,7 +21,7 @@
 }
 
 .textoApoie h1 {
-   margin-top: 13vh;
+   margin-top: 15vh;
    font-family: 'Roboto', sans-serif;
    font-size: 48px;
    font-weight: 700;
@@ -34,7 +34,7 @@
    font-size: 36px;
    font-family: 'Roboto', sans-serif;
    text-shadow: 1px 5px 5px black;
-   width: 80%;
+   width: 85%;
 }
 
 #buttonApoie {

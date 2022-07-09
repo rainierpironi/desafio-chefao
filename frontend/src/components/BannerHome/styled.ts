@@ -16,7 +16,7 @@ export const containerApoie = styled.div`
  `
 
 export const textoApoie = styled.div`
-    max-width: 60%;
+    max-width: 38%;
     margin-top: 5%;
     margin-left: 20%;
     
@@ -67,45 +67,71 @@ export const BotaoHome = styled.button`
 `
 
 export const VL = styled.div`
- border-left: 6px solid white;
+  border-left: 6px solid white;
   height: 25%;
   position: absolute;
-  margin-top: 35px;
-  left: 90%;
+  margin-top: 80px;
+  left: 80%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
+
+  @media screen and (max-width: 1400px) {
+    height: 25%;
+    margin-top: 35px;
+    left: 90%;
+   }
 `
 
 export const VL2 = styled.div`
- border-left: 6px solid white;
+  border-left: 6px solid white;
   height: 25%;
   position: absolute;
-  margin-top: 410px;
-  left: 90%;
+  margin-top: 520px;
+  left: 80%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
+
+  @media screen and (max-width: 1400px) {
+    margin-top: 410px;
+    left: 90%;
+   }
 `
 export const Link = styled.a`
-    font-size: 20px;
+  font-size: 20px;
   height: 30%;
   position: absolute;
-  margin-top: 230px;
-  left: 89%;
+  margin-top: 350px;
+  left: 79.5%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
+
+  @media screen and (max-width: 1400px) {
+    margin-top: 230px;
+    left: 89%;
+  }
 `
 export const Link2 = styled.a`
  font-size: 20px;
   height: 30%;
   position: absolute;
-  margin-top: 280px;
-  left: 89.2%;
+  margin-top: 400px;
+  left: 79.6%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
+
+  @media screen and (max-width: 1400px) {
+    margin-top: 280px;
+    left: 89.2%;
+  }
 `
 export const Link3 = styled.a`
  font-size: 20px;
   height: 30%;
   position: absolute;
-  margin-top: 330px;
-  left: 89.1%;
+  margin-top: 450px;
+  left: 79.5%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.95));
+
+  @media screen and (max-width: 1400px) {
+    margin-top: 330px;
+    left: 89.1%;
+  }
 `
 
 export const Gradiente = styled.div`

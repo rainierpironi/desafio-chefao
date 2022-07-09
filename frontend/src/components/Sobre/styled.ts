@@ -7,10 +7,14 @@ export const ContainerSobre = styled.div`
     padding-top: 2%;
     width: 100vw;
     max-width: 100%;
-    height: 110vh;
+    height: 95vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
+
+    @media screen and (max-width: 1400px) {
+        height: 110vh;
+    }
 `
 
 export const Titulos = styled.div`
