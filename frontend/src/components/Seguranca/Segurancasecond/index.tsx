@@ -2,6 +2,7 @@ import React from 'react';
 import "./styles.css"
 import FaixaSeg from "../../../assets/Images/segfaixa.png"
 import { Accordion } from 'react-bootstrap';
+import  Seta from "../../../assets/Images/setascroll.png"
 
 
 
@@ -10,6 +11,7 @@ const SegurancaSecond: React.FC = () => {
         <div className='containerSegSecond'>
             <div>
                 <img id="faixa" src={FaixaSeg} alt="Faixa banner" />
+                <img id="setascrolla" src={Seta} alt="Seta de indicacao" />
             </div>
             <div className='tituloSegSecond'>
                 <p>Precauções</p>

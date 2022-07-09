@@ -11,6 +11,10 @@ div.containerPlanSecond {
     color: white;
     font-family: 'Roboto', sans-serif;  
 }
+#setascrolla{
+    margin-left: 48%;
+    margin-top: -70px;
+}
 #faixa{
     max-width: 100vw;
     margin-top: -55px;
