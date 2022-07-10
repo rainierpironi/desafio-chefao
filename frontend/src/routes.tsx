@@ -36,6 +36,8 @@ import Olinda from "./pages/CidadesNE-Olinda";
 import Recife from './pages/CidadesNE-Recife';
 import PortoGalinhas from './pages/CidadesNE-Porto-de-galinhas';
 
+import CaldasNovas from './pages/CidadesCO-Caldas-novas';
+
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
 import DestinoSudeste from "./pages/DestinoSudeste";
@@ -75,6 +77,8 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/nordeste/pernambuco/olinda/10" element={<Olinda/>} />
         <Route path="/destinos/nordeste/pernambuco/recife/11" element={<Recife/>} />
         <Route path="/destinos/nordeste/pernambuco/porto-de-galinhas/12" element={<PortoGalinhas/>} />
+
+        <Route path="/destinos/centro-oeste/goias/caldas-novas/13" element={<CaldasNovas/>} />
         
   
       </Routes>
