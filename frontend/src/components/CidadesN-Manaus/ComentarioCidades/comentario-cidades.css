@@ -64,6 +64,18 @@
 
 .comentario-cidades div h5 {
     color: #6F971A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.comentario-cidades div p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #424243;
 }
 
 .form-comentario-cidades {
@@ -113,7 +125,7 @@
         padding-bottom: 2px;
     }
 
-    .form-comentario-cidades h3{
+    .form-comentario-cidades h3 {
         width: 100vw;
         padding-top: 60%;
     }
@@ -141,7 +153,7 @@
         width: 100vw;
     }
 
-    .form-comentario-cidades h3{
+    .form-comentario-cidades h3 {
         width: 100vw;
     }
 }
