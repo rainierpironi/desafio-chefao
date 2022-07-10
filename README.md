@@ -50,12 +50,10 @@ Você pode acessar a documentação da API [aqui.](https://documenter.getpostman
 
 ## :page_with_curl: Site do Projeto
 
-Você pode acessar o nosso site [aqui.](---
+Você pode acessar o nosso site [aqui.](https://lavaiela.herokuapp.com/)
 
 
-## :page_with_curl: Documentação
-
-Você pode acessar a documentação da API [aqui.](https://lavaiela.herokuapp.com/)
+---
 
 
 ## :keyboard: Time de Desenvolvedores
