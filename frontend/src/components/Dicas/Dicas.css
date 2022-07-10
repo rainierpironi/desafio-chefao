@@ -1,35 +1,52 @@
 .containerDicas{
     width: 100vw;
+    height: 95vh;
     max-width: 100%;
-    background-color: #f6f6f7;
-    padding: 2% 0 2% 0;
+    background-color: #fff;
+    padding: 2% 0 6% 0;
+    justify-content: center;
+    background-image: url("../../assets/Images/banner-dicas.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 .containerTextoDicas{
-    background-color: #f6f6f7;
     padding: 2% 5% 1% 6%;
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    padding-left: 17%;
+    padding-left: 20%;
 }
+
 .containerTextoDicas h1{
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     color: #1A1A1B;
+    font-weight: 700;
 }
+
 .containerTextoDicas h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #1A1A1B;
     margin: 0;
+    font-size: 36px;
 }
 .conteudoModuloUm{
     display: flex;
     flex-wrap: wrap;
-    padding: 0% 0% 0% 5%;
-    padding-left: 17%;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.culturais {
+    margin-right: 1%;
+}
+
+.uteis {
+    margin-right: 1%;
 }
 
 #efeitoDicas:hover{
@@ -60,15 +77,23 @@
 
 @media screen and (max-width: 1400px) {
 
+    .containerDicas {
+        height: 110vh;
+    }
+
     .containerTextoDicas {
-        padding-left: 7%;
+        padding-left: 10%;
     }
 
-    .conteudoModuloUm {
-        padding-left: 7%;
-    }
+    .conteudoModuloUm{
+        margin-bottom: 0.5%;
+    } 
 
-    .gradiente {
-        top: 2805px;
+    .culturais {
+        margin-right: 0.5%;
+    }
+    
+    .uteis {
+        margin-right: 0.5%;
     }
  }

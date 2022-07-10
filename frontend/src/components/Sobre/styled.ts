@@ -1,9 +1,20 @@
 import styled from 'styled-components';
+import back from '../../assets/Images/banner-sobre.png';
 
 export const ContainerSobre = styled.div`
-    background-color: #f6f6f7;
+    background-image: url(${back});
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 2%;
+    width: 100vw;
+    max-width: 100%;
+    height: 95vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    @media screen and (max-width: 1400px) {
+        height: 110vh;
+    }
 `
 
 export const Titulos = styled.div`
@@ -16,7 +27,7 @@ export const Titulos = styled.div`
 `
 
 export const TituloSobre = styled.h2`
-    margin-top: 50px;
+    margin-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -97,28 +108,4 @@ export const TextoSobre = styled.p`
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }
-`
-
-export const GradienteSobre = styled.div`
-    background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
-    mix-blend-mode: normal;
-    backdrop-filter: blur(10px);
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    top: 1930px;
-
-    @media screen and (max-width: 1400px) {
-        top: 1500px;
-    }
-`
-
-export const SetaSobre = styled.a`
-   display: flex;
-   justify-content: center;
-`
-
-export const ImagemChevronSobre = styled.img`
-    position: absolute;
-    top: -10px;
 `

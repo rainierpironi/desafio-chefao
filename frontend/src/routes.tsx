@@ -21,7 +21,14 @@ import Uteisfourth from "./components/Uteis/Uteisfourth/Uteisfourth";
 import Uteissecond from "./components/Uteis/Uteissecond/Uteissecond";
 import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
-import Olinda from "./pages/Olinda";
+
+import Salvador from "./pages/CidadesNE-Salvador";
+import Trancoso from "./pages/CidadesNE-Trancoso";
+import ChapadaDiamantina from "./pages/CidadesNE-Chapada-diamantina";
+
+import Olinda from "./pages/CidadesNE-Olinda";
+
+import Manaus from "./pages/CidadesN-Manaus";
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
 import DestinoSudeste from "./pages/DestinoSudeste";
@@ -48,10 +55,16 @@ const MyRoutes: React.FC = () => {
         <Route path="/uteis" element={<Uteis/>} />
         <Route path="/conecte" element={<Conecte/>} />
         
+        <Route path="/destinos/norte/amazonas/manaus/1" element={<Manaus/>} />
+
+
+        <Route path="/destinos/nordeste/bahia/salvador/7" element={<Salvador/>} />
+        <Route path="/destinos/nordeste/bahia/trancoso/8" element={<Trancoso/>} />
+        <Route path="/destinos/nordeste/bahia/trancoso/9" element={<ChapadaDiamantina/>} />
+        <Route path="/destinos/nordeste/pernambuco/olinda/10" element={<Olinda/>} />
         
 
-        <Route path="/destinos/nordeste/pernambuco/olinda" element={<Olinda/>} />
-
+        
       </Routes>
     </Router>
   );

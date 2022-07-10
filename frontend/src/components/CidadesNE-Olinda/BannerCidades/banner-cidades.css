@@ -1,0 +1,35 @@
+.banner-cidades {
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    height: 110vh;
+    display: flex;
+    background-size:cover;
+    background-position:center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.voltar-pagina{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.nome-cidades {
+    padding-left: 7%;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.95);
+}
+
+.nome-cidades h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.nome-cidades h2{
+    font-weight: 400;
+    font-size: 36px;
+}
+

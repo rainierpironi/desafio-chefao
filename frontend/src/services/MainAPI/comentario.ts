@@ -3,7 +3,8 @@ import baseUrl from './config';
 interface Comentario {
     nome: string,
     email: string,
-    mensagem: string
+    mensagem: string,
+    destinos_id: number,
 }
 
 export const postComentario = async (comentario: Comentario) => {

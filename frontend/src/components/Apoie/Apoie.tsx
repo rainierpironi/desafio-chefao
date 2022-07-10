@@ -18,23 +18,11 @@ function Apoie() {
                     <button id='buttonApoie'>Contribuir</button>
                 </div>
 
-
-
                 <Figure className='figura' >
-
-
 
                 </Figure>
 
             </div>
-
-            <div className='gradienteApoie'>
-                <a href="#contato" className='seta'>
-                    <img src={Seta} alt="seta" />
-                </a>
-            </div>
-
-
         </Fragment>
     )
 }

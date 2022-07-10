@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+
 const baseUrl = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'https://backend-xp.herokuapp.com/',
 });
 
 export default baseUrl;

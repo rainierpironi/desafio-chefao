@@ -1,46 +1,46 @@
 .main {
     margin: 0;
-    padding-bottom: 30px;
-    display:flex;  
+    padding-bottom: 45%;
+    display: flex;
+    padding-left: 20%;
     flex-wrap: wrap;
     height: 50rem;
     background-color: #2a2b2c;
 }
 
 .contato {
-    width: 70vh;
-    margin: 5%;
-    margin-rigth:0;
+    width: 50vh;
+    margin: 2% 0 5% 0;
+    margin-right: 0;
 }
 
 .contato h1 {
-    font-size:3rem;
-    font-weight:700;
-    margin-bottom:5%;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5%;
     color: #FFFFFF;
 }
 
 .contato h4 {
     color: #FFFFFF;
-    font-size:2.25rem;
-    font-weigh:400;
-    margin-bottom:15%;
+    font-weight: 400;
+    margin-bottom: 15%;
+    font-size: 36px;
 }
 
 .contato p {
     font-family: 'Roboto Serif', serif;
-    font-size:1.25em;
-    color: #FFFFFF;  
-    text-align:justify;  
+    font-size: 1.25em;
+    color: #FFFFFF;
 }
 
 .contato-form {
     font-size: 1.25em;
-    width: 100vh;
-    height:80%;
-    margin-left: 5%;
+    width: 65vh;
+    height: 80%;
+    margin-left: 3%;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .nome-email {
@@ -55,6 +55,10 @@ span {
 
 .titulo-input {
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: 'normal';
+    font-weight: '500';
+    font-size: '20px';
 }
 
 .form-btn {
@@ -62,10 +66,21 @@ span {
     justify-content: flex-end;
 }
 
+.form-btn Button {
+    transition: all 0.3s;
+}
+
+.form-btn Button:hover {
+    background-color: #F6980B;
+    transition: 0.5s;
+    border: #F6980B;
+}
+
 .notificacao {
     padding: 5px;
+    margin-right: 18% !important;
+    margin-top: 3%;
     border-radius: 10px !important;
-    justify-content: end;
     background-color: #FFFFFF !important;
 }
 
@@ -95,28 +110,60 @@ span {
     color: #495057;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
     .main {
-       height:90rem;
-       margin-bottom:0;
-       
+        height: 90rem;
+        margin-bottom: 0;
     }
 
-    .contato-form{
-        height:40rem;
-        width:90%;
+    .contato-form {
+        height: 40rem;
+        width: 90%;
     }
 
-    
+
 }
 
-@media only screen and (max-width: 820px) and (min-width: 481px){
+@media only screen and (max-width: 820px) and (min-width: 481px) {
     .main {
-        height:120rem;
+        height: 120rem;
     }
 
-    .contato-form{
-        height:40rem;
-        width:90%;
+    .contato-form {
+        height: 40rem;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 481px) {
+    
+    .main {
+        padding-bottom: 30px;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50rem;
+        background-color: #2a2b2c;
+    }
+
+    .contato {
+        width: 45vw;
+        padding-left: 10%;
+    }
+
+    .contato-form {
+        width: 40vw;
+        padding-bottom: 20% !important;
+    }
+
+    .comentario-cidades {
+        height: 70vh;
+    }
+    
+    .notificacao {
+        margin-right: 20% !important;
+        margin-top: 0;
+        position: absolute;
+        top: 4820px;
     }
 }
