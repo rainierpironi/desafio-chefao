@@ -44,6 +44,7 @@ import Bonito from './pages/CidadesCO-Bonito';
 import Bodoquena from './pages/CidadesCO-Bodoquena';
 
 import SaoPaulo from './pages/CidadesSE-Sao-paulo';
+import Ilhabela from './pages/CidadesSE-Ilhabela';
 
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
@@ -90,11 +91,11 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/centro-oeste/goias/chapada-dos-veadeiros/15" element={<ChapadaVeadeiros/>} />
         <Route path="/destinos/centro-oeste/mato-grosso/campo-grande/16" element={<CampoGrande/>} />
         <Route path="/destinos/centro-oeste/mato-grosso/bonito/17" element={<Bonito/>} />
-        <Route path="/destinos/centro-oeste/mato-grosso/bodoquena/18" element={<Bodoquena/>} />
-        <Route path="/destinos/sudeste/sao-paulo/sao-paulo/19" element={<SaoPaulo/>} />
+        <Route path="/destinos/centro-oeste/mato-grosso/bodoquena/18" element={<Bodoquena/>}/>
+       
+        <Route path="/destinos/sudeste/sao-paulo/sao-paulo/19" element={<SaoPaulo/>}/>
+        <Route path="/destinos/sudeste/sao-paulo/ilhabela/20" element={<Ilhabela/>}/>
 
-
-  
       </Routes>
     </Router>
   );
