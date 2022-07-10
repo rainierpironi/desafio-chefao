@@ -29,6 +29,7 @@ import Trancoso from "./pages/CidadesNE-Trancoso";
 import ChapadaDiamantina from "./pages/CidadesNE-Chapada-diamantina";
 import Olinda from "./pages/CidadesNE-Olinda";
 import Recife from './pages/CidadesNE-Recife';
+import PortoGalinhas from './pages/CidadesNE-Porto-de-galinhas';
 
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
@@ -64,6 +65,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/nordeste/bahia/chapada-diamantina/9" element={<ChapadaDiamantina/>} />
         <Route path="/destinos/nordeste/pernambuco/olinda/10" element={<Olinda/>} />
         <Route path="/destinos/nordeste/pernambuco/recife/11" element={<Recife/>} />
+        <Route path="/destinos/nordeste/pernambuco/porto-de-galinhas/12" element={<PortoGalinhas/>} />
         
   
       </Routes>
