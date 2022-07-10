@@ -27,6 +27,7 @@ import Parintins from './pages/CidadesN-Parintins';
 import PresidenteFigueiredo from './pages/CidadesN-Presidente-figueiredo';
 import Belem from './pages/CidadesN-Belem';
 import AlterChao from './pages/CidadesN-Alter-do-chao';
+import Maraba from './pages/CidadesN-Maraba';
 
 import Salvador from "./pages/CidadesNE-Salvador";
 import Trancoso from "./pages/CidadesNE-Trancoso";
@@ -66,6 +67,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/norte/amazonas/presidente-figueiredo/3" element={<PresidenteFigueiredo/>} />
         <Route path="/destinos/norte/para/belem/4" element={<Belem/>} />
         <Route path="/destinos/norte/para/alter-do-chao/5" element={<AlterChao/>} />
+        <Route path="/destinos/norte/para/maraba/6" element={<Maraba/>} />
 
         <Route path="/destinos/nordeste/bahia/salvador/7" element={<Salvador/>} />
         <Route path="/destinos/nordeste/bahia/trancoso/8" element={<Trancoso/>} />
