@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import { useFormik } from 'formik';
 import * as yup from "yup";
-import { getComentarios, postComentario } from '../../../services/MainAPI/comentario';
+import { getComentariosById, postComentario } from '../../../services/MainAPI/comentario';
 import { Container, Toast, Button } from 'react-bootstrap';
 import './comentario-cidades.css';
 
@@ -47,13 +47,13 @@ const ComentarioCidades: React.FC = () => {
   });
 
 
-  const carregarComentarios = async () => {
-    const resposta = await getComentarios();
+  const carregarComentarios = async (id: number) => {
+    const resposta = await getComentariosById(id);
     setComentarios(resposta);
   }
 
   useEffect(() => {
-    carregarComentarios()
+    carregarComentarios(id)
   }, []);
 
 

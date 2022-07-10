@@ -22,6 +22,6 @@ export const postComentario = async (comentario: Comentario) => {
     }
 }
 
-export const getComentarios = async (): Promise<Comentario[]>  => {
-    return baseUrl.get<Comentario[]>("/comentario").then(response => response.data)
+export const getComentariosById = async (id: number): Promise<Comentario[]>  => {
+    return baseUrl.get<Comentario[]>(`/comentario/${id}`).then(response => response.data)
 };
