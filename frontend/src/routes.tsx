@@ -52,6 +52,7 @@ import DestinoSudeste from "./pages/DestinoSudeste";
 import DestinoCentroOeste from "./pages/DestinoCentroOeste";
 import DestinoNorte from "./pages/DestinoNorte";
 import DestinoSul from "./pages/DestinoSul";
+import CamposJordao from './pages/CidadesSE-Campos-do-jordao';
 
 const MyRoutes: React.FC = () => {
 
@@ -95,6 +96,8 @@ const MyRoutes: React.FC = () => {
        
         <Route path="/destinos/sudeste/sao-paulo/sao-paulo/19" element={<SaoPaulo/>}/>
         <Route path="/destinos/sudeste/sao-paulo/ilhabela/20" element={<Ilhabela/>}/>
+        <Route path="/destinos/sudeste/sao-paulo/campos-do-jordao/21" element={<CamposJordao/>}/>
+
 
       </Routes>
     </Router>
