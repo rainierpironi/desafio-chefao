@@ -92,7 +92,6 @@ const ComentarioCidades: React.FC = () => {
                 fontStyle: 'normal',
                 fontWeight: '300',
                 fontSize: '16px',
-                color: '#C4C4C4'
               }}
               value={formik.values.nome}
               onChange={formik.handleChange} />
