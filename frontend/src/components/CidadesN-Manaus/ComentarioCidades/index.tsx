@@ -24,7 +24,8 @@ const ComentarioCidades: React.FC = () => {
 
   const [show, setShow] = useState(false);
   const [comentario, setComentarios] = useState<Comentarios[]>([]);
-  const destinos_id = window.location.search.split('/').length;
+  const destinos_id = window.location.pathname.split('/');
+  const id = parseInt(destinos_id[5]);
 
   const formik = useFormik({
     initialValues: {
@@ -35,7 +36,7 @@ const ComentarioCidades: React.FC = () => {
     },
     validationSchema,
     onSubmit: async (values, {resetForm}) => {
-      const resposta = await postComentario({ nome: values.nome, email: values.email, mensagem: values.mensagem, destinos_id: destinos_id});
+      const resposta = await postComentario({ nome: values.nome, email: values.email, mensagem: values.mensagem, destinos_id: id});
 
       if (resposta.status == 201 || resposta.status == 200) {
         setShow(true);
