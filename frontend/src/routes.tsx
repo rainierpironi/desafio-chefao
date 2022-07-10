@@ -24,6 +24,7 @@ import Uteis from "./pages/Uteis";
 
 import Manaus from "./pages/CidadesN-Manaus";
 import Parintins from './pages/CidadesN-Parintins';
+import PresidenteFigueiredo from './pages/CidadesN-Presidente-figueiredo';
 
 import Salvador from "./pages/CidadesNE-Salvador";
 import Trancoso from "./pages/CidadesNE-Trancoso";
@@ -60,6 +61,7 @@ const MyRoutes: React.FC = () => {
         
         <Route path="/destinos/norte/amazonas/manaus/1" element={<Manaus/>} />
         <Route path="/destinos/norte/amazonas/parintins/2" element={<Parintins/>} />
+        <Route path="/destinos/norte/amazonas/presidente-figueiredo/3" element={<PresidenteFigueiredo/>} />
 
         <Route path="/destinos/nordeste/bahia/salvador/7" element={<Salvador/>} />
         <Route path="/destinos/nordeste/bahia/trancoso/8" element={<Trancoso/>} />
