@@ -24,6 +24,7 @@ import Uteis from "./pages/Uteis";
 
 import Salvador from "./pages/CidadesNE-Salvador";
 import Trancoso from "./pages/CidadesNE-Trancoso";
+import ChapadaDiamantina from "./pages/CidadesNE-Chapada-diamantina";
 
 import Olinda from "./pages/CidadesNE-Olinda";
 
@@ -54,14 +55,16 @@ const MyRoutes: React.FC = () => {
         <Route path="/uteis" element={<Uteis/>} />
         <Route path="/conecte" element={<Conecte/>} />
         
-        
+        <Route path="/destinos/norte/amazonas/manaus/1" element={<Manaus/>} />
+
+
         <Route path="/destinos/nordeste/bahia/salvador/7" element={<Salvador/>} />
         <Route path="/destinos/nordeste/bahia/trancoso/8" element={<Trancoso/>} />
+        <Route path="/destinos/nordeste/bahia/trancoso/9" element={<ChapadaDiamantina/>} />
         <Route path="/destinos/nordeste/pernambuco/olinda/10" element={<Olinda/>} />
         
 
-        <Route path="/destinos/norte/amazonas/manaus/1" element={<Manaus/>} />
-
+        
       </Routes>
     </Router>
   );
