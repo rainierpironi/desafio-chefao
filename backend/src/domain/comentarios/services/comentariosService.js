@@ -27,9 +27,14 @@ const ComentarioServices = {
 
     async listaComentIdDestino(req) {
         const { id } = req.params;
-
-        const listComentDestino = await Comentarios.findByPk(id);
-        return listComentDestino
+        
+        const listaComentIdDestino = await Comentarios.findAll({
+            where:{
+                destinos_id : id
+            }
+        })
+        
+        return listaComentIdDestino
     },
 
     async atualizaComent(req) {
