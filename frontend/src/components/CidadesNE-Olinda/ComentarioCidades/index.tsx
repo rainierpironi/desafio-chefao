@@ -92,6 +92,8 @@ const ComentarioCidades: React.FC = () => {
                 fontStyle: 'normal',
                 fontWeight: '300',
                 fontSize: '16px',
+                backgroundColor: '#f7f7f8',
+                border: 'solid 1px #495057'
               }}
               value={formik.values.nome}
               onChange={formik.handleChange} />
@@ -121,6 +123,8 @@ const ComentarioCidades: React.FC = () => {
                 fontStyle: 'normal',
                 fontWeight: '300',
                 fontSize: '16px',
+                backgroundColor: '#f7f7f8',
+                border: 'solid 1px #495057'
               }}
               value={formik.values.email}
               onChange={formik.handleChange} />
@@ -151,6 +155,8 @@ const ComentarioCidades: React.FC = () => {
                   fontStyle: 'normal',
                   fontWeight: '300',
                   fontSize: '16px',
+                  backgroundColor: '#f7f7f8',
+                  border: 'solid 1px #495057'
                 }}
                 value={formik.values.mensagem}
                 onChange={formik.handleChange} />
