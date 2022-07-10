@@ -46,8 +46,8 @@ Você pode acessar a documentação da API [aqui.](https://documenter.getpostman
 
 
 ## :keyboard: Time de Desenvolvedores
-[<img src="https://avatars.githubusercontent.com/u/97199346?v=4" width=115> <br> <sub>Enio S Filho </sub>](https://github.com/EnioSFilho) | [<img src="https://avatars.githubusercontent.com/u/86985496?v=4" width=115> <br> <sub>Sabrynna Lourenço</sub>](https://github.com/sabrynnall) | [<img src="https://avatars.githubusercontent.com/u/92588463?v=4 " width=115> <br> <sub>Laura Cordeiro</sub>](https://github.com/laura-cordeiro) | [<img src="https://avatars.githubusercontent.com/u/55859591?v=4" width=115> <br> <sub>Ivan Takano</sub>](https://github.com/IvanTakano) | [<img src="https://avatars.githubusercontent.com/u/55409496?v=4" width=115> <br> <sub>Roberto Chagas </sub>](https://github.com/RobertoChagas)
-| [<img src="https://avatars.githubusercontent.com/u/99849209?v=4" width=115> <br> <sub>Juliana Guonik </sub>](https://github.com/juguonik) | [<img src="https://avatars.githubusercontent.com/u/98442267?v=4" width=115> <br> <sub>Rainier Pironi </sub>](https://github.com/rainierpironi) | [<img src="https://avatars.githubusercontent.com/u/95004294?v=4" width=115> <br> <sub>Barbara Tiaki Yokoyama </sub>](https://github.com/TikYokoyama)
-|:---: | :---: | :---: | :---: | :---: |
+[<sub>Enio S Filho </sub>](https://github.com/EnioSFilho) | [<sub>Sabrynna Lourenço</sub>](https://github.com/sabrynnall) | [<sub>Laura Cordeiro</sub>](https://github.com/laura-cordeiro) | [<sub>Ivan Takano</sub>](https://github.com/IvanTakano) | [<sub>Roberto Chagas </sub>](https://github.com/RobertoChagas)
+| [<sub>Juliana Guonik </sub>](https://github.com/juguonik) | [<sub>Rainier Pironi </sub>](https://github.com/rainierpironi) | [<sub>Barbara Tiaki Yokoyama </sub>](https://github.com/TikYokoyama)
+
 
 
