@@ -48,6 +48,7 @@ import Ilhabela from './pages/CidadesSE-Ilhabela';
 import CamposJordao from './pages/CidadesSE-Campos-do-jordao';
 import RioJaneiro from './pages/CidadesSE-Rio-de-janeiro';
 import AngraReis from './pages/CidadesSE-Angra-dos-Reis';
+import Petropolis from './pages/CidadesSE-Petropolis';
 
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
@@ -102,6 +103,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/sudeste/sao-paulo/campos-do-jordao/21" element={<CamposJordao/>}/>
         <Route path="/destinos/sudeste/rio-de-janeiro/rio-de-janeiro/22" element={<RioJaneiro/>}/>
         <Route path="/destinos/sudeste/rio-de-janeiro/angra-dos-reis/23" element={<AngraReis/>}/>
+        <Route path="/destinos/sudeste/rio-de-janeiro/petropolis/24" element={<Petropolis/>}/>
 
 
       </Routes>
