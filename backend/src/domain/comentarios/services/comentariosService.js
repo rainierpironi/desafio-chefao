@@ -1,5 +1,4 @@
 const Comentarios = require('../models/Comentarios');
-const Destinos = require('../../destinos/models/Destinos')
 
 const ComentarioServices = {
 
