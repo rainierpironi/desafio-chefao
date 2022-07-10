@@ -15,7 +15,7 @@ export const BannerDestinos = styled.div`
 
 export const VoltarPagina = styled.img`
     position: absolute;
-    top: 100px;
+    top: 105px;
     left: 25px;
 `
 

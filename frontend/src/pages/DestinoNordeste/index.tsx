@@ -43,7 +43,7 @@ const DestinoNordeste: React.FC = () => {
     <Container>
       <Header/>
       <BannerDestinos>
-        <Link  to={'/'}>
+        <Link to={'/'}>
           <VoltarPagina src={SetaVoltar} alt="seta-voltar" />
         </Link>
         <FraseDestinos>

@@ -12,7 +12,7 @@ const BannerHome: React.FC = () => {
         <p>Plataforma para conexão de mulheres que viajam solo em território
           brasileiro</p>
           
-        <BotaoHome ><a id="botao" href="/#conecte-se" style={{textDecoration: "none", color: " black" }}>Conecte-se</a></BotaoHome>
+        <a id="botao" href="/#conecte-se"><BotaoHome>Conecte-se</BotaoHome></a>
         
         
         

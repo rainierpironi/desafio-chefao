@@ -13,6 +13,12 @@ export const BannerDestinos = styled.div`
     justify-content: center;
 `
 
+export const VoltarPagina = styled.img`
+    position: absolute;
+    top: 105px;
+    left: 25px;
+`
+
 export const FraseDestinos = styled.div`
     padding-left: 7%;
     font-family: 'Roboto', sans-serif;

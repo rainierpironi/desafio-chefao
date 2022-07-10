@@ -1,7 +1,5 @@
-import React, { Fragment } from 'react'
-import { Button, Card, Container, Figure } from 'react-bootstrap'
-import Imagem from "../../assets/Images/imgapoie.png"
-import Seta from "../../assets/Images/chevron-down.svg"
+import  { Fragment } from 'react'
+import { Figure } from 'react-bootstrap'
 import "./Apoie.css"
 
 function Apoie() {
@@ -15,7 +13,7 @@ function Apoie() {
                     <h1>Apoie</h1>
                     <br />
                     <p>Gostou da plataforma? Saiba como você pode contribuir financeiramente para manter essa plataforma funcionando.</p>
-                    <button id='buttonApoie'>Contribuir</button>
+                    <a href="https://apoia.se/lavaiela" target="_blank"><button id='buttonApoie'>Contribuir</button></a>
                 </div>
 
                 <Figure className='figura' >
