@@ -30,7 +30,8 @@ const ComentarioCidades: React.FC = () => {
     initialValues: {
       nome: '',
       email: '',
-      mensagem: ''
+      mensagem: '',
+      destinos_id: '',
     },
     validationSchema,
     onSubmit: async (values, {resetForm}) => {

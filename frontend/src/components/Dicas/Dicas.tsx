@@ -25,12 +25,12 @@ function Dicas() {
                 <div className='containerModuloUm'>
                     <div className='conteudoModuloUm'>
                         <div className='culturais'>
-                            <a href="./culturais"><img id="efeitoDicas" src={Culturais} alt="Imagem Dicas Culturais" /></a>
+                            <a href="/dicas/culturais"><img id="efeitoDicas" src={Culturais} alt="Imagem Dicas Culturais" /></a>
 
                         </div>
                         <div>
 
-                            <a href="./seguranca"><img id="efeitoDicas" src={Seguranca} alt="Imagem Dicas Seguranca" /></a>
+                            <a href="/dicas/seguranca"><img id="efeitoDicas" src={Seguranca} alt="Imagem Dicas Seguranca" /></a>
 
                         </div>
                     </div>
@@ -38,10 +38,10 @@ function Dicas() {
                 <div className='containerModuloUm'>
                     <div className='conteudoModuloUm'>
                         <div className='uteis'>
-                            <a href='./uteis'><img id="efeitoDicas" src={Contatos} alt="Imagem Dicas Contatos" /></a>
+                            <a href='/dicas/uteis'><img id="efeitoDicas" src={Contatos} alt="Imagem Dicas Contatos" /></a>
                         </div>
                         <div>
-                            <a href="planejamento">   <img id="efeitoDicas" src={Planejamento} alt="Imagem Dicas Planejamento" /></a>
+                            <a href="/dicas/planejamento">   <img id="efeitoDicas" src={Planejamento} alt="Imagem Dicas Planejamento" /></a>
                         </div>
                     </div>
                 </div>

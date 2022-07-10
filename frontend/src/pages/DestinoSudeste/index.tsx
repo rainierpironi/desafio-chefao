@@ -1,8 +1,7 @@
 import Container from '../../components/Container';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Chevron from '../../assets/Images/chevron-down.svg';
-import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, GradienteBrancoDestino, ImagemChevronDestino, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade, SetaDestino } from './styled';
+import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade } from './styled';
 import ImagemSaoPaulo from '../../assets/Images/imagem-sao-paulo.png';
 import ImagemIlhabela from '../../assets/Images/imagem-ilhabela.png';
 import ImagemCampos from '../../assets/Images/imagem-campos.png';
@@ -53,11 +52,6 @@ const DestinoSudeste: React.FC = () => {
           <FraseDestinosSubtitulo>Guia de destinos do Brasil</FraseDestinosSubtitulo>
         </FraseDestinos>
       </BannerDestinos>
-      <GradienteBrancoDestino>
-        <SetaDestino href='#conteudo-estados'>
-          <ImagemChevronDestino src={Chevron} alt="seta" />
-        </SetaDestino>
-      </GradienteBrancoDestino>
       <ConteudoEstados id='conteudo-estados'>
         <div>
           <EstadosTitulo>São Paulo</ EstadosTitulo>

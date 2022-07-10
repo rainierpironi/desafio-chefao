@@ -1,8 +1,7 @@
 import Container from '../../components/Container';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Chevron from '../../assets/Images/chevron-down.svg';
-import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, GradienteBrancoDestino, ImagemChevronDestino, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade, SetaDestino } from './styled';
+import { BannerDestinos, BotaoNext, BotaoPrev, Carousel, ContainerCidades, ConteudoEstados, EstadosTitulo, FraseDestinos, FraseDestinosSubtitulo, FraseDestinosTitulo, ImagemCidade, ImagemNext, ImagemNextSecond, ImagemPrev, ImagemPrevSecond, LinkCidade } from './styled';
 import ImagemFlorianopolis from '../../assets/Images/imagem-florianopolis.png';
 import ImagemBlumenau from '../../assets/Images/imagem-blumenau.png';
 import ImagemJoinville from '../../assets/Images/imagem-joinville.png';
@@ -53,11 +52,6 @@ const DestinoSul: React.FC = () => {
           <FraseDestinosSubtitulo>Guia de destinos do Brasil</FraseDestinosSubtitulo>
         </FraseDestinos>
       </BannerDestinos>
-      <GradienteBrancoDestino>
-        <SetaDestino href='#conteudo-estados'>
-          <ImagemChevronDestino src={Chevron} alt="seta" />
-        </SetaDestino>
-      </GradienteBrancoDestino>
       <ConteudoEstados id='conteudo-estados'>
         <div>
           <EstadosTitulo>Santa Catarina</ EstadosTitulo>
