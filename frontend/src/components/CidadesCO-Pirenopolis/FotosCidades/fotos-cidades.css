@@ -1,0 +1,56 @@
+.main-fotos-cidades{
+    font-family: 'Roboto Mono', sans-serif;
+    color: #316072;
+    margin: 0 10%;
+    height:30rem;
+}
+
+.borda-dashed{
+    display:flex;
+    justify-content:center;
+}
+#borda-dashed{
+    width:90%;
+}
+
+.main-fotos-cidades h2{
+    margin: 3% 0;
+    font-size: 2rem;
+    font-weight:500;
+}
+
+.main-fotos-cidades h5{
+    margin: 3% 0;
+    font-size: 1.25rem;
+    font-weight:400;
+    text-align: center;
+}
+
+.container-fotos-cidades{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+@media only screen and (max-width: 480px){
+    .main-fotos-cidades{
+        height:120rem;
+    }
+
+    .main-fotos-cidades h2{
+        text-align:center;
+        font-size:1.7rem;
+        margin-bottom:5%;
+    }
+
+    .container-fotos-cidades{
+        display:flex;
+        justify-content:center;
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 481px){
+    .main-fotos-cidades{
+        height:60rem;
+    }
+}

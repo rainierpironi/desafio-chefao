@@ -37,6 +37,7 @@ import Recife from './pages/CidadesNE-Recife';
 import PortoGalinhas from './pages/CidadesNE-Porto-de-galinhas';
 
 import CaldasNovas from './pages/CidadesCO-Caldas-novas';
+import Pirenopolis from './pages/CidadesCO-Pirenopolis';
 
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
@@ -79,6 +80,8 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/nordeste/pernambuco/porto-de-galinhas/12" element={<PortoGalinhas/>} />
 
         <Route path="/destinos/centro-oeste/goias/caldas-novas/13" element={<CaldasNovas/>} />
+        <Route path="/destinos/centro-oeste/goias/pirenopolis/14" element={<Pirenopolis/>} />
+
         
   
       </Routes>
