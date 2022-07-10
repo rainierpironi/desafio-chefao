@@ -1,9 +1,9 @@
 import React, {Fragment} from 'react';
 import linhaPontilhada from "../../../assets/Images/Cidades/Olinda/dashed-border.png";
-import pocoEncantado from "../../../assets/Images/Cidades/Chapada-Diamantina/poco-encantado.png";
-import cachoeiraFumaça from "../../../assets/Images/Cidades/Chapada-Diamantina/cachoeira-fumaça.png";
-import valePati from "../../../assets/Images/Cidades/Chapada-Diamantina/vale-pati.png";
-import cachoeiraBuracao from "../../../assets/Images/Cidades/Chapada-Diamantina/cachoeira-buracao.png";
+import pocoEncantado from "../../../assets/Images/Cidades/Chapada-diamantina/poco-encantado.png";
+import cachoeiraFumaça from "../../../assets/Images/Cidades/Chapada-diamantina/cachoeira-fumaça.png";
+import valePati from "../../../assets/Images/Cidades/Chapada-diamantina/vale-pati.png";
+import cachoeiraBuracao from "../../../assets/Images/Cidades/Chapada-diamantina/cachoeira-buracao.png";
 
 
 import './fotos-cidades.css';
