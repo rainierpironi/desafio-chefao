@@ -1,0 +1,42 @@
+
+
+.conteudo-principal{
+    height: 55rem;
+    text-align: justify;
+    margin: 5% 10% 2% 10%;
+    
+}
+
+.conteudo-principal h1{
+    color: #1A1A1B;
+    font-size:3rem;
+}
+
+.conteudo-principal h2{
+    margin-bottom:5%;
+    font-size:2.25rem;
+    font-weight:400;
+    color: #424243;
+    
+}
+
+.conteudo-principal p{
+    font-size: 1.25rem;
+    font-family: 'Roboto Serif', serif;
+    color: #495057;
+}
+
+@media only screen and (max-width: 480px){
+    .conteudo-principal{
+        height: 135rem;
+        margin-top:15%;
+        
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 481px){
+    .conteudo-principal{
+        height: 75rem;
+        margin-top:15%;
+    }
+}

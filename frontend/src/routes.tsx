@@ -23,6 +23,7 @@ import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
 
 import Manaus from "./pages/CidadesN-Manaus";
+import Parintins from './pages/CidadesN-Parintins';
 
 import Salvador from "./pages/CidadesNE-Salvador";
 import Trancoso from "./pages/CidadesNE-Trancoso";
@@ -58,7 +59,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/conecte" element={<Conecte/>} />
         
         <Route path="/destinos/norte/amazonas/manaus/1" element={<Manaus/>} />
-
+        <Route path="/destinos/norte/amazonas/parintins/2" element={<Parintins/>} />
 
         <Route path="/destinos/nordeste/bahia/salvador/7" element={<Salvador/>} />
         <Route path="/destinos/nordeste/bahia/trancoso/8" element={<Trancoso/>} />
