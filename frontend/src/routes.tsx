@@ -39,6 +39,7 @@ import PortoGalinhas from './pages/CidadesNE-Porto-de-galinhas';
 import CaldasNovas from './pages/CidadesCO-Caldas-novas';
 import Pirenopolis from './pages/CidadesCO-Pirenopolis';
 import ChapadaVeadeiros from './pages/CidadesCO-Chapada-veadeiros';
+import CampoGrande from './pages/CidadesCO-Campo-grande';
 
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
@@ -83,9 +84,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/centro-oeste/goias/caldas-novas/13" element={<CaldasNovas/>} />
         <Route path="/destinos/centro-oeste/goias/pirenopolis/14" element={<Pirenopolis/>} />
         <Route path="/destinos/centro-oeste/goias/chapada-dos-veadeiros/15" element={<ChapadaVeadeiros/>} />
-
-
-        
+        <Route path="/destinos/centro-oeste/mato-grosso/campo-grande/16" element={<CampoGrande/>} />
   
       </Routes>
     </Router>
