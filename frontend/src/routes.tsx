@@ -60,7 +60,7 @@ const MyRoutes: React.FC = () => {
 
         <Route path="/destinos/nordeste/bahia/salvador/7" element={<Salvador/>} />
         <Route path="/destinos/nordeste/bahia/trancoso/8" element={<Trancoso/>} />
-        <Route path="/destinos/nordeste/bahia/trancoso/9" element={<ChapadaDiamantina/>} />
+        <Route path="/destinos/nordeste/bahia/chapada-diamantina/9" element={<ChapadaDiamantina/>} />
         <Route path="/destinos/nordeste/pernambuco/olinda/10" element={<Olinda/>} />
         
 
