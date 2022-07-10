@@ -45,6 +45,14 @@ Em nosso projeto adotamos:
 Você pode acessar a documentação da API [aqui.](https://documenter.getpostman.com/view/20804775/UzBqoQWw)
 
 
+---
+
+
+## :page_with_curl: Site do Projeto
+
+Você pode acessar o nosso site [aqui.](https://documenter.getpostman.com/view/20804775/UzBqoQWw)
+
+
 ## :keyboard: Time de Desenvolvedores
 [<sub>Enio S Filho </sub>](https://github.com/EnioSFilho) | [<sub>Sabrynna Lourenço</sub>](https://github.com/sabrynnall) | [<sub>Laura Cordeiro</sub>](https://github.com/laura-cordeiro) | [<sub>Ivan Takano</sub>](https://github.com/IvanTakano) | [<sub>Roberto Chagas </sub>](https://github.com/RobertoChagas)
 | [<sub>Juliana Guonik </sub>](https://github.com/juguonik) | [<sub>Rainier Pironi </sub>](https://github.com/rainierpironi) | [<sub>Barbara Tiaki Yokoyama </sub>](https://github.com/TikYokoyama)
