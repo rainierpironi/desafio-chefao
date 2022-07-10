@@ -3,10 +3,6 @@
   <img src="https://user-images.githubusercontent.com/90655270/161388302-145d58d6-723a-4dc1-97e7-80133dfa4c3a.png" width="50%">
 </p>
 
-<p align="center">
-  <img src="https://lavaiela.herokuapp.com/assets/logo-header.05367956.png" width="50%">
-</p>
-
 
 <p align="center">
   <img alt="Gama XP 41" src="https://img.shields.io/static/v1?label=XP&message=41&color=success&labelColor=grey">
