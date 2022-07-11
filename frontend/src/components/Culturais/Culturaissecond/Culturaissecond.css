@@ -1,40 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
 div.containerCultSecond {
 
     width: 100vw;
     height: 100vh;
     max-width: 100%;
     background-color: #2a2b2c;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
 }
 
-#setascroll{
+#setascroll {
     margin-left: 48%;
     margin-top: -70px;
 }
 
-#faixa{
+#faixa {
     max-width: 98.7vw;
     margin-top: -55px;
-    
+
 }
 
-div.tituloCultSecond{
+div.tituloCultSecond {
     color: white;
-   font-size: 48px;
-   margin-left: 7%;
-   font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;
 }
-div.dropCultSecond{
+
+div.dropCultSecond {
     color: black;
     width: 88vw;
-   margin-left: 7%;
-   font-family: 'Roboto', sans-serif;
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;
 }
-div.adjustCult{
+
+div.adjustCult {
     padding: 0.1%;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: #F9C073 !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    color: black !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
 }

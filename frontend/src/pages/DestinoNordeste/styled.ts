@@ -29,11 +29,27 @@ export const FraseDestinos = styled.div`
 export const FraseDestinosTitulo = styled.h1`
     font-weight: 700;
     font-size: 52px;
+
+    @media screen and (max-width: 900px) {
+        font-size: 102px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 52px;
+    }
 `
 
 export const FraseDestinosSubtitulo = styled.h2`
     font-weight: 400;
     font-size: 36px;
+
+    @media screen and (max-width: 900px) {
+        font-size: 56px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 36px;
+    }
 `
 
 export const ConteudoEstados = styled.div`
@@ -88,20 +104,9 @@ export const ImagemPrev = styled.img`
     margin-top: 120px;
     cursor: pointer;
 
-    @media screen and (max-width: 1400px) {
-        top: 1080px;
-        left: 55px;
-    }
-
-    @media screen and (max-width: 900px) {
-        top: 1030px;
-        left: 30px;
-    }
-
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 950px;
-        left: 8px;
+        margin-top: 60px;
     }
 
 `
@@ -111,20 +116,9 @@ export const ImagemPrevSecond = styled.img`
     margin-top: 120px;
     cursor: pointer;
 
-    @media screen and (max-width: 1400px) {
-        top: 1590px;
-        left: 55px;
-    }
-
-    @media screen and (max-width: 900px) {
-        top: 1470px;
-        left: 30px;
-    }
-
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 1200px;
-        left: 8px;
+        margin-top: 60px;
     }
 `
 
@@ -198,20 +192,9 @@ export const ImagemNext = styled.img`
     margin-top: 120px;
     cursor: pointer;
 
-    @media screen and (max-width: 1400px) {
-        top: 1080px;
-        right: 90px;
-    }
-
-    @media screen and (max-width: 900px) {
-        top: 1030px;
-        right: 55px;
-    }
-
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 950px;
-        right: 70px;
+        margin-top: 60px;
     }
 `
 
@@ -220,19 +203,8 @@ export const ImagemNextSecond = styled.img`
     margin-top: 120px;
     cursor: pointer;
 
-    @media screen and (max-width: 1400px) {
-        top: 1590px;
-        right: 90px;
-    }
-
-    @media screen and (max-width: 900px) {
-        top: 1470px;
-        right: 55px;
-    }
-
     @media screen and (max-width: 480px) {
         height: 40px;
-        top: 1200px;
-        right: 70px;
+        margin-top: 60px;
     }
 `
