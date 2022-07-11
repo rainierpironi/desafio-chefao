@@ -80,18 +80,25 @@
       margin-left: 10%;
    }
 }
+
 @media screen and (max-width: 1004px){
 
    .textoApoie h1{
-      font-size: 35px;
+      font-size: 48px;
       margin-left: 2%;
    }
    .textoApoie p {
-      font-size: 25px;
+      font-size: 36px;
       margin-left: 2%;
    }
    .textoApoie a{
-      margin-left: 20%;
+      margin-left: 5%;
    }
+
+}
+
+@media only screen and (max-width: 480px) {
+   
+
 
 }

@@ -44,6 +44,20 @@ export const textoApoie = styled.div`
         width: 100%;
       }
     }
+
+    @media screen and (max-width: 480px) {
+      margin-left: 10%;
+      max-width: 70%;
+
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        width: 100%;
+        font-size: 24px;
+      }
+    }
  `
 
 export const BotaoHome = styled.button`
@@ -79,6 +93,10 @@ export const VL = styled.div`
     margin-top: 35px;
     left: 90%;
    }
+
+   @media screen and (max-width: 980px) {
+    margin-top: 50px;
+   }
 `
 
 export const VL2 = styled.div`
@@ -93,6 +111,10 @@ export const VL2 = styled.div`
     margin-top: 410px;
     left: 90%;
    }
+
+   @media screen and (max-width: 980px) {
+    margin-top: 500px;
+   }
 `
 export const Link = styled.a`
   font-size: 20px;
@@ -106,6 +128,11 @@ export const Link = styled.a`
     margin-top: 230px;
     left: 89%;
   }
+
+  @media screen and (max-width: 980px) {
+    margin-top: 370px;
+    left: 88.5%;
+   }
 `
 export const Link2 = styled.a`
  font-size: 20px;
@@ -119,6 +146,11 @@ export const Link2 = styled.a`
     margin-top: 280px;
     left: 89.2%;
   }
+
+  @media screen and (max-width: 980px) {
+    margin-top: 405px;
+    left: 88.8%;
+  }
 `
 export const Link3 = styled.a`
  font-size: 20px;
@@ -131,6 +163,11 @@ export const Link3 = styled.a`
   @media screen and (max-width: 1400px) {
     margin-top: 330px;
     left: 89.1%;
+  }
+
+  @media screen and (max-width: 980px) {
+    margin-top: 440px;
+    left: 88.8%;
   }
 `
 

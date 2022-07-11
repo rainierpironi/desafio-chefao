@@ -76,14 +76,16 @@
 @media screen and (max-width: 1070px) {
 
     .containerimg {
-
-
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-direction: row;
     }
 
+    .linkRegiao {
+        padding-bottom: 5%;
+    }
+
     #efeito {
-        margin-top: 60%;
+        margin-top: 5%;
         max-width: 100%;
     }
 

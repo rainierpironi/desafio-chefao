@@ -117,8 +117,12 @@
 }
 @media screen and (max-width: 1108px){
 
+    .containerModuloUm {
+        justify-content: center;
+    }
+
     #efeitoDicas {
-        max-width: 70%;
+        max-width: 90%;
     }
     
 }

@@ -15,6 +15,10 @@ export const ContainerSobre = styled.div`
     @media screen and (max-width: 1400px) {
         height: 110vh;
     }
+
+    @media screen and (max-width: 480px) {
+        padding-top: 10%;
+    }
 `
 
 export const Titulos = styled.div`
@@ -49,7 +53,7 @@ export const ConteudoSobre = styled.div`
 
     @media screen and (max-width: 900px) {
         flex-direction: column;
-        align-items: center;
+        margin-left: 10%;
         padding-bottom: 60%;
     }
 
@@ -67,6 +71,7 @@ export const VideoSobre = styled.iframe`
 
     @media screen and (max-width: 900px) {
         margin-top: 2%;
+        margin-left: 15%;
     }
 
     @media screen and (max-width: 480px) {
@@ -103,6 +108,8 @@ export const TextoSobre = styled.p`
 
     @media screen and (max-width: 900px) {
         font-size: 25px;
+        width: 80vw;
+        margin-left: 0;
     }
 
     @media screen and (max-width: 480px) {

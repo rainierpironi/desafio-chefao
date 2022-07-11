@@ -52,8 +52,8 @@ export const ConteudoDestinos = styled.div`
    }
 
    @media screen and (max-width: 900px) {
-      flex-direction: column;
-      align-items: center;
+      padding-top: 10%;
+      flex-wrap: wrap;
    }
 `
 
@@ -71,7 +71,7 @@ export const LinkDestino = styled(Link)`
    @media screen and (max-width: 480px) {
       margin-right: 4%;
       margin-bottom: 5%;
-      padding-bottom: 5;
+      padding-bottom: 5%;
       border-radius: 40px;
    }
 `
@@ -83,15 +83,5 @@ export const ImagemDestino = styled.img`
    :hover {
       opacity: 50%;
       transition: 0.8s;
-   }
-
-   @media screen and (max-width: 900px) {
-      width: 400px;
-      height: 450px;
-   }
-
-   @media screen and (max-width: 480px) {
-      width: 300px;
-      height: 350px;
    }
 `
