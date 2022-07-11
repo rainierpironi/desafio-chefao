@@ -126,3 +126,23 @@
     }
     
 }
+
+@media screen and (max-width: 480px) {
+
+    .containerDicas {
+        padding-top: 0;
+    }
+
+    .containerTextoDicas h1 {
+        font-size: 36px;
+    }
+
+    .containerTextoDicas h2 {
+        font-size: 24px;
+    }
+
+    #efeitoDicas {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}

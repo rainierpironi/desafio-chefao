@@ -112,7 +112,7 @@ span {
 
 @media only screen and (max-width: 480px) {
     .main {
-        height: 90rem;
+        height: 95rem;
         margin-bottom: 0;
         padding-left: 0;
     }

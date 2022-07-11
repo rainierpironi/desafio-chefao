@@ -17,7 +17,7 @@ export const ContainerSobre = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        padding-top: 10%;
+        padding-top: 2%;
     }
 `
 
@@ -36,6 +36,10 @@ export const TituloSobre = styled.h2`
     font-weight: 700;
     font-size: 48px;
     color: #1A1A1B;
+
+    @media screen and (max-width: 480px) {
+        font-size: 36px;
+    }
 `
 
 export const SubtituloSobre = styled.h3`
@@ -44,6 +48,10 @@ export const SubtituloSobre = styled.h3`
     font-size: 36px;
     color: #1A1A1B;
     padding-bottom: 4%;
+
+    @media screen and (max-width: 480px) {
+        font-size: 24px;
+    }
 `
 
 export const ConteudoSobre = styled.div`
@@ -76,8 +84,9 @@ export const VideoSobre = styled.iframe`
 
     @media screen and (max-width: 480px) {
         margin-top: 2%;
-        width: 300px;
-        height: 295px;
+        width: 240px;
+        height: 180px;
+        margin-left: 0;
     }
 `
 
@@ -96,8 +105,8 @@ export const ContainerTextoSobre = styled.div`
     @media screen and (max-width: 480px) {
         width: 300px;
         height: 230px;
-        margin-right: 4%;
         margin-top: 5%;
+        padding-left: 0;
     }
 `
 
@@ -113,6 +122,12 @@ export const TextoSobre = styled.p`
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 18px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 360px) {
+        font-size: 13px;
+        width: 100%;
     }
 `

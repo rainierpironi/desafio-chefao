@@ -88,6 +88,19 @@
         margin-top: 5%;
         max-width: 100%;
     }
+}
 
+@media screen and (max-width: 480px) {
     
+    .textoConecte h1 {
+        font-size: 36px;
+    }
+
+    .textoConecte h2 {
+        font-size: 24px;
+    }
+
+    #efeito {
+        height: 20vh;
+    }
 }

@@ -32,6 +32,10 @@ export const TituloDestinos = styled.h2`
    font-size: 48px;
    color: #FFF;
    padding: 7% 0 0 0;
+
+   @media screen and (max-width: 480px) {
+      font-size: 36px;
+   }
 `
 
 export const SubtituloDestinos = styled.h3`
@@ -40,6 +44,10 @@ export const SubtituloDestinos = styled.h3`
    font-size: 36px;
    color: #FFF;
    padding-bottom: 2%;
+
+   @media screen and (max-width: 480px) {
+      font-size: 24px;
+   }
 `
 
 export const ConteudoDestinos = styled.div`
@@ -83,5 +91,9 @@ export const ImagemDestino = styled.img`
    :hover {
       opacity: 50%;
       transition: 0.8s;
+   }
+
+   @media screen and (max-width: 480px) {
+      height: 20vh;
    }
 `

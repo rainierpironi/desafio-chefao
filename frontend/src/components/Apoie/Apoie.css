@@ -98,7 +98,16 @@
 }
 
 @media only screen and (max-width: 480px) {
+
+   .textoApoie {
+      max-width: 70vw;
+   }
    
+   .textoApoie h1 {
+      font-size: 36px;
+   }
 
-
+   .textoApoie p {
+      font-size: 24px;
+   }
 }
