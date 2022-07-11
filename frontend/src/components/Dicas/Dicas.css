@@ -135,14 +135,17 @@
 
     .containerTextoDicas h1 {
         font-size: 36px;
+        margin-left: 12%;
     }
 
     .containerTextoDicas h2 {
         font-size: 24px;
+        margin-left: 12%;
     }
 
     #efeitoDicas {
-        max-width: 80%;
-        margin-left: 10%;
+        margin-top: 2px;
+        max-width: 50%;
+        margin-left: 21%;
     }
 }
