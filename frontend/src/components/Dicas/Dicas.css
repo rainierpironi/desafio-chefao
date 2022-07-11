@@ -50,17 +50,14 @@
     margin-right: 1%;
 }
 
+#efeitoDicase {
+    transition: all 0.3s;
+}
+
 #efeitoDicas:hover {
     opacity: 80%;
     transition: 0.8s;
 }
-
-#efeitoDicase:hover {
-    opacity: 80%;
-    transition: 0.8s;
-}
-
-#efeitoDicase {}
 
 .gradiente {
     background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);

@@ -26,7 +26,9 @@ div.containerUtilSecond {
 div.tituloUtilSecond{
     color: white;
    font-size: 48px;
+   padding-top: 10%;
    margin-left: 7%;
+   font-weight: 700;
    font-family: 'Roboto', sans-serif;
 }
 div.dropUtilSecond{

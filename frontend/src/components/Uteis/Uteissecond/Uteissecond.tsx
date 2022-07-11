@@ -1,17 +1,11 @@
 import React, { Fragment } from 'react'
 import { Accordion } from 'react-bootstrap'
 import "../Uteissecond/Uteissecond.css"
-import FaixaUtil from "../../../assets/Images/faixauteis.png"
-import  Seta from "../../../assets/Images/setascroll.png"
 
 function Uteissecond() {
     return (
         <Fragment>
             <div className='containerUtilSecond'>
-                <div>
-                    <img id="faixa" src={FaixaUtil} alt="Faixa banner" />
-                    <img id="setascrolla" src={Seta} alt="Seta de indicacao" />
-                </div>
                 <div className='tituloUtilSecond'>
                     <p>Delegacias da Mulher</p>
                 </div>

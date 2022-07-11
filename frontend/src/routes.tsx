@@ -1,25 +1,9 @@
 import React, { useEffect } from 'react'
-import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
-import Apoie from "./components/Apoie/Apoie";
+import {  BrowserRouter as Router,  Routes,  Route, useLocation} from "react-router-dom";
 import Home from "./pages/Home";
 import Conecte from "./components/Conecte/Conecte";
-import Dicas from "./components/Dicas/Dicas";
-import Plansecond from "./components/Planejamento/Plansecond/Plansecond";
-import Planthird from "./components/Planejamento/Planthird/Planthird";
-import Planfourth from "./components/Planejamento/Planfourth/Planfourth";
-import Culturaisfirst from "./components/Culturais/Culturaisfirst/Culturaisfirst";
-import Planfirst from "./components/Planejamento/Planfirst/Planfirst";
-import Culturaissecond from "./components/Culturais/Culturaissecond/Culturaissecond";
-import Culturaisthird from "./components/Culturais/Culturaisthird/Culturaisthird";
 import PlanejamentoDesktop from "./pages/PlanejamentoDesktop";
-import Paginacult from "./pages/CulturaisDesktop";
-import SecurityFirst from "./components/Seguranca/Segurancafirst";
-import SecuritySecond from "./components/Seguranca/Segurancasecond";
 import PaginaSecurity from "./pages/SegurancaDesktop";
-import Uteisfirst from "./components/Uteis/Uteisfirst/Uteisfirst";
-import Uteisfourth from "./components/Uteis/Uteisfourth/Uteisfourth";
-import Uteissecond from "./components/Uteis/Uteissecond/Uteissecond";
-import Uteisthird from "./components/Uteis/Uteisthird/Uteisthird";
 import Uteis from "./pages/Uteis";
 
 import Manaus from "./pages/CidadesN-Manaus";
@@ -62,10 +46,22 @@ import DestinoSul from "./pages/DestinoSul";
 
 const MyRoutes: React.FC = () => {
 
+  
+
+  function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
   return (
     
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/destinos/nordeste" element={<DestinoNordeste/>} />
@@ -109,6 +105,12 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/sudeste/rio-de-janeiro/petropolis/24" element={<Petropolis/>}/>
 
         <Route path="/destinos/sul/santa-catarina/florianopolis/25" element={<Florianopolis/>}/>
+
+        <Route path="/destinos/sul/santa-catarina/blumenau/26" element={<Florianopolis/>}/>
+        <Route path="/destinos/sul/santa-catarina/joinville/27" element={<Florianopolis/>}/>
+        <Route path="/destinos/sul/rio-grande-do-sul/gramado/28" element={<Florianopolis/>}/>
+        <Route path="/destinos/sul/rio-grande-do-sul/canela/29" element={<Florianopolis/>}/>
+        <Route path="/destinos/sul/rio-grande-do-sul/portoalegre/30" element={<Florianopolis/>}/>
 
 
       </Routes>

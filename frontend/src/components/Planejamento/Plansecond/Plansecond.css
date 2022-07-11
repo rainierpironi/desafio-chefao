@@ -9,6 +9,7 @@ div.containerPlanSecond {
     background-size:cover;
     background-position:center;
     color: white;
+    font-weight: 700;
     font-family: 'Roboto', sans-serif;  
 }
 #setascrolla{
@@ -23,6 +24,7 @@ div.containerPlanSecond {
 div.tituloPlanSecond{
     color: white;
    font-size: 48px;
+   padding-top: 10%;
    margin-left: 7%;
    font-family: 'Roboto', sans-serif;
 }

@@ -3,7 +3,7 @@ div.containerSegFirst{
    width: 100vw;
    height: 100vh;
    max-width: 100%;
-   background-image: url("../../../assets/Images/segdesktop.png");
+   background-image: url("../../../assets/Images/capa-seguranca.png");
    background-repeat:no-repeat;
    background-size:cover;
    background-position:center;
@@ -11,6 +11,13 @@ div.containerSegFirst{
    font-family: 'Roboto', sans-serif;
   
 }
+
+.voltarPagina {
+   position: absolute;
+   top: 105px;
+   left: 25px;
+}
+
 div.containerTituloFirst{
 text-shadow: 2px 4px 5px black;
 width: 38vw;

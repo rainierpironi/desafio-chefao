@@ -17,7 +17,7 @@ const Destinos: React.FC = () => {
                 </ContainerTitulos>
 
                 <ConteudoDestinos>
-                    <LinkDestino to={'/destinos/norte'}>
+                    <LinkDestino to='/destinos/norte'>
                         <ImagemDestino src={ImagemNorte} alt="paisagem-norte" />
                     </LinkDestino>
                     <LinkDestino to='/destinos/nordeste'>

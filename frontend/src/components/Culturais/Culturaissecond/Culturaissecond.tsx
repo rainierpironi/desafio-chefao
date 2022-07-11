@@ -8,11 +8,6 @@ function Culturaissecond() {
     return (
         <Fragment>
  <div className='containerCultSecond'>
-            <div>
-                <img id="faixa" src={FaixaCult} alt="Faixa banner" />
-                <img id="setascroll" src={Seta} alt="Seta de indicacao" />
-                
-            </div>
             <div className='tituloCultSecond'>
                 <p>Expressões</p>
             </div>

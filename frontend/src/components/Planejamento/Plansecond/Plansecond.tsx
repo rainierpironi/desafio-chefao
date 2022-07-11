@@ -1,17 +1,11 @@
 import React, { Fragment } from 'react'
 import { Accordion } from 'react-bootstrap'
 import "../Plansecond/Plansecond.css"
-import FaixaPlan from "../../../assets/Images/faixaplan.png"
-import  Seta from "../../../assets/Images/setascroll.png"
 
 function Plansecond() {
     return (
         <Fragment>
             <div className='containerPlanSecond'>
-                <div>
-                    <img id="faixa" src={FaixaPlan} alt="Faixa banner" />
-                    <img id="setascrolla" src={Seta} alt="Seta de indicacao" />
-                </div>
                 <div className='tituloPlanSecond'>
                     <p>Aeroportos</p>
                 </div>

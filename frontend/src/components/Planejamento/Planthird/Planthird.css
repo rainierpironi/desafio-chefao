@@ -3,10 +3,9 @@
     width: 100vw;
     max-width: 100%;
     height: 100vh;
-    font-family: 'DM Sans', sans-serif;
-    background-color: #DCE9E2;
+    background-color: #f7f7f8;
     font-family: 'Roboto', sans-serif;
-    
+    font-weight: 700;
 }
 
 .milhasPlan{

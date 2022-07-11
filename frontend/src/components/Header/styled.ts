@@ -80,6 +80,7 @@ export const Barra = styled(NavDropdown)`
 .dropdown-menu a:hover {
     background-color: #F49729 !important;
     transition: 0.2s;
+    color: #000 !important;
     }
 `
 

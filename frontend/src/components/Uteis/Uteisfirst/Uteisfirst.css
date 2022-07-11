@@ -1,30 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
-div.containerUtilFirst{
+
+div.containerUtilFirst {
    width: 100vw;
    height: 100vh;
    max-width: 100%;
-   background-image: url("../../../assets/Images/contatosuteisdesk.png");
-   background-repeat:no-repeat;
-   background-size:cover;
-   background-position:center;
+   background-image: url("../../../assets/Images/capa-contatos.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
    color: white;
    font-family: 'Roboto', sans-serif;
 }
-div.containerTituloUtilFirst{
-text-shadow: 2px 4px 5px black;
-width: 41vw;
-height: 10vh;
-text-align: left;
-padding-top: 14%;
-margin-left: 7%;
-font-family: 'Roboto', sans-serif;
+
+.voltarPagina {
+   position: absolute;
+   top: 105px;
+   left: 25px;
 }
-div.containerTituloUtilFirst h1{
-   font-size: 52px;
-   font-family: 'Roboto', sans-serif;
-}
-div.containerTituloUtilFirst p{
-   font-size: 36px;
+
+div.containerTituloUtilFirst {
+   text-shadow: 2px 4px 5px black;
+   width: 41vw;
+   height: 10vh;
+   text-align: left;
+   padding-top: 14%;
+   margin-left: 7%;
    font-family: 'Roboto', sans-serif;
 }
 
+div.containerTituloUtilFirst h1 {
+   font-size: 52px;
+   font-family: 'Roboto', sans-serif;
+}
+
+div.containerTituloUtilFirst p {
+   font-size: 36px;
+   font-family: 'Roboto', sans-serif;
+}
