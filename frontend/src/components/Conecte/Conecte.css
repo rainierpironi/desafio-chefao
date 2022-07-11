@@ -1,8 +1,8 @@
 .bannerConecte {
     background-image: url("../../assets/Images/banner-conecte-se.png");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100vw;
     max-width: 100%;
     height: 95vh;
@@ -48,6 +48,8 @@
 
 .linkRegiao {
     margin-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #efeito {
@@ -69,4 +71,21 @@
     .containerConecte {
         padding-left: 10%;
     }
- }
+}
+
+@media screen and (max-width: 1070px) {
+
+    .containerimg {
+
+
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    #efeito {
+        margin-top: 60%;
+        max-width: 100%;
+    }
+
+    
+}

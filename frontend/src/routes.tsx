@@ -78,7 +78,8 @@ const MyRoutes: React.FC = () => {
         <Route path="/dicas/seguranca" element={<PaginaSecurity/>} />
         <Route path="/dicas/uteis" element={<Uteis/>} />
         <Route path="/conecte" element={<Conecte/>} />
-        
+        <Route path="/testeenio" element={<Conecte/>} />
+
         <Route path="/destinos/norte/amazonas/manaus/1" element={<Manaus/>} />
         <Route path="/destinos/norte/amazonas/parintins/2" element={<Parintins/>} />
         <Route path="/destinos/norte/amazonas/presidente-figueiredo/3" element={<PresidenteFigueiredo/>} />

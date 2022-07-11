@@ -16,9 +16,7 @@ function Apoie() {
                     <a href="https://apoia.se/lavaiela" target="_blank"><button id='buttonApoie'>Contribuir</button></a>
                 </div>
 
-                <Figure className='figura' >
-
-                </Figure>
+                
 
             </div>
         </Fragment>

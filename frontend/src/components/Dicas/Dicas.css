@@ -1,4 +1,4 @@
-.containerDicas{
+.containerDicas {
     width: 100vw;
     height: 95vh;
     max-width: 100%;
@@ -6,12 +6,12 @@
     padding: 2% 0 6% 0;
     justify-content: center;
     background-image: url("../../assets/Images/banner-dicas.png");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.containerTextoDicas{
+.containerTextoDicas {
     padding: 2% 5% 1% 6%;
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
@@ -20,21 +20,22 @@
     padding-left: 20%;
 }
 
-.containerTextoDicas h1{
+.containerTextoDicas h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     color: #1A1A1B;
     font-weight: 700;
 }
 
-.containerTextoDicas h2{
+.containerTextoDicas h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #1A1A1B;
     margin: 0;
     font-size: 36px;
 }
-.conteudoModuloUm{
+
+.conteudoModuloUm {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -49,10 +50,17 @@
     margin-right: 1%;
 }
 
-#efeitoDicas:hover{
+#efeitoDicas:hover {
     opacity: 80%;
     transition: 0.8s;
 }
+
+#efeitoDicase:hover {
+    opacity: 80%;
+    transition: 0.8s;
+}
+
+#efeitoDicase {}
 
 .gradiente {
     background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
@@ -61,9 +69,9 @@
     width: 100%;
     height: 80px;
     position: absolute;
-    top: 3340px;  
+    top: 3340px;
 }
-   
+
 .seta {
     display: flex;
     justify-content: center;
@@ -85,15 +93,35 @@
         padding-left: 10%;
     }
 
-    .conteudoModuloUm{
+    .conteudoModuloUm {
         margin-bottom: 0.5%;
-    } 
+    }
 
     .culturais {
         margin-right: 0.5%;
     }
-    
+
     .uteis {
         margin-right: 0.5%;
     }
- }
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    #efeitoDicas {
+        max-width: 70%;
+        justify-content: center;
+        margin-left: 15%;
+        margin-top: 5%;
+
+    }
+}
+@media screen and (max-width: 1108px){
+
+    #efeitoDicas {
+        max-width: 70%;
+    }
+    
+}
