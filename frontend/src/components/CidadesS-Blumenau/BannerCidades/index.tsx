@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '../../Container';
 import Voltar from "../../../assets/Images/seta-voltar.png";
 import { Link } from 'react-router-dom'
-import background from '../../../assets/Images/Cidades/Florianopolis/capa-florianopolis.png';
+import background from '../../../assets/Images/Cidades/Blumenau/capa-blumenau.png';
 import './banner-cidades.css';
 
 const BannerCidades: React.FC = () => {
@@ -16,8 +16,8 @@ const BannerCidades: React.FC = () => {
                     <img className='voltar-pagina' src={Voltar} alt="voltar" />
                 </Link>
                 <div className="nome-cidades">
-                    <h1>Florianopolis</h1>
-                    <h2>Ilha da Magia</h2>
+                    <h1>Blumenau</h1>
+                    <h2>Capital Brasileira da Cerveja</h2>
                 </div>
             </div>
         </Container>
