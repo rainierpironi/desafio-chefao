@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <Navbar style={{ backgroundColor: 'black', fontFamily: 'Roboto', paddingRight:'46px' }} variant="dark" expand="lg">
       <Container fluid className='ms-3 me-3'>
-        <img className="ps-5" src={Logo} alt="icone" />
+        <a href="/"><img className="ps-5" src={Logo} alt="icone" /></a>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
