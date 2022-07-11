@@ -22,12 +22,11 @@ Para mulheres viajantes solo que tem interesse em se conectar com outras mulhere
 
 Em nosso projeto adotamos: 
 
- - Boas práticas em relação ao uso de JS;
+ - Boas práticas em relação ao uso de JS e TS;
  - Boa organização do projeto usando os princípios do MVC;
- - Divisão de tarefas entre os membros da equipe seguindo os princípios da Metodologia Ágil Scrum
+ - Divisão de tarefas entre os membros da equipe seguindo os princípios da Metodologia Ágil Scrum;
  - Boas práticas de versionamento de código com Git;
  
-
 
 ## :memo: Funcionalidades criadas: 
 
