@@ -78,6 +78,7 @@
     .containerimg {
         flex-wrap: wrap;
         flex-direction: row;
+        max-width: 100%;
     }
 
     .linkRegiao {
@@ -101,6 +102,6 @@
     }
 
     #efeito {
-        height: 20vh;
+        height: 25vh;
     }
 }
