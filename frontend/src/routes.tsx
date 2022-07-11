@@ -38,6 +38,7 @@ import Florianopolis from './pages/CidadesS-Florianopolis';
 import Blumenau from './pages/CidadesS-Blumenau';
 import Joinville from './pages/CidadesS-Joinville';
 import Gramado from './pages/CidadesS-Gramado';
+import Canela from './pages/CidadesS-Canela';
 
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
@@ -111,7 +112,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/sul/santa-catarina/blumenau/26" element={<Blumenau/>}/>
         <Route path="/destinos/sul/santa-catarina/joinville/27" element={<Joinville/>}/>
         <Route path="/destinos/sul/rio-grande-do-sul/gramado/28" element={<Gramado/>}/>
-        <Route path="/destinos/sul/rio-grande-do-sul/canela/29" element={<Florianopolis/>}/>
+        <Route path="/destinos/sul/rio-grande-do-sul/canela/29" element={<Canela/>}/>
         <Route path="/destinos/sul/rio-grande-do-sul/portoalegre/30" element={<Florianopolis/>}/>
 
 
