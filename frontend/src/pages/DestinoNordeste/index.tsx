@@ -62,15 +62,15 @@ const DestinoNordeste: React.FC = () => {
             </div>
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/nordeste/bahia/salvador/7'}>
                   <ImagemCidade src={ImagemSalvador} alt="" />
                   Salvador
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/nordeste/bahia/trancoso/8'}>
                   <ImagemCidade src={ImagemTrancoso} alt="" />
                   Trancoso
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/nordeste/bahia/chapada-diamantina/9'}>
                   <ImagemCidade src={ImagemChapada} alt="" />
                   Chapada Diamantina
                 </LinkCidade>
@@ -95,11 +95,11 @@ const DestinoNordeste: React.FC = () => {
                   <ImagemCidade src={ImagemOlinda} alt="" />
                   Olinda
                 </LinkCidade>
-                <LinkCidade to={'/destinos/nordeste/pernambuco/recife'}>
+                <LinkCidade to={'/destinos/nordeste/pernambuco/recife/11'}>
                   <ImagemCidade src={ImagemRecife} alt="" />
                   Recife
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/nordeste/pernambuco/porto-de-galinhas/12'}>
                   <ImagemCidade src={ImagemPorto} alt="" />
                   Porto de Galinhas
                 </LinkCidade>

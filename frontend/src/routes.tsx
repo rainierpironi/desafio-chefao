@@ -93,9 +93,9 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/centro-oeste/goias/caldas-novas/13" element={<CaldasNovas/>} />
         <Route path="/destinos/centro-oeste/goias/pirenopolis/14" element={<Pirenopolis/>} />
         <Route path="/destinos/centro-oeste/goias/chapada-dos-veadeiros/15" element={<ChapadaVeadeiros/>} />
-        <Route path="/destinos/centro-oeste/mato-grosso/campo-grande/16" element={<CampoGrande/>} />
-        <Route path="/destinos/centro-oeste/mato-grosso/bonito/17" element={<Bonito/>} />
-        <Route path="/destinos/centro-oeste/mato-grosso/bodoquena/18" element={<Bodoquena/>}/>
+        <Route path="/destinos/centro-oeste/mato-grosso-do-sul/campo-grande/16" element={<CampoGrande/>} />
+        <Route path="/destinos/centro-oeste/mato-grosso-do-sul/bonito/17" element={<Bonito/>} />
+        <Route path="/destinos/centro-oeste/mato-grosso-do-sul/bodoquena/18" element={<Bodoquena/>}/>
        
         <Route path="/destinos/sudeste/sao-paulo/sao-paulo/19" element={<SaoPaulo/>}/>
         <Route path="/destinos/sudeste/sao-paulo/ilhabela/20" element={<Ilhabela/>}/>

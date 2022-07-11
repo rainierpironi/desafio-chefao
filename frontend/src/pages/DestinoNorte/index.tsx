@@ -63,15 +63,15 @@ const DestinoNorte: React.FC = () => {
             </div>
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/norte/amazonas/manaus/1'}>
                   <ImagemCidade src={ImagemManaus} alt="" />
                   Manaus
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/norte/amazonas/parintins/2'}>
                   <ImagemCidade src={ImagemParintins} alt="" />
                   Parintins
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/norte/amazonas/presidente-figueiredo/3'}>
                   <ImagemCidade src={ImagemPresidente} alt="" />
                   Presidente Figueiredo
                 </LinkCidade>
@@ -92,15 +92,15 @@ const DestinoNorte: React.FC = () => {
             </div>
             <Carousel ref={secondCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/norte/para/belem/4'}>
                   <ImagemCidade src={ImagemBelem} alt="" />
                   Belém
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/norte/para/alter-do-chao/5'}>
                   <ImagemCidade src={ImagemAlter} alt="" />
                   Alter do Chão
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/norte/para/maraba/6'}>
                   <ImagemCidade src={ImagemMaraba} alt="" />
                   Marabá
                 </LinkCidade>

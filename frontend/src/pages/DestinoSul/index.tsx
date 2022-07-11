@@ -63,7 +63,7 @@ const DestinoSul: React.FC = () => {
             </div>
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/sul/santa-catarina/florianopolis/25'}>
                   <ImagemCidade src={ImagemFlorianopolis} alt="" />
                   Florianópolis
                 </LinkCidade>

@@ -63,15 +63,15 @@ const DestinoSudeste: React.FC = () => {
             </div>
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/sudeste/sao-paulo/sao-paulo/19'}>
                   <ImagemCidade src={ImagemSaoPaulo} alt="" />
                   São Paulo
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/sudeste/sao-paulo/ilhabela/20'}>
                   <ImagemCidade src={ImagemIlhabela} alt="" />
                   Ilhabela
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/sudeste/sao-paulo/campos-do-jordao/21'}>
                   <ImagemCidade src={ImagemCampos} alt="" />
                   Campos do Jordão
                 </LinkCidade>
@@ -92,15 +92,15 @@ const DestinoSudeste: React.FC = () => {
             </div>
             <Carousel ref={secondCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/sudeste/rio-de-janeiro/rio-de-janeiro/22'}>
                   <ImagemCidade src={ImagemRio} alt="" />
                   Rio de Janeiro
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/sudeste/rio-de-janeiro/angra-dos-reis/23'}>
                   <ImagemCidade src={ImagemAngra} alt="" />
                   Angra dos Reis
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/sudeste/rio-de-janeiro/petropolis/24'}>
                   <ImagemCidade src={ImagemPetropolis} alt="" />
                   Petrópolis
                 </LinkCidade>

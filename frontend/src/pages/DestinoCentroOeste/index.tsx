@@ -63,15 +63,15 @@ const DestinoCentroOeste: React.FC = () => {
             </div>
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/centro-oeste/goias/caldas-novas/13'}>
                   <ImagemCidade src={ImagemCaldas} alt="" />
                   Caldas Novas
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/centro-oeste/goias/pirenopolis/14'}>
                   <ImagemCidade src={ImagemPirenopolis} alt="" />
                   Pirenópolis
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/centro-oeste/goias/chapada-dos-veadeiros/15'}>
                   <ImagemCidade src={ImagemChapadaVe} alt="" />
                   Chapada dos Veadeiros
                 </LinkCidade>
@@ -92,15 +92,15 @@ const DestinoCentroOeste: React.FC = () => {
             </div>
             <Carousel ref={secondCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/centro-oeste/mato-grosso-do-sul/campo-grande/16'}>
                   <ImagemCidade src={ImagemCampo} alt="" />
                   Campo Grande
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/centro-oeste/mato-grosso-do-sul/bonito/17'}>
                   <ImagemCidade src={ImagemBonito} alt="" />
                   Bonito
                 </LinkCidade>
-                <LinkCidade to={'#'}>
+                <LinkCidade to={'/destinos/centro-oeste/mato-grosso-do-sul/bodoquena/18'}>
                   <ImagemCidade src={ImagemBodoquena} alt="" />
                   Bodoquena
                 </LinkCidade>
