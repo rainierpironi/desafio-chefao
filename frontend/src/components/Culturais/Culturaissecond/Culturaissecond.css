@@ -52,11 +52,12 @@ div.adjustCult {
 
 .accordion-button:not(.collapsed) {
     color: black !important;
-    background-color: #F9C073 !important;
+    background-color: #FEC901 !important;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+        
 }
 
 .accordion-button:focus {
