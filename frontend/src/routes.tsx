@@ -35,6 +35,7 @@ import AngraReis from './pages/CidadesSE-Angra-dos-Reis';
 import Petropolis from './pages/CidadesSE-Petropolis';
 
 import Florianopolis from './pages/CidadesS-Florianopolis';
+import Blumenau from './pages/CidadesS-Blumenau';
 
 import Paginaculturais from "./pages/CulturaisDesktop";
 import DestinoNordeste from "./pages/DestinoNordeste";
@@ -105,8 +106,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/destinos/sudeste/rio-de-janeiro/petropolis/24" element={<Petropolis/>}/>
 
         <Route path="/destinos/sul/santa-catarina/florianopolis/25" element={<Florianopolis/>}/>
-
-        <Route path="/destinos/sul/santa-catarina/blumenau/26" element={<Florianopolis/>}/>
+        <Route path="/destinos/sul/santa-catarina/blumenau/26" element={<Blumenau/>}/>
         <Route path="/destinos/sul/santa-catarina/joinville/27" element={<Florianopolis/>}/>
         <Route path="/destinos/sul/rio-grande-do-sul/gramado/28" element={<Florianopolis/>}/>
         <Route path="/destinos/sul/rio-grande-do-sul/canela/29" element={<Florianopolis/>}/>
