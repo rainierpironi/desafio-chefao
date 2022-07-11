@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import bg from '../../assets/Images/banner-sul.svg';
+import bg from '../../assets/Images/banner-sul.png';
 import { Link } from 'react-router-dom';
 
 export const BannerDestinos = styled.div`
