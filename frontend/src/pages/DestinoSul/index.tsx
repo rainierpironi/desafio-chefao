@@ -64,15 +64,15 @@ const DestinoSul: React.FC = () => {
             <Carousel ref={firstCarousel}>
               <div className='item d-flex'>
                 <LinkCidade to={'/destinos/sul/santa-catarina/florianopolis/25'}>
-                  <ImagemCidade src={ImagemFlorianopolis} alt="" />
+                  <ImagemCidade src={ImagemFlorianopolis} alt="Florianópolis" />
                   Florianópolis
                 </LinkCidade>
-                <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemBlumenau} alt="" />
+                <LinkCidade to={'/destinos/sul/santa-catarina/blumenau/26'}>
+                  <ImagemCidade src={ImagemBlumenau} alt="Blumenau" />
                   Blumenau
                 </LinkCidade>
-                <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemJoinville} alt="" />
+                <LinkCidade to={'/destinos/sul/santa-catarina/joinville/27'}>
+                  <ImagemCidade src={ImagemJoinville} alt="Joinville" />
                   Joinville
                 </LinkCidade>
               </div>
@@ -92,16 +92,16 @@ const DestinoSul: React.FC = () => {
             </div>
             <Carousel ref={secondCarousel}>
               <div className='item d-flex'>
-                <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemGramado} alt="" />
+                <LinkCidade to={'/destinos/sul/rio-grande-do-sul/gramado/28'}>
+                  <ImagemCidade src={ImagemGramado} alt="Gramado" />
                   Gramado
                 </LinkCidade>
-                <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemCanela} alt="" />
+                <LinkCidade to={'/destinos/sul/rio-grande-do-sul/canela/29'}>
+                  <ImagemCidade src={ImagemCanela} alt="Canela" />
                   Canela
                 </LinkCidade>
-                <LinkCidade to={'#'}>
-                  <ImagemCidade src={ImagemPorto} alt="" />
+                <LinkCidade to={'/destinos/sul/rio-grande-do-sul/portoalegre/30'}>
+                  <ImagemCidade src={ImagemPorto} alt="Porto Alegre" />
                   Porto Alegre
                 </LinkCidade>
               </div>
