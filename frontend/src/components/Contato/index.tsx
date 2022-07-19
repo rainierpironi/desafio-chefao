@@ -157,7 +157,7 @@ const FormContato: React.FC = () => {
                                         fontSize: '16px',
                                         paddingTop: '2%'
                                     }}
-                                    defaultValue={formik.values.mensagem}
+                                    value={formik.values.mensagem}
                                     onChange={formik.handleChange} />
                                 {formik.errors.mensagem && <span
                                     style={{
@@ -190,7 +190,7 @@ const FormContato: React.FC = () => {
                     </form>
                 </div>
                 <Container className='conteudo d-flex justify-content-end'>
-                    <Toast className='notificacao' onClose={() => setShow(false)} show={show} delay={3000} autohide>
+                    <Toast className='notificacao-contato' onClose={() => setShow(false)} show={show} delay={3000} autohide>
                         <div className='conteudo-toast'>
                             <Toast.Header></Toast.Header>
                             <Toast.Body className='mensagem-notificacao'>Mensagem enviada!</Toast.Body>

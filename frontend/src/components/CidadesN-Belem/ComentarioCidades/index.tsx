@@ -194,7 +194,7 @@ const ComentarioCidades: React.FC = () => {
         </Form>
       </div>
       <Container className='conteudo d-flex justify-content-start'>
-        <Toast className='notificacao' onClose={() => setShow(false)} show={show} delay={3000} autohide>
+        <Toast className='notificacao-cidades' onClose={() => setShow(false)} show={show} delay={3000} autohide>
           <div className='conteudo-toast'>
             <Toast.Header></Toast.Header>
             <Toast.Body className='mensagem-notificacao'>Comentário enviado!</Toast.Body>

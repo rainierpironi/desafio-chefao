@@ -76,7 +76,7 @@ span {
     border: #F6980B;
 }
 
-.notificacao {
+.notificacao-contato {
     padding: 5px;
     margin-right: 18% !important;
     margin-top: 3%;
@@ -187,10 +187,9 @@ span {
         height: 70vh;
     }
     
-    .notificacao {
-        margin-right: 20% !important;
-        margin-top: 0;
+    .notificacao-contato {
+        margin-right: 15% !important;
         position: absolute;
-        top: 4820px;
+        top: 5320px;
     }
 }

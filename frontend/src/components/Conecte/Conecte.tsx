@@ -24,27 +24,27 @@ function Conecte() {
         <div ></div>
         <div className="containerimg">
           <div className='linkRegiao'>
-            <a href="https://t.me/+UxRyV5jcw89jMTFh">
+            <a href="https://t.me/+UxRyV5jcw89jMTFh" target='_blank'>
               <img id="efeito" src={Norte} alt="Mapa norte" />
             </a>
           </div>
                     <div className='linkRegiao'>
-            <a href="https://t.me/+J1SsMApRiao2NDE5">
+            <a href="https://t.me/+J1SsMApRiao2NDE5" target='_blank'>
               <img id="efeito" src={Nordeste} alt="Ma´´a Nordeste" />
             </a>
           </div>
           <div className='linkRegiao'>
-            <a href="https://t.me/+Ktv_mYFjP6U5NzQx">
+            <a href="https://t.me/+Ktv_mYFjP6U5NzQx" target='_blank'>
               <img id="efeito" src={CentroOeste} alt="Mapa centro oeste" />
             </a>
           </div>
           <div className='linkRegiao'>
-            <a href="https://t.me/+mZB7O0UQRSI2NTI5">
+            <a href="https://t.me/+mZB7O0UQRSI2NTI5" target='_blank'>
               <img id="efeito" src={Sudeste} alt="Mapa Sudeste" />
             </a>
           </div>
           <div className='linkRegiao'>
-            <a href="https://t.me/+LFjNJdDXj2o1MmU5">
+            <a href="https://t.me/+LFjNJdDXj2o1MmU5" target='_blank'>
               <img id="efeito" src={Sul} alt=" Mapa Sul" />
             </a>
           </div>

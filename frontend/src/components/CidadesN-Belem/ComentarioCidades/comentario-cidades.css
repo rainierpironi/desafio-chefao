@@ -105,6 +105,12 @@
     border: #F6980B;
 }
 
+.notificacao-cidades {
+    right: 15%;
+    position: absolute;
+    top: 2920px;
+}
+
 @media only screen and (max-width: 480px) {
     .main-form-cidades {
         height: 60em;
