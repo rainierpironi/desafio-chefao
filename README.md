@@ -47,11 +47,6 @@ Você pode acessar a documentação da API [aqui.](https://documenter.getpostman
 ---
 
 
-## :page_with_curl: Site do Projeto
-
-Você pode acessar o nosso site [aqui.](https://lavaiela.herokuapp.com/)
-
-
 ---
 
 
